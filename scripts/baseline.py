@@ -2,7 +2,7 @@
 """刷新价格基线：LBMA PM 定盘价 → data/price_backfill.json
 产出：近60日收盘序列 + 20日市况判定(>2%趋势涨/<-2%趋势跌/其余震荡) + 60日档位分布
 用法: python3 baseline.py   （幂等，每日晨间流水线第3步）"""
-import json, datetime, urllib.request
+import json, os, datetime, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # 仓库根（git 克隆内运行，勿用绝对路径）
 OUT = f"{ROOT}/data/price_backfill.json"

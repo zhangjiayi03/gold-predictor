@@ -8,13 +8,12 @@ REPO="zhangjiayi03/gold-predictor"
 echo "== 手动刷新开始 $(TZ=Asia/Shanghai date '+%F %T') =="
 
 # ---- 限流：距上次“实际执行”的成功刷新不足 20 分钟则跳过 ----
-# 跳过型运行耗时 <60s，用运行时长 >60s 过滤，避免跳过记录不断顺延限流窗口
-if [ -n "$GH_TOKEN" ] && command -v gh >/dev/null 2>&1; then
-  LAST=$(gh api "repos/$REPO/actions/workflows/refresh.yml/runs?status=success&per_page=8" \
-    --jq '[.workflow_runs[] | select((.updated_at|fromdateiso8601) - (.created_at|fromdateiso8601) > 60)][0].created_at // empty' 2>/dev/null || true)
-  if [ -n "$LAST" ]; then
-    AGE=$(( ($(date -u +%s) - $(date -u -d "$LAST" +%s)) / 60 ))
-    echo "上次实际刷新：$LAST（${AGE} 分钟前）"
+# 标记文件 data/last_refresh.json 随数据一起提交，跨运行可靠（勿依赖运行时长判断——实际刷新仅约20秒）
+if [ -f data/last_refresh.json ]; then
+  LAST_TS=$(python3 -c "import json; print(int(json.load(open('data/last_refresh.json')).get('ts', 0)))" 2>/dev/null || echo 0)
+  if [ "$LAST_TS" -gt 0 ]; then
+    AGE=$(( ($(date -u +%s) - LAST_TS) / 60 ))
+    echo "上次实际刷新：${AGE} 分钟前"
     if [ "$AGE" -lt 20 ]; then
       echo "SKIP：距上次刷新不足 20 分钟，本次不做任何变更（面板数据仍为最新）。"
       exit 0
@@ -35,6 +34,9 @@ python3 scripts/baseline.py || echo "基线刷新失败，沿用旧数据"
 
 # ---- 重建面板数据 ----
 python3 scripts/build_dashboard.py
+
+# ---- 写刷新标记（随本次数据一起提交，供下次限流判断；部署失败则标记不入库，下次可重试）----
+python3 -c "import json, time; json.dump({'ts': int(time.time()), 'time': '$(TZ=Asia/Shanghai date '+%F %T')'}, open('data/last_refresh.json', 'w'), ensure_ascii=False)"
 
 # ---- 同步推送并部署 Pages ----
 bash scripts/deploy_github.sh

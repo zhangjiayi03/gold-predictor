@@ -77,6 +77,7 @@ conf_m = re.search(r"\*\*方向\*\* \| \*\*(\w+)\*\* \| (\d+)%", open(preds[-1],
 conf = conf_m.group(2) if conf_m else "—"
 
 # ---- 4.5 美元兑人民币汇率（open.er-api.com 免Key，frankfurter 备用） ----
+BJ = datetime.timezone(datetime.timedelta(hours=8))
 usdcny = None
 for u in ["https://open.er-api.com/v6/latest/USD", "https://api.frankfurter.dev/v1/latest?base=USD&symbols=CNY"]:
     try:
@@ -93,7 +94,7 @@ if not usdcny:
         usdcny = 6.74
 os.makedirs(f"{ROOT}/data", exist_ok=True)
 with open(f"{ROOT}/data/usdcny_last.json", "w") as f:
-    json.dump({"rate": usdcny, "time": datetime.datetime.now().strftime("%Y-%m-%d %H:%M")}, f, ensure_ascii=False)
+    json.dump({"rate": usdcny, "time": datetime.datetime.now(BJ).strftime("%Y-%m-%d %H:%M")}, f, ensure_ascii=False)
 
 # ---- 5. 新闻摘要 ----
 news_groups = []
@@ -103,7 +104,7 @@ for cat, items in (collect.get("news") or {}).items():
 
 # ---- 6. 组装数据 ----
 data = {
-    "updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+    "updated": datetime.datetime.now(BJ).strftime("%Y-%m-%d %H:%M"),
     "nextTarget": latest.get("date", ""),
     "prediction": {
         "dir": latest.get("fdir", "—"), "band": latest.get("fband", "—"), "conf": conf,
