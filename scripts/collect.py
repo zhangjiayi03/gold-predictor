@@ -46,10 +46,19 @@ except Exception as e:
     indicators["VIX"] = [f"fail: {e}"]
 
 # ---- 3. Tavily 搜索 ----
-key = os.environ.get("TAVILY_KEY") or open(f"{ROOT}/config/tavily.key").read().strip()
+try:
+    key = os.environ.get("TAVILY_KEY") or open(f"{ROOT}/config/tavily.key").read().strip()
+except Exception as e:
+    key = ""
+    print(f"WARN: TAVILY key 不可用（{e}）——要闻采集跳过，实时金价与 VIX 继续（GitHub Actions 需配置 secrets.TAVILY_KEY）")
 groups = PM_GROUPS if PM else AM_GROUPS
 news = {}
 for gname, q, n in groups:
+    if not key:
+        items = ["skip: 无 TAVILY_KEY，本轮跳过要闻采集"]
+        news.setdefault(gname, []).extend(items)
+        print(f"[{gname}] 跳过（无 key）")
+        continue
     try:
         body = json.dumps({"query": q, "depth": "basic", "max_results": n}).encode()
         res = json.loads(fetch("https://api.tavily.com/search", data=body,
