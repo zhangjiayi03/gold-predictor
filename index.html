@@ -395,24 +395,24 @@ loadDashData();
       .catch(function () { setBtn("✗ 拉取失败", "", false); resetLater(5000); });
   }
 
-  /* 轮询最新一次手动运行的状态（公共仓库无需鉴权即可读取） */
+  /* 轮询"本次点击之后新建"的运行状态（公共仓库无需鉴权即可读取；120秒容差吸收浏览器与服务器时钟偏差） */
   function pollRun() {
     var tries = 0;
     var startedAt = Date.now();
     var timer = setInterval(function () {
       tries++;
-      if (tries > 45) { clearInterval(timer); busy = false; setBtn(IDLE, "", false); return; }
-      fetch(api + "/actions/runs?event=workflow_dispatch&per_page=1")
+      if (tries > 45) { clearInterval(timer); setBtn("⏱ 等待超时", "", false); resetLater(4000); return; }
+      fetch(api + "/actions/runs?event=workflow_dispatch&per_page=3")
         .then(function (r) { return r.json(); })
         .then(function (j) {
-          var run = (j.workflow_runs || [])[0];
-          if (!run) return;
+          var runs = j.workflow_runs || [];
+          var run = null;
+          for (var i = 0; i < runs.length; i++) {
+            if (new Date(runs[i].created_at).getTime() > startedAt - 120000) { run = runs[i]; break; }
+          }
+          if (!run) { setBtn(tries < 8 ? "⏳ 已打开运行页…" : "⏳ 请点 Run workflow…", "busy", true); return; }
           if (run.status === "queued") { setBtn("⏳ 排队中…", "busy", true); return; }
           if (run.status === "in_progress") { setBtn("⏳ 采集与刷新中…", "busy", true); return; }
-          var created = new Date(run.created_at).getTime();
-          if (Date.now() - created > 10 * 60 * 1000 && Date.now() - startedAt < 60 * 1000) {
-            setBtn("⏳ 触发中…", "busy", true); return; /* 最新记录还是旧的，新运行尚未登记 */
-          }
           clearInterval(timer);
           if (run.conclusion === "success") { pullNewData(); }
           else { setBtn("✗ 刷新失败", "", true); resetLater(6000); }
