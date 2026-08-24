@@ -37,7 +37,7 @@ for row in ws.iter_rows(min_row=2):
     if as_date(row[col_date-1].value) != TARGET: continue
     if row[col_actual-1].value is not None:
         print(f"目标日期 {TARGET} 已结算过，跳过（幂等）"); break
-    row[col_actual-1] = round(price, 2)
+    row[col_actual-1].value = round(price, 2)
     hit = True
     print(f"已结算: 目标日期={TARGET}（昨日交易日）实际价=${price:.2f}（J-N 公式自动计分）")
     break

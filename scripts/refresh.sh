@@ -24,6 +24,9 @@ fi
 # ---- 结算昨日预测（如有待结算行）----
 python3 scripts/settle.py || echo "结算跳过（无待结算行或金价接口不可用）"
 
+# ---- 置信度校准（攒够 20 个已结算样本前只记进度，幂等）----
+python3 scripts/calibration.py || echo "校准跳过"
+
 # ---- 采集最新数据（要闻 + VIX + 实时金价；缺 TAVILY_KEY 时自动降级只采价格）----
 python3 scripts/collect.py
 # 当天已有午后快照时再跑一次 --pm 合并，保证面板拿到最新实时价与午后动态

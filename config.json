@@ -36,8 +36,9 @@
     "collect": "Tavily 搜索 + 免费源抓取，覆盖：地缘政治/仓位动能/美元利率/宏观数据/央行购金",
     "filter": "相关性过滤，保留 15-20 条关键信息，每条压缩为一行摘要",
     "reasoning": "摘要 + 10大指标数值 → 模型推理 → 方向 + 幅度档 + 置信度 + 关键驱动",
-    "output": "predictions/YYYY-MM-DD.md 每日报告 + log.xlsx 记行",
+    "output": "predictions/YYYY-MM-DD.md 每日报告 + log.xlsx 记行（含 R 列置信度%，与报告结论表一致）",
     "settle": "次晨运行时回填实际价（settle.py 找目标日期=昨天的行），公式自动计分",
+    "calibration": "结算后跑 scripts/calibration.py：≥20 个已结算样本后生成分档校准报告（声称把握 vs 实际命中率 + Brier），之前只记进度",
     "dashboard": "每次流水线最后运行 scripts/build_dashboard.py，重建 dashboard/assets/data.js（页面与 charts.js 永不改动，地址固定）",
     "backfill_days": 30
   },

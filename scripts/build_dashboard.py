@@ -31,7 +31,7 @@ ws = wb["预测日志"]
 rows, header = [], [c.value for c in ws[1]]
 for r in ws.iter_rows(min_row=2, values_only=True):
     if r[0] is None: continue
-    rows.append(dict(zip(["date","gen","base","fdir","fband","mdir","mband","manual","actual","chg","adir","aband","dok","bok","regime","drivers","note"], r)))
+    rows.append(dict(zip(["date","gen","base","fdir","fband","mdir","mband","manual","actual","chg","adir","aband","dok","bok","regime","drivers","note","conf"], r)))
 
 settled = []
 for r in rows:
@@ -75,6 +75,9 @@ if preds:
 latest = rows[-1] if rows else {}
 conf_m = re.search(r"\*\*方向\*\* \| \*\*(\w+)\*\* \| (\d+)%", open(preds[-1], encoding="utf-8").read()) if preds else None
 conf = conf_m.group(2) if conf_m else "—"
+# 置信度优先取日志 R 列（校准分析的数据源），缺失时回退报告正则
+if isinstance(latest.get("conf"), (int, float)):
+    conf = str(int(latest["conf"]))
 
 # ---- 4.5 美元兑人民币汇率（open.er-api.com 免Key，frankfurter 备用） ----
 BJ = datetime.timezone(datetime.timedelta(hours=8))
