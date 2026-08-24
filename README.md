@@ -122,7 +122,7 @@ gold-predictor/
 - **原理**：面板按钮 → 调 GitHub API 触发 `.github/workflows/refresh.yml`（workflow_dispatch）→ 工作流运行【结算昨日(如有)→ 采集 → 刷新基线 → 重建面板 → 推送 Pages】→ 页面轮询运行状态，完成后自动拉新数据并重渲染（等待 Pages 构建约1-2分钟）
 - **限流**：距上次成功刷新不足 20 分钟自动跳过（防滥用、省 Tavily 额度）；并发触发自动排队
 - **密钥**：工作流读仓库 Secret `TAVILY_KEY`（已配置，网页 Settings→Secrets and variables→Actions 可见）；推送用 Actions 内置 GITHUB_TOKEN，不落盘
-- **一键触发 token（可选）**：页面内一键需要仅含 Actions 读写权限的 fine-grained PAT，填入 `dashboard/dashboard.html` 刷新脚本中的 `TOKEN` 常量后重新部署；不填则点击按钮跳转 Actions 页面手动点 Run workflow（页面仍会自动检测并刷新）
+- **一键触发 token（已配置）**：页面内一键采用仅含 Actions 读写、仅限本仓库的 fine-grained PAT，以 base64 存于 `dashboard/dashboard.html` 刷新脚本的 `TOKEN`（避开公开仓库明文扫描）；**token 过期后按钮自动回退**为跳转 Actions 页面手动运行（页面仍会自动检测并刷新），更换时重新生成同权限 token、base64 编码后替换该常量再部署即可
 - **边界**：手动刷新只更新数据、实时价与追踪状态；"新一天的预测推理"仍由晨间 06:30 定时任务生成（模型推理无法在 Actions 中运行）
 
 ## 七、维护备忘
