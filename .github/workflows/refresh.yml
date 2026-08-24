@@ -1,1 +1,23 @@
-name:
+name: 手动刷新
+on: workflow_dispatch
+permissions:
+  actions: read
+  contents: write
+concurrency:
+  group: manual-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install openpyxl -q
+      - name: 刷新数据并部署（限流20分钟）
+        run: bash scripts/refresh.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAVILY_KEY: ${{ secrets.TAVILY_KEY }}
