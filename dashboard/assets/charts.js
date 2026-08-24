@@ -68,7 +68,15 @@ window.DASH_DATA_RENDER = function () {
   el("kpi-pred-sub").textContent = "置信度 " + (P.conf || "—") + "%（模型把握）｜ 基准 $" + (P.base ? P.base.toFixed(0) : "—") + (predRmb ? " ≈ ¥" + predRmb.toFixed(1) + "/克" : "");
   el("kpi-live").innerHTML = D.live && D.live.price ? "$" + D.live.price.toFixed(2) + '<span style="font-size:.62em;color:var(--muted)"> /oz</span>' : "—";
   var liveRmb = rmb(D.live && D.live.price);
-  el("kpi-live-sub").innerHTML = (liveRmb ? "<b style='color:var(--ink);font-family:var(--mono)'>¥" + liveRmb.toFixed(2) + "</b> /克 ｜ " : "") + "汇率 " + (FX ? FX.toFixed(4) : "—") + (D.live && D.live.time ? " ｜ " + D.live.time.replace("T", " ").replace("Z", " UTC") : "");
+  /* 实时价时间戳转北京时间显示（数据源为 UTC，直接展示会被误读为"早上"） */
+  function bjTime(iso) {
+    if (!iso) return "";
+    var d = new Date(new Date(iso).getTime() + 8 * 3600 * 1000);
+    if (isNaN(d.getTime())) return "";
+    var p = function (n) { return String(n).padStart(2, "0"); };
+    return p(d.getUTCHours()) + ":" + p(d.getUTCMinutes()) + " 北京时间";
+  }
+  el("kpi-live-sub").innerHTML = (liveRmb ? "<b style='color:var(--ink);font-family:var(--mono)'>¥" + liveRmb.toFixed(2) + "</b> /克 ｜ " : "") + "汇率 " + (FX ? FX.toFixed(4) : "—") + (D.live && D.live.time ? " ｜ " + bjTime(D.live.time) : "");
   var rg = P.regime || "—";
   el("kpi-regime").textContent = rg;
   el("kpi-regime").className = "val " + (rg === "趋势涨" ? "up" : rg === "趋势跌" ? "down" : "gold");
