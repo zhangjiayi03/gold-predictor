@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-24 03:16",
+ "updated": "2026-08-24 03:57",
  "nextTarget": "2026-08-24",
  "prediction": {
   "dir": "涨",
@@ -19,12 +19,12 @@ window.DASH_DATA = {
    "**美元反弹**：周一早间报道美元走强、金价盘中回落消化涨幅",
    "**恐慌降温**：VIX 16.01 → 15.13，避险买盘边际减弱"
   ],
-  "pm": "",
+  "pm": "- **复核时间**：2026-08-24 11:56（北京时间） - **实时价**：$4,645.00/oz ≈ **¥1,004.9/克**（USD/CNY 6.7291） - **当前涨跌幅**：较基准 $4,643.90 **+0.02%**（方向\"涨\" ✓ 在轨；幅度暂处\"小\"档，\"大\"档待欧美时段验证） - **追踪结论**：**在轨**——方向一致，距明晨 06:00 收盘尚余约 18 小时，日内主升段通常落在欧/美盘 - **午后新信号**：金价高位窄幅整理、涨势暂歇；周四起杰克逊霍尔年会（沃什周五讲话）与 7 月 PCE 数据临近，事",
   "plain": "今天为什么看涨，讲人话就是：｜1. 涨势正猛停不下来——上周黄金一周涨了 5.6%，冲到三个月新高，今早开盘又直接跳空高开（比周五收盘还高 0.87%）。就像下坡的车越滚越快，短期惯性通常延续。｜2. 大买家还在扫货——中国央行 6 月又买了 15 吨黄金，是近三年买得最多的一个月，已经连买 21 个月；全球央行都在囤，这股买力一直在给金价托底。｜3. 世界还是不太平——霍尔木兹海峡航运量降了九成，美伊停火说崩就崩，避险资金还得拿着黄金。｜4. 降息希望变大了——市场觉得美联储 9 月不动的概率从 68% 降到 60%，也就是说降息可能性在上升；美元一软，金价就硬。｜要留个心眼：上周涨太猛，今早又跳空高开，短线资金\"落袋为安\"、金价歇口气的可能性真实存在；今早也有报道说美元变强、金价盘中回吐部分涨幅。所以置信度只有 55%，不是稳赢。"
  },
  "live": {
-  "price": 4643.899902,
-  "time": "2026-08-24T02:09:30Z",
+  "price": 4645.0,
+  "time": "2026-08-24T03:53:01Z",
   "usdcny": 6.729114
  },
  "priceSeries": [
@@ -676,6 +676,27 @@ window.DASH_DATA = {
     {
      "t": "China's gold reserves rise by most since October 2023 as ...",
      "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
+    }
+   ]
+  },
+  {
+   "cat": "午后动态",
+   "items": [
+    {
+     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot",
+     "u": "https://tradersunion.com/currencies/price/gold"
+    },
+    {
+     "t": "XAU/USD | Gold Spot US Dollar Price",
+     "u": "https://www.investing.com/currencies/xau-usd"
+    },
+    {
+     "t": "Gold Forecast, News and Analysis (XAU/USD) - FXStreet",
+     "u": "https://www.fxstreet.com/commodities/gold"
+    },
+    {
+     "t": "XAU=: Gold / US Dollar Spot - Stock Price, Quote and News",
+     "u": "https://www.cnbc.com/quotes/XAU="
     }
    ]
   }
