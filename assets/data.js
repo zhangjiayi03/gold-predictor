@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-24 03:57",
+ "updated": "2026-08-24 04:18",
  "nextTarget": "2026-08-24",
  "prediction": {
   "dir": "涨",

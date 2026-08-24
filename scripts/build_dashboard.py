@@ -64,8 +64,8 @@ if preds:
         if not block: return []
         return [re.sub(r"^\d+\.\s*", "", l.strip().lstrip("- "))[:90] for l in block.group(1).split("\n") if l.strip().startswith(("1.", "2.", "3.", "4.", "5.", "-"))][:5]
     bulls, bears = items(mb), items(ms)
-    pm_m = re.search(r"### 午后复核\s*\n(.*?)(?:\n### |\n## |\Z)", md, re.S)
-    if pm_m: pm_review = re.sub(r"\s+", " ", pm_m.group(1)).strip()[:280]
+    pm_all = re.findall(r"### 午后复核\s*\n(.*?)(?:\n### |\n## |\Z)", md, re.S)
+    if pm_all: pm_review = re.sub(r"\s+", " ", pm_all[-1]).strip()[:280]  # 取最后一个：同日多次复核时永远显示最新
     plain_m = re.search(r"##\s*💬?\s*大白话解读\s*\n(.*?)(?=\n## |\Z)", md, re.S)
     plain = ""
     if plain_m:
