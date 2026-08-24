@@ -395,6 +395,22 @@ loadDashData();
       .catch(function () { setBtn("✗ 拉取失败", "", false); resetLater(5000); });
   }
 
+  /* 运行成功后判断是否真的刷新了：有新提交=真刷新→拉数据；无提交=限流跳过→直接提示，不傻等 Pages */
+  function checkNewCommit(startedAt, attempt) {
+    attempt = attempt || 0;
+    fetch(api + "/commits?per_page=5")
+      .then(function (r) { return r.json(); })
+      .then(function (cs) {
+        var hasNew = (cs || []).some(function (c) {
+          return new Date(c.commit.committer.date).getTime() > startedAt - 120000;
+        });
+        if (hasNew) { pullNewData(); return; }
+        if (attempt < 2) { setBtn("⏳ 确认刷新结果…", "busy", true); setTimeout(function () { checkNewCommit(startedAt, attempt + 1); }, 15000); }
+        else { setBtn("⏭ 限流跳过·数据已是最新", "done", true); resetLater(5000); }
+      })
+      .catch(function () { pullNewData(); });
+  }
+
   /* 轮询"本次点击之后新建"的运行状态（公共仓库无需鉴权即可读取；120秒容差吸收浏览器与服务器时钟偏差） */
   function pollRun() {
     var tries = 0;
@@ -410,11 +426,11 @@ loadDashData();
           for (var i = 0; i < runs.length; i++) {
             if (new Date(runs[i].created_at).getTime() > startedAt - 120000) { run = runs[i]; break; }
           }
-          if (!run) { setBtn(tries < 8 ? "⏳ 已打开运行页…" : "⏳ 请点 Run workflow…", "busy", true); return; }
+          if (!run) { setBtn(tries < 8 ? "⏳ 等待运行登记…" : "⏳ 请点 Run workflow…", "busy", true); return; }
           if (run.status === "queued") { setBtn("⏳ 排队中…", "busy", true); return; }
           if (run.status === "in_progress") { setBtn("⏳ 采集与刷新中…", "busy", true); return; }
           clearInterval(timer);
-          if (run.conclusion === "success") { pullNewData(); }
+          if (run.conclusion === "success") { checkNewCommit(startedAt); }
           else { setBtn("✗ 刷新失败", "", true); resetLater(6000); }
         })
         .catch(function () {});
