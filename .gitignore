@@ -1,0 +1,6 @@
+# 密钥绝不入库（定时会话通过环境变量传入）
+config/gh.token
+config/tavily.key
+# Python 缓存
+__pycache__/
+*.pyc

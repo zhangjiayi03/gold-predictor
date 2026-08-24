@@ -1,0 +1,50 @@
+{
+  "project": "黄金价格每日趋势预测",
+  "version": "1.0",
+  "created": "2026-08-21",
+  "prediction_target": {
+    "instrument": "XAU/USD 伦敦金现",
+    "cutoff_beijing": "06:00",
+    "run_time_beijing": "06:30",
+    "pm_review_time_beijing": "15:35（午后复核：刷新价格/汇率+追踪在轨状态+轻量补采，不生成新预测、不改日志）",
+    "horizon": "当日趋势：当日06:00 → 次日06:00（覆盖当日全天含隔夜美盘，预测的是今天的走势）",
+    "direction": "涨/跌 二分",
+    "band": {"小": "|涨跌幅| <= 0.3%", "中": "0.3% < |涨跌幅| <= 1.0%", "大": "|涨跌幅| > 1.0%"}
+  },
+  "scoring": {
+    "basis": "最终方向/最终幅度档 vs 实际",
+    "model_raw_recorded": true,
+    "regime_tag": "趋势涨/趋势跌/震荡（按20日区间与波动自动判定）",
+    "target_accuracy": "不设硬性目标，按日志滚动评估"
+  },
+  "sources": {
+    "news_primary": "Tavily API（免费1000次/月，key 位于 config/tavily.key）",
+    "news_backup": ["内置网络搜索", "网页抓取", "金十快讯 https://www.jin10.com"],
+    "quant_free": [
+      "yfinance: XAU相关合约/DXY/VIX/GLD 历史序列",
+      "FRED: 10年期实际利率 DFII10 https://fred.stlouisfed.org",
+      "CFTC COT: https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalViewable/index.htm",
+      "CBOE VIX CSV: https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+      "美联储 FOMC 日历: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "美国财政部每日利率: https://home.treasury.gov/resource-center/data-chart-center/interest-rates",
+      "WGC 央行购金: https://www.gold.org",
+      "上海黄金交易所: https://www.sge.com.cn"
+    ],
+    "backup_paid": "AgentEarth 插件（按次 credit，仅兜底）"
+  },
+  "pipeline": {
+    "collect": "Tavily 搜索 + 免费源抓取，覆盖：地缘政治/仓位动能/美元利率/宏观数据/央行购金",
+    "filter": "相关性过滤，保留 15-20 条关键信息，每条压缩为一行摘要",
+    "reasoning": "摘要 + 10大指标数值 → 模型推理 → 方向 + 幅度档 + 置信度 + 关键驱动",
+    "output": "predictions/YYYY-MM-DD.md 每日报告 + log.xlsx 记行",
+    "settle": "次晨运行时回填实际价（settle.py 找目标日期=昨天的行），公式自动计分",
+    "dashboard": "每次流水线最后运行 scripts/build_dashboard.py，重建 dashboard/assets/data.js（页面与 charts.js 永不改动，地址固定）",
+    "backfill_days": 30
+  },
+  "files": {
+    "data": "data/ 每日采集原始快照",
+    "predictions": "predictions/ 每日预测报告（以被预测日=生成当天命名）",
+    "log": "log.xlsx 评分主日志",
+    "tavily_key": "config/tavily.key"
+  }
+}
