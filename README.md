@@ -41,15 +41,20 @@ gold-predictor/
 │   ├── YYYY-MM-DD_collect.json ← 每日晨间采集快照（新闻+指标+实时价）
 │   ├── YYYY-MM-DD_pm_collect.json ← 午后补采快照
 │   ├── price_backfill.json     ← 近 60 日收盘序列 + 20 日市况 + 档位分布
-│   └── usdcny_last.json        ← USD/CNY 汇率缓存
+│   ├── usdcny_last.json        ← USD/CNY 汇率缓存
+│   └── runs.log                ← 定时/手动执行留痕（诊断"跑了没产出"用）
 ├── predictions/
 │   └── YYYY-MM-DD.md           ← 每日预测报告（以被预测日=生成当天命名）
-└── dashboard/                  ← 固定面板（构建产物，部署到线上）
-    ├── dashboard.html          ← 主页面
-    ├── assets/data.js          ← 图表数据（每次刷新重写）
-    ├── assets/charts.js        ← 图表逻辑（勿改动）
-    └── _shared/                ← 字体 + ECharts 库
+├── dashboard/                  ← 固定面板（构建产物源目录）
+│   ├── dashboard.html          ← 主页面
+│   ├── assets/data.js          ← 图表数据（每次刷新重写）
+│   ├── assets/charts.js        ← 图表逻辑（勿改动）
+│   └── _shared/                ← 字体 + ECharts 库
+├── .gitignore                  ← 排除 config/ 密钥，其余全部入库
+└──（仓库根的 index.html / assets / _shared / .nojekyll / 404.html 为部署副本，deploy_github.sh 自动生成，勿手改）
 ```
+
+> **执行架构（2026-08-24 起）**：GitHub 仓库 = 唯一事实源。手动会话直接在 `/workspace/gold-predictor`（本仓库克隆）工作；定时任务会话是全新空沙盒，流程为 **克隆仓库 → 跑流水线 → 推送回仓库**。任何一方改动前先 `git pull`，改完跑 `bash scripts/deploy_github.sh` 同步。
 
 ## 三、每日晨间流水线（定时 06:30，北京时间）
 
@@ -106,15 +111,17 @@ gold-predictor/
 
 ## 六、部署与线上更新
 
-- 部署脚本：`scripts/deploy_github.sh`（令牌读 `config/gh.token`，无需传参）
-- 脚本动作：验证令牌 → 仓库存在检查（无则创建）→ 复制 dashboard/ → 补 index.html / 404.html / **.nojekyll**（必须，否则 `_shared` 下划线目录被 Jekyll 忽略导致字体 404）→ 推 main → 确保 Pages 开启
+- 同步脚本：`scripts/deploy_github.sh`（无需传参；GH_TOKEN 环境变量优先，否则读 `config/gh.token`）
+- 脚本动作：dashboard 构建产物复制到仓库根（index.html/assets/_shared/.nojekyll/404.html）→ `git add -A` 提交全部变更（.gitignore 排除密钥）→ `git pull --rebase` → 推 main → 确保 Pages 开启（源=main 根目录）
+- **密钥安全**：`config/gh.token`、`config/tavily.key` 被 .gitignore 排除，绝不入库；定时会话克隆公开仓库后通过环境变量注入
 - 线上地址构建约 1-2 分钟生效；晨间/午后任务跑完会自动推送
-- **令牌有效期**：若建 token 时选 90 天，约 2026-11 中旬自动部署会失败（面板停更），届时在 GitHub 重新生成并替换 `config/gh.token` 即可；选"永不过期"则无需理会
+- **令牌有效期**：若建 token 时选 90 天，约 2026-11 中旬自动部署会失败（面板停更），届时在 GitHub 重新生成并替换 `config/gh.token` 及两个定时任务描述中的 GH_TOKEN 即可；选"永不过期"则无需理会
 
 ## 七、维护备忘
 
 - 改动面板样式 → 改 `dashboard/dashboard.html` 或 `assets/charts.js`，再跑 build + deploy
 - 改动预测口径 / 档位阈值 → 同步改本 README、config.json、log.xlsx"说明"表、两个定时任务描述（四处保持一致）
-- **定时任务"执行了但没产出"的诊断**：先看 `data/runs.log` 有无当天条目——无条目说明定时会话根本没碰过工作区（环境问题）；有条目但中断，按最后标记的步骤排查。当前已知坑：沙盒 UTC 时钟（已全链路改用北京时间判断）
+- **定时任务"执行了但没产出"的诊断**：先看 `data/runs.log` 有无当天条目——无条目说明定时会话根本没碰过仓库（环境问题）；有条目但中断，按最后标记的步骤排查。当前已知坑：①沙盒 UTC 时钟（已全链路改用北京时间判断）②定时会话工作区为空（已改为克隆仓库执行，见"执行架构"）
+- 手动会话（与助手对话）改动文件前先 `git pull`，改完跑 `bash scripts/deploy_github.sh` 同步，避免与定时会话的推送冲突
 - `dashboard/assets/data.js` 是构建产物，手改会被下次刷新覆盖
 - log.xlsx 公式异常时跑：`python3 /data/user/builtin/work/default/skills/xlsx/scripts/recalc.py /workspace/gold-predictor/log.xlsx`
