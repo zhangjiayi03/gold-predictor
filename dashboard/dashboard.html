@@ -48,6 +48,20 @@ h1 .gold { background: var(--gold-grad); -webkit-background-clip: text; backgrou
 .chip::before { content:""; width:6px; height:6px; border-radius:50%; background: var(--accent); box-shadow: 0 0 8px var(--accent); animation: pulse 2.4s infinite; }
 @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:.35 } }
 
+/* ===== 手动刷新按钮 ===== */
+.mast-actions { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; }
+.btn-refresh {
+  font-family: var(--mono); font-size: .74rem; color: var(--accent); cursor: pointer;
+  border: 1px solid rgba(232,181,66,.4); background: rgba(232,181,66,.06);
+  border-radius: 99px; padding: .38rem .95rem; white-space: nowrap;
+  transition: background .2s, color .2s, border-color .2s;
+  display: inline-flex; align-items: center; gap: .4rem;
+}
+.btn-refresh:hover:not(:disabled) { background: rgba(232,181,66,.16); }
+.btn-refresh:disabled { cursor: wait; }
+.btn-refresh.busy { color: var(--accent2); border-color: rgba(109,179,239,.45); background: rgba(109,179,239,.08); }
+.btn-refresh.done { color: var(--down); border-color: rgba(63,198,155,.45); background: rgba(63,198,155,.08); }
+
 /* 键盘焦点与减弱动效 */
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 @media (prefers-reduced-motion: reduce) {
@@ -197,7 +211,10 @@ footer .rules span b { color: var(--ink); font-weight: 600; }
     <h1>黄金每日趋势预测 <span class="gold">· 固定面板</span></h1>
     <div class="subtitle">XAU/USD 当日交易日方向 + 幅度档 ｜ 晨间 06:30 预测 · 午后 15:35 复核 ｜ <span id="next-target"></span></div>
   </div>
-  <div><span class="chip" id="updated">加载中…</span></div>
+  <div class="mast-actions">
+    <span class="chip" id="updated">加载中…</span>
+    <button class="btn-refresh" id="btn-refresh" type="button" title="立即采集最新行情与要闻并刷新本页（约1-3分钟生效）｜ 限流：距上次刷新20分钟内自动跳过">⟳ 立即刷新</button>
+  </div>
 </header>
 
 <div class="plain" id="plain-box">
@@ -304,6 +321,7 @@ footer .rules span b { color: var(--ink); font-weight: 600; }
     <span><b>计分</b>：最终方向/档位 vs 实际；模型原始值仅留档对照</span>
     <span><b>数据源</b>：Tavily · LBMA · gold-api · CBOE · WGC · er-api</span>
     <span><b>框架</b>：WGC 归因（动能24% 风险17% 汇率14% 经济12%）</span>
+    <span><b>手动刷新</b>：右上角 ⟳ 按钮随时采集最新数据（约1-3分钟生效，20分钟限流）</span>
     <span><b>生成</b>：<span id="gen-time"></span> · 每日自动重建数据，本页地址永久不变</span>
   </div>
 </footer>
@@ -311,7 +329,123 @@ footer .rules span b { color: var(--ink); font-weight: 600; }
 </div>
 <script src="./_shared/js/echarts.min.js"></script>
 <noscript><div style="margin:2rem 0;padding:1.2rem;border:1px dashed rgba(232,181,66,.4);border-radius:12px;color:#8e94a3">本面板需要启用 JavaScript 渲染图表。原始数据可直接查看 log.xlsx 与 predictions/ 目录。</div></noscript>
-<script src="assets/data.js"></script>
-<script src="assets/charts.js?v=ui8"></script>
+<script src="assets/charts.js?v=ui9"></script>
+<script>
+/* ===== 数据加载器：绕过缓存拉取 data.js，支持刷新后重渲染 ===== */
+function loadDashData(cb) {
+  fetch("assets/data.js?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { return r.text(); })
+    .then(function (t) {
+      try { (new Function(t))(); } catch (e) { console.error(e); }
+      try { window.DASH_DATA_RENDER(); } catch (e) { console.error(e); }
+      if (cb) cb();
+    })
+    .catch(function () { /* fetch 失败时回退到传统 script 标签 */
+      var s = document.createElement("script");
+      s.src = "assets/data.js";
+      s.onload = function () { try { window.DASH_DATA_RENDER(); } catch (e) {} if (cb) cb(); };
+      s.onerror = function () { if (cb) cb(); };
+      document.head.appendChild(s);
+    });
+}
+loadDashData();
+</script>
+<script>
+/* ===== 手动刷新按钮：触发 GitHub Actions → 轮询运行状态 → 拉新数据重渲染 ===== */
+(function () {
+  var REPO = "zhangjiayi03/gold-predictor";
+  var WF = "refresh.yml";
+  var TOKEN = ""; /* 可选：填入仅含 Actions 读写权限的 fine-grained token 即可页内一键触发；留空则跳转 GitHub 页面手动运行 */
+  var btn = document.getElementById("btn-refresh");
+  if (!btn) return;
+  var api = "https://api.github.com/repos/" + REPO;
+  var IDLE = "⟳ 立即刷新";
+  var busy = false;
+
+  function setBtn(text, cls, disabled) {
+    btn.textContent = text;
+    btn.className = "btn-refresh" + (cls ? " " + cls : "");
+    btn.disabled = !!disabled;
+  }
+  function resetLater(ms) {
+    setTimeout(function () { busy = false; setBtn(IDLE, "", false); }, ms || 4000);
+  }
+
+  /* 工作流完成后拉新数据；Pages 构建约需1分钟，检测 updated 时间戳变化，未变则重试 */
+  function pullNewData(attempt) {
+    attempt = attempt || 0;
+    setBtn("⏳ 拉取新数据…", "busy", true);
+    fetch("assets/data.js?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { return r.text(); })
+      .then(function (t) {
+        var before = (window.DASH_DATA && window.DASH_DATA.updated) || "";
+        try { (new Function(t))(); } catch (e) {}
+        var after = (window.DASH_DATA && window.DASH_DATA.updated) || "";
+        if (after && after !== before) {
+          try { window.DASH_DATA_RENDER(); } catch (e) { console.error(e); }
+          setBtn("✓ 已更新", "done", true); resetLater(4000);
+        } else if (attempt < 5) {
+          setBtn("⏳ 等待部署生效…", "busy", true);
+          setTimeout(function () { pullNewData(attempt + 1); }, 20000);
+        } else {
+          try { window.DASH_DATA_RENDER(); } catch (e) {}
+          setBtn("✓ 已是最新", "done", true); resetLater(4000);
+        }
+      })
+      .catch(function () { setBtn("✗ 拉取失败", "", false); resetLater(5000); });
+  }
+
+  /* 轮询最新一次手动运行的状态（公共仓库无需鉴权即可读取） */
+  function pollRun() {
+    var tries = 0;
+    var startedAt = Date.now();
+    var timer = setInterval(function () {
+      tries++;
+      if (tries > 45) { clearInterval(timer); busy = false; setBtn(IDLE, "", false); return; }
+      fetch(api + "/actions/runs?event=workflow_dispatch&per_page=1")
+        .then(function (r) { return r.json(); })
+        .then(function (j) {
+          var run = (j.workflow_runs || [])[0];
+          if (!run) return;
+          if (run.status === "queued") { setBtn("⏳ 排队中…", "busy", true); return; }
+          if (run.status === "in_progress") { setBtn("⏳ 采集与刷新中…", "busy", true); return; }
+          var created = new Date(run.created_at).getTime();
+          if (Date.now() - created > 10 * 60 * 1000 && Date.now() - startedAt < 60 * 1000) {
+            setBtn("⏳ 触发中…", "busy", true); return; /* 最新记录还是旧的，新运行尚未登记 */
+          }
+          clearInterval(timer);
+          if (run.conclusion === "success") { pullNewData(); }
+          else { setBtn("✗ 刷新失败", "", true); resetLater(6000); }
+        })
+        .catch(function () {});
+    }, 8000);
+  }
+
+  btn.addEventListener("click", function () {
+    if (busy) return;
+    busy = true;
+    if (TOKEN) {
+      setBtn("⏳ 触发中…", "busy", true);
+      fetch(api + "/actions/workflows/" + WF + "/dispatches", {
+        method: "POST",
+        headers: { "Authorization": "Bearer " + TOKEN, "Accept": "application/vnd.github+json", "Content-Type": "application/json" },
+        body: JSON.stringify({ ref: "main" })
+      }).then(function (r) {
+        if (r.status === 204) { setBtn("⏳ 已触发，排队中…", "busy", true); pollRun(); }
+        else { throw new Error("HTTP " + r.status + (r.status === 401 ? "（token 无效或过期）" : r.status === 422 ? "（工作流未就绪）" : "")); }
+      }).catch(function (e) {
+        busy = false; setBtn(IDLE, "", false);
+        alert("自动触发失败：" + e.message + "\n\n将打开 GitHub Actions 页面，请点击绿色按钮 Run workflow 手动运行；本页会自动检测并刷新。");
+        window.open("https://github.com/" + REPO + "/actions/workflows/" + WF, "_blank", "noopener");
+        pollRun();
+      });
+    } else {
+      setBtn("⏳ 已打开运行页…", "busy", true);
+      window.open("https://github.com/" + REPO + "/actions/workflows/" + WF, "_blank", "noopener");
+      pollRun();
+    }
+  });
+})();
+</script>
 </body>
 </html>

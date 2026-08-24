@@ -98,7 +98,7 @@ with open(f"{ROOT}/data/usdcny_last.json", "w") as f:
 # ---- 5. 新闻摘要 ----
 news_groups = []
 for cat, items in (collect.get("news") or {}).items():
-    arr = [{"t": x.get("title","")[:80], "u": x.get("url","")} for x in items[:4] if "error" not in x]
+    arr = [{"t": x.get("title","")[:80], "u": x.get("url","")} for x in items[:4] if isinstance(x, dict) and "error" not in x]
     if arr: news_groups.append({"cat": cat, "items": arr})
 
 # ---- 6. 组装数据 ----

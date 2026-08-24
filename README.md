@@ -117,6 +117,14 @@ gold-predictor/
 - 线上地址构建约 1-2 分钟生效；晨间/午后任务跑完会自动推送
 - **令牌有效期**：若建 token 时选 90 天，约 2026-11 中旬自动部署会失败（面板停更），届时在 GitHub 重新生成并替换 `config/gh.token` 及两个定时任务描述中的 GH_TOKEN 即可；选"永不过期"则无需理会
 
+## 六点五、面板"⟳ 立即刷新"按钮（GitHub Actions 手动触发）
+
+- **原理**：面板按钮 → 调 GitHub API 触发 `.github/workflows/refresh.yml`（workflow_dispatch）→ 工作流运行【结算昨日(如有)→ 采集 → 刷新基线 → 重建面板 → 推送 Pages】→ 页面轮询运行状态，完成后自动拉新数据并重渲染（等待 Pages 构建约1-2分钟）
+- **限流**：距上次成功刷新不足 20 分钟自动跳过（防滥用、省 Tavily 额度）；并发触发自动排队
+- **密钥**：工作流读仓库 Secret `TAVILY_KEY`（已配置，网页 Settings→Secrets and variables→Actions 可见）；推送用 Actions 内置 GITHUB_TOKEN，不落盘
+- **一键触发 token（可选）**：页面内一键需要仅含 Actions 读写权限的 fine-grained PAT，填入 `dashboard/dashboard.html` 刷新脚本中的 `TOKEN` 常量后重新部署；不填则点击按钮跳转 Actions 页面手动点 Run workflow（页面仍会自动检测并刷新）
+- **边界**：手动刷新只更新数据、实时价与追踪状态；"新一天的预测推理"仍由晨间 06:30 定时任务生成（模型推理无法在 Actions 中运行）
+
 ## 七、维护备忘
 
 - 改动面板样式 → 改 `dashboard/dashboard.html` 或 `assets/charts.js`，再跑 build + deploy

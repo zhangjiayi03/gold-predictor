@@ -1,4 +1,4 @@
-(function () {
+window.DASH_DATA_RENDER = function () {
   var D = window.DASH_DATA || {};
   var s = getComputedStyle(document.documentElement);
   var accent = s.getPropertyValue("--accent").trim();
@@ -12,6 +12,16 @@
   var FONT = '"Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif';
 
   function el(id) { return document.getElementById(id); }
+  /* 重复渲染前清理旧 DOM 与图表实例（"立即刷新"按钮场景） */
+  try {
+    ["bull-list", "bear-list", "news-grid"].forEach(function (id) { var e = el(id); if (e) e.innerHTML = ""; });
+    var _tb = document.querySelector("#hist-table tbody"); if (_tb) _tb.innerHTML = "";
+    Array.prototype.forEach.call(document.querySelectorAll(".pm-box"), function (e) { if (e.parentNode) e.parentNode.removeChild(e); });
+    ["chart-price", "chart-change", "chart-accuracy"].forEach(function (id) {
+      var e = el(id);
+      if (e) { e.innerHTML = ""; if (window.echarts && echarts.getInstanceByDom(e)) { echarts.getInstanceByDom(e).dispose(); } }
+    });
+  } catch (err) { /* 首次渲染时元素尚不存在，忽略 */ }
   function tag(dir) { return dir === "涨" ? '<span class="tag up">涨</span>' : dir === "跌" ? '<span class="tag down">跌</span>' : '<span class="tag wait">' + dir + "</span>"; }
   function mark(v) { return v === "√" ? '<span class="ok">√</span>' : v === "×" ? '<span class="bad">×</span>' : '<span class="tag wait">待结算</span>'; }
   function bandText(dir, band) {
@@ -102,6 +112,7 @@
   el("pred-drivers").textContent = ""; /* 专业摘要默认不展示，大白话见顶部解读框，术语见词典 */
   if (P.pm) {
     var pmBox = document.createElement("div");
+    pmBox.className = "pm-box";
     pmBox.style.cssText = "margin-top:.7rem;padding:.55rem .75rem;border:1px dashed var(--accent);border-radius:8px;font-size:.8rem;line-height:1.55";
     pmBox.innerHTML = "<b style='color:var(--accent)'>☀ 午后复核</b>｜" + P.pm;
     el("pred-drivers").parentNode.appendChild(pmBox);
@@ -230,4 +241,7 @@
   }
 
   [c1, c2].forEach(function (c) { window.addEventListener("resize", function () { c.resize(); }); });
-})();
+};
+
+/* 兼容旧加载顺序：若 data.js 先于本脚本加载则立即渲染一次；新加载器会主动调用 window.DASH_DATA_RENDER() */
+if (window.DASH_DATA) { try { window.DASH_DATA_RENDER(); } catch (e) { console.error(e); } }

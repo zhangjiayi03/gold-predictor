@@ -10,10 +10,8 @@ GH_TOKEN="${GH_TOKEN:-$(cat config/gh.token 2>/dev/null || true)}"
 REPO="zhangjiayi03/gold-predictor"
 API="https://api.github.com/repos/$REPO"
 
-# git 代理：沙盒环境变量已有则用之，否则回退本地代理端口
-if [ -z "${http_proxy:-}${https_proxy:-}${HTTP_PROXY:-}${HTTPS_PROXY:-}" ]; then
-  export http_proxy=http://127.0.0.1:18080 https_proxy=http://127.0.0.1:18080
-fi
+# git 走环境代理（TRAE 沙盒已有 http_proxy/https_proxy 环境变量，git/libcurl 自动识别；
+# GitHub Actions 运行器无代理环境变量则直连，均无需额外配置）
 
 # 1. dashboard 构建产物 → 仓库根（Pages 源=根目录）
 rm -rf docs
