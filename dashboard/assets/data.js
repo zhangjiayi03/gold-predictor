@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-24 14:14",
+ "updated": "2026-08-24 15:52",
  "nextTarget": "2026-08-24",
  "prediction": {
   "dir": "涨",
@@ -23,8 +23,8 @@ window.DASH_DATA = {
   "plain": "今天为什么看涨，讲人话就是：｜1. 涨势正猛停不下来——上周黄金一周涨了 5.6%，冲到三个月新高，今早开盘又直接跳空高开（比周五收盘还高 0.87%）。就像下坡的车越滚越快，短期惯性通常延续。｜2. 大买家还在扫货——中国央行 6 月又买了 15 吨黄金，是近三年买得最多的一个月，已经连买 21 个月；全球央行都在囤，这股买力一直在给金价托底。｜3. 世界还是不太平——霍尔木兹海峡航运量降了九成，美伊停火说崩就崩，避险资金还得拿着黄金。｜4. 降息希望变大了——市场觉得美联储 9 月不动的概率从 68% 降到 60%，也就是说降息可能性在上升；美元一软，金价就硬。｜要留个心眼：上周涨太猛，今早又跳空高开，短线资金\"落袋为安\"、金价歇口气的可能性真实存在；今早也有报道说美元变强、金价盘中回吐部分涨幅。所以置信度只有 55%，不是稳赢。"
  },
  "live": {
-  "price": 4652.799805,
-  "time": "2026-08-24T06:14:48Z",
+  "price": 4636.399902,
+  "time": "2026-08-24T07:49:46Z",
   "usdcny": 6.729114
  },
  "priceSeries": [
@@ -683,10 +683,6 @@ window.DASH_DATA = {
    "cat": "午后动态",
    "items": [
     {
-     "t": "XAU/USD Exchange Rate: Live Price, Chart, Forecast & News - Perplexity",
-     "u": "https://www.perplexity.ai/finance/XAUUSD"
-    },
-    {
      "t": "Gold Price Today: XAU/USD Live Price Chart (Spot",
      "u": "https://tradersunion.com/currencies/price/gold"
     },
@@ -697,6 +693,10 @@ window.DASH_DATA = {
     {
      "t": "Gold Forecast, News and Analysis (XAU/USD) - FXStreet",
      "u": "https://www.fxstreet.com/commodities/gold"
+    },
+    {
+     "t": "Gold (XAU/USD) CFD Trading - ThinkMarkets",
+     "u": "https://www.thinkmarkets.com/en/instruments/commodities/gold"
     }
    ]
   }

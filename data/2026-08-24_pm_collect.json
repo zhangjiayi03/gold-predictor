@@ -1,6 +1,6 @@
 {
  "date": "2026-08-24",
- "collected_at_utc": "2026-08-24 06:14",
+ "collected_at_utc": "2026-08-24 07:49",
  "news": {
   "市场行情": [
    {
@@ -139,11 +139,6 @@
   ],
   "午后动态": [
    {
-    "title": "XAU/USD Exchange Rate: Live Price, Chart, Forecast & News - Perplexity",
-    "url": "https://www.perplexity.ai/finance/XAUUSD",
-    "content": "Gold is declining as the US dollar strengthens to near a one-month high ahead of Wednesday's Federal Reserve rate decision, with markets now pricing a 38% chance of a 25bp hike (up sharply from 16% a week ago) and an 81% probability of a September hike, raising the opportunity cost of holding non-yielding bullion. XAU/USD is testing support near $4,020-4,021 after failing to reclaim the 50- and 200-period EMAs around $4,070-4,077, while easing US-Iran tensions have also dulled safe-haven [...] factors that are simultaneously fueling inflation concerns and safe-haven flows into gold even as bro"
-   },
-   {
     "title": "Gold Price Today: XAU/USD Live Price Chart (Spot",
     "url": "https://tradersunion.com/currencies/price/gold",
     "content": "A second chance for Moderna: How a cancer vaccine sent shares soaring\n\n#Stocks #Investing #Moderna\n\nAll news\n\n## Gold Price Today: Current XAU/USD Value\n\n ### What is the gold live price today?\n\n  As of Aug 23, 2026, the XAU/USD value is $4,603.84.\n ### What is the highest gold price this year?\n\n  The highest XAU/USD price this year was $5,597.23.\n ### How has the gold price changed this year? [...] The XAU/USD price has changed by 6.79% year-to-date, measuring the movement from January 1 to the current date. Over the past 52 weeks, it has traded between $3,336 and $5,597.23, reflecting its ov"
@@ -159,7 +154,12 @@
     "content": "Gold price hits a three-month high and is poised to end the week with gains of over 5.6%, even though business activity in the services sector in the US was solid. Recent developments in the Middle East and a softer US Dollar underpin the yellow metal, which has surpassed the $4,600 threshold. The XAU/USD trades at $4,622, up over 2.3%.\n\n### Technical Analysis\n\nXAU/USD\n\nCharts by TradingView Lightweight Charts [...] Gold’s trend shifted higher as buyers reclaimed the 200-day Simple Moving Average (SMA) at $4,514, thereby exacerbating a rally above $4,600. Momentum remains bullish as depicted i"
    },
    {
-    "title": "Dollar Decline and Gold: How a Weakening USD Is ...",
+    "title": "Gold (XAU/USD) CFD Trading - ThinkMarkets",
+    "url": "https://www.thinkmarkets.com/en/instruments/commodities/gold",
+    "content": "## What is XAU/USD?\n\nXAU/USD is the market price of gold, quoted as the number of United States dollars per troy ounce. XAU is the symbol used for one troy ounce of gold, and pairing it with USD gives the standard way the market is quoted internationally. A troy ounce is the traditional unit for precious metals, slightly heavier than the ounce used for everyday weight. [...] XAU/USD shows the price of one troy ounce of gold in United States dollars, the most widely quoted way of tracking the gold market.\n   Gold is regarded as a store of value and a safe haven, tending to attract demand during"
+   },
+   {
+    "title": "Dollar Decline and Gold: How a Weakening USD Is Reshaping the Gold Market in 2026 - Advantage Gold",
     "url": "https://www.advantagegold.com/blog/dollar-decline-and-gold-how-a-weakening-usd-is-reshaping-the-gold-market-in-2026",
     "content": "During parts of 2022–2023, the dollar strengthened on aggressive Federal Reserve hikes while gold also held firm because investors feared inflation, recession, and geopolitical escalation simultaneously.\n\n## Drivers of the Dollar–Gold Dynamic: Policy, Inflation, and Geopolitics\n\nThe dollar-gold relationship is mediated by interest rates, inflation expectations, and geopolitical shocks rather than a mechanical one-for-one link. [...] Real interest rates: Lower or negative real yields make gold relatively more attractive compared to bonds and other asset class options.\n\nGeopolitics and sanctions"
    },
@@ -174,16 +174,16 @@
     "content": "Gold surged through 2024 and 2025 on inflation fears, geopolitical tensions, and economic uncertainty, reaching record highs before sharply reversing in 2026. The rally lost momentum as the US Federal Reserve adopted a hawkish stance, pushing interest rates higher and strengthening the dollar. Rising bond yields made safer assets more attractive, reducing gold’s appeal. At the same time, easing global conflicts weakened safe-haven demand, while investors locked in profits after years of gains. [...] But obviously all this to say gold did not become worthless. It became inconvenient for a marke"
    },
    {
-    "title": "Dollar liquidity, gold reserves, and US monetary spillovers in a fragmenting world",
-    "url": "https://cepr.org/voxeu/columns/dollar-liquidity-gold-reserves-and-us-monetary-spillovers-fragmenting-world",
-    "content": "Geopolitical fragmentation is changing the optimal reserve portfolio, but it has not removed the dollar’s central role in global finance. The relevant choice is not ‘dollars or gold’. It is how to combine immediately usable dollar liquidity, credible official backstops, and politically robust collateral so that a country’s reserve assets match its external vulnerabilities.\n\n## References [...] Three policy implications follow. First, diversification should be organised in tranches. The liquidity tranche must remain immediately usable in the currencies in which stress is likely to occur; a broa"
+    "title": "Federal Reserve Policy Impact On Gold Prices",
+    "url": "https://www.usagold.com/federal-reserve-policy-impact-on-gold-prices-complete-2025-analysis",
+    "content": "Dollar strength moves opposite to gold most of the time. Fed policy heavily influences the U.S. dollar's value against other currencies. Tighter Fed policy typically strengthens the dollar, making gold more expensive for foreign buyers and reducing international demand. Looser Fed policy tends to weaken the dollar, making gold cheaper for foreign buyers and increasing demand. [...] Money supply expansion: More dollars chasing the same amount of gold means each dollar should buy less gold.\n Currency debasement concerns: Investors worry that massive money creation will destroy the dollar's value"
    }
   ]
  },
  "indicators": {
   "实时金价XAU": {
-   "price": 4652.799805,
-   "updatedAt": "2026-08-24T06:14:48Z"
+   "price": 4636.399902,
+   "updatedAt": "2026-08-24T07:49:46Z"
   },
   "VIX": [
    "08/19/2026,15.920000,15.950000,14.770000,14.890000",
