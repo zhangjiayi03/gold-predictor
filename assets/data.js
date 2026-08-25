@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-25 16:20",
+ "updated": "2026-08-25 22:06",
  "nextTarget": "2026-08-25",
  "prediction": {
   "dir": "涨",
@@ -25,8 +25,8 @@ window.DASH_DATA = {
   "plain": "今天为什么看涨，讲人话就是：｜1. 涨势还没到头——金价现在站在 4,600 美元上方，是三个月来的高位，上周一周就涨了 5.6%。就像上坡的车还在半山腰往上开，没看到掉头的迹象，惯性一般还能延续一阵。｜2. 大买家照样在进货——中国央行 6 月又买了 15 吨金子，是这两年多来单月买得最多的一次，连着买了 20 个月。央行买金是长线行为，不轻易卖，等于一直在给金价垫底。｜3. 市场里的聪明钱也回来了——6 月期货市场上押黄金上涨的仓位比上月多了 16%，创下月度新高；中国上半年的黄金基金申购也是历史上第二旺的。｜4. 天下还是不太平——霍尔木兹海峡（全球运油的大动脉）的船少了九成，美伊说停火又随时可能翻脸，大家手里的\"保命金\"舍不得撒手。｜要留个心眼：金价已经连涨一周多，昨天只小涨了 0.33%，冲劲明显不如上周；美元最近又有点硬气，本周四还有重要的全球央行年会，大佬们开口之前市场多半按兵不动。所以今天即便涨，更可能是\"慢涨\"而不是\"暴涨\"——幅度这回押\"中\"这一档（涨 0.3% 到 1%），置信度 60%，不是稳赢的事。"
  },
  "live": {
-  "price": 4627.700195,
-  "time": "2026-08-25T08:15:56Z",
+  "price": 4620.100098,
+  "time": "2026-08-25T14:06:12Z",
   "usdcny": 6.738712
  },
  "priceSeries": [
@@ -612,7 +612,7 @@ window.DASH_DATA = {
      "u": "https://www.investing.com/currencies/xau-usd"
     },
     {
-     "t": "XAU/USD Exchange Rate: Live Price, Chart, Forecast & ...",
+     "t": "XAU/USD Exchange Rate: Live Price, Chart, Forecast & News - Perplexity",
      "u": "https://www.perplexity.ai/finance/XAUUSD"
     }
    ]
@@ -621,20 +621,20 @@ window.DASH_DATA = {
    "cat": "美联储与美元",
    "items": [
     {
-     "t": "Gold, Silver Price Forecast: Fed Decision, Long-Term & Short-Term Outlook",
-     "u": "https://www.forex.com/en-us/news-and-analysis/gold-silver-price-forecast-fed-decision-long-term-and-short-term-outlook"
+     "t": "Gold holds near $4,000 as Fed rate expectations offset safe-haven demand",
+     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-000-092317256.html"
     },
     {
      "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical Juncture | Inve",
      "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
     },
     {
-     "t": "Gold, Dollar and Bitcoin Await US Federal Reserve Decision | Forex & Metals Watc",
-     "u": "https://www.youtube.com/watch?v=WQMnVWDKS80"
+     "t": "Gold falls as dollar hovers near one-month peak ahead of Fed decision",
+     "u": "https://www.cnbc.com/2026/07/28/gold-slips-as-firm-dollar-weighs-focus-turns-to-fed-meeting.html"
     },
     {
-     "t": "Gold falls as dollar hovers near one-month peak ahead of Fed ...",
-     "u": "https://www.cnbc.com/2026/07/28/gold-slips-as-firm-dollar-weighs-focus-turns-to-fed-meeting.html"
+     "t": "Gold Price Crash Explained: US Fed Policy, Dollar Strength & Geopolitics Impact",
+     "u": "https://www.youtube.com/watch?v=jM4ckD4Yu9U&vl=en"
     }
    ]
   },
@@ -650,12 +650,12 @@ window.DASH_DATA = {
      "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
     },
     {
-     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven demand",
+     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven ...",
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
     },
     {
-     "t": "Gold Flat, Silver Falls Despite War Fears | The Surprising Truth About Safe-Have",
-     "u": "https://www.youtube.com/watch?v=g_B0CjKWfT8"
+     "t": "Gold touches $5,400 as demand for safe-haven asset jumps amid Iran ...",
+     "u": "https://finance.yahoo.com/news/gold-touches-5400-as-demand-for-safe-haven-asset-jumps-amid-iran-conflict-102241256.html"
     }
    ]
   },
@@ -671,7 +671,7 @@ window.DASH_DATA = {
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
     },
     {
-     "t": "H1 flows remain positive",
+     "t": "H1 flows remain positive | World Gold Council",
      "u": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
     },
     {
@@ -692,7 +692,7 @@ window.DASH_DATA = {
      "u": "https://www.kitco.com/news/article/2026-06-08/china-increases-gold-reserves-995-tonnes-may-19th-straight-month-purchases"
     },
     {
-     "t": "China gold market update: Official buying accelerated in May | Post by Ray Jia |",
+     "t": "China gold market update: Official buying accelerated in May",
      "u": "https://www.gold.org/goldhub/gold-focus/2026/06/china-gold-market-update-official-buying-accelerated-may"
     },
     {
@@ -717,7 +717,7 @@ window.DASH_DATA = {
      "u": "https://www.fxstreet.com/commodities/gold"
     },
     {
-     "t": "Gold (XAU/USD) CFD Trading | ThinkMarkets",
+     "t": "Gold (XAU/USD) CFD Trading - ThinkMarkets",
      "u": "https://www.thinkmarkets.com/en/instruments/commodities/gold"
     }
    ]
