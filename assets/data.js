@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-25 14:53",
+ "updated": "2026-08-25 16:20",
  "nextTarget": "2026-08-25",
  "prediction": {
   "dir": "涨",
@@ -21,12 +21,12 @@ window.DASH_DATA = {
    "**恐慌降温**：VIX 16.01 → 15.13，避险买盘边际减弱",
    "**事件观望**：周四起杰克逊霍尔央行年会，会前市场倾向观望、波动收敛"
   ],
-  "pm": "",
+  "pm": "- 复核时间：2026-08-25 16:16（北京时间） - 实时价：$4,627.70（≈ ¥1,002.6/克） - 当前涨跌幅：**-0.67%**（基准 $4,659 @06:31） - 追踪结论：**方向偏离**（预测\"涨/中\"，当前下跌 0.67%；幅度绝对值仍落在中档区间）；距明晨 06:00 收盘约 13.7 小时，含整段美盘 - 午后新信号：金价自三个月高位回落，上周 +5.6% 后获利回吐与杰克逊霍尔年会（周四）前观望主导；美元偏软构成下方支撑，今日无重大事件落地 - 结论：**维持原判（涨/中）**——20 日趋势 +12.66%",
   "plain": "今天为什么看涨，讲人话就是：｜1. 涨势还没到头——金价现在站在 4,600 美元上方，是三个月来的高位，上周一周就涨了 5.6%。就像上坡的车还在半山腰往上开，没看到掉头的迹象，惯性一般还能延续一阵。｜2. 大买家照样在进货——中国央行 6 月又买了 15 吨金子，是这两年多来单月买得最多的一次，连着买了 20 个月。央行买金是长线行为，不轻易卖，等于一直在给金价垫底。｜3. 市场里的聪明钱也回来了——6 月期货市场上押黄金上涨的仓位比上月多了 16%，创下月度新高；中国上半年的黄金基金申购也是历史上第二旺的。｜4. 天下还是不太平——霍尔木兹海峡（全球运油的大动脉）的船少了九成，美伊说停火又随时可能翻脸，大家手里的\"保命金\"舍不得撒手。｜要留个心眼：金价已经连涨一周多，昨天只小涨了 0.33%，冲劲明显不如上周；美元最近又有点硬气，本周四还有重要的全球央行年会，大佬们开口之前市场多半按兵不动。所以今天即便涨，更可能是\"慢涨\"而不是\"暴涨\"——幅度这回押\"中\"这一档（涨 0.3% 到 1%），置信度 60%，不是稳赢的事。"
  },
  "live": {
-  "price": 4646.100098,
-  "time": "2026-08-25T06:53:38Z",
+  "price": 4627.700195,
+  "time": "2026-08-25T08:15:56Z",
   "usdcny": 6.738712
  },
  "priceSeries": [
@@ -698,6 +698,27 @@ window.DASH_DATA = {
     {
      "t": "China gold reserves rise most since 2023 even as bullion tumbles",
      "u": "https://www.reuters.com/world/asia-pacific/china-gold-reserves-rise-most-since-2023-even-bullion-tumbles-2026-07-07"
+    }
+   ]
+  },
+  {
+   "cat": "午后动态",
+   "items": [
+    {
+     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot | per Ounce)",
+     "u": "https://tradersunion.com/currencies/price/gold"
+    },
+    {
+     "t": "XAU/USD | Gold Spot US Dollar Price",
+     "u": "https://www.investing.com/currencies/xau-usd"
+    },
+    {
+     "t": "Gold Forecast, News and Analysis (XAU/USD) - FXStreet",
+     "u": "https://www.fxstreet.com/commodities/gold"
+    },
+    {
+     "t": "Gold (XAU/USD) CFD Trading | ThinkMarkets",
+     "u": "https://www.thinkmarkets.com/en/instruments/commodities/gold"
     }
    ]
   }
