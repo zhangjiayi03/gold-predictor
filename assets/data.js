@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-26 06:34",
+ "updated": "2026-08-26 15:39",
  "nextTarget": "2026-08-26",
  "prediction": {
   "dir": "涨",
@@ -21,13 +21,13 @@ window.DASH_DATA = {
    "**美元偏强**：美元指数维持在 101 上方，压制金价上行斜率",
    "**恐慌降温**：VIX 15.90 → 15.85 低位徘徊，避险溢价边际减弱"
   ],
-  "pm": "",
+  "pm": "- 复核时间：2026-08-26 15:38（北京时间，距明晨 06:00 收盘约 14.4 小时） - 实时价：$4,634.50 ≈ ¥1,003.8/克（USD/CNY 6.737） - 当前涨跌幅：**-0.71%**（基准 $4,667.80） - 追踪结论：**偏离**——方向反（预测\"涨\"、当前跌），档位越档（-0.71% 已入\"中\"档，原押\"小\"） - 午后新信号：金价自日内高点 $4,673 回落约 0.8%，RSI>70 超买回调信号显现，市场屏息今晚 20:30 PCE，晨间\"冲高回落\"风险部分兑现 - 结论：**建议关注人工修正",
   "plain": "今天为什么看涨，讲人话就是：｜1. 上坡的车还在爬，只是松了点油门——金价三个月来一路走高，上周一周就涨了 5.6%，现在还站在 4,600 美元上头。涨势的车没有掉头的意思，只是这两天从\"快开\"变成\"慢开\"，方向仍朝上。｜2. 大买家照样天天进货——中国央行连着 20 个月买金子，光 6 月就买了 15 吨，是这两年多来单月买得最多的一次。就像超市里有位大客户每天雷打不动往购物车里添货，货架想被砸穿都难。｜3. 昨天跌下去又被人捡回来了——周二白天金价一度跌了 0.67%，结果晚上美盘又被人买回来，收盘还小涨 0.19%。说明下方有一群人蹲着等便宜货，跌不深。｜4. 天下还是不太平——运油的霍尔木兹海峡船少了九成，美伊嘴上说着停火、随时可能翻脸，大家手里的\"保命金\"舍不得撒手。｜要留个心眼：连涨之后劲头明显变小（前天 +0.33%，昨天只剩 +0.19%），而且今晚 8 点半美国要公布美联储最看重的通胀成绩单（PCE），明天还有全球央行大佬开年会。这份成绩单要是比预期\"热\"，降息就得再等等，金价可能当场翻脸往下走。所以今天更可能是\"小步慢走\"的小涨，而不是撒腿狂奔——这次幅度押\"小\"这一档（涨 0.3% 以内），置信度 55%，不是稳赢的事。"
  },
  "live": {
-  "price": 4667.799805,
-  "time": "2026-08-25T22:31:36Z",
-  "usdcny": 6.738712
+  "price": 4634.5,
+  "time": "2026-08-26T07:36:27Z",
+  "usdcny": 6.737012
  },
  "priceSeries": [
   {
@@ -718,6 +718,27 @@ window.DASH_DATA = {
     {
      "t": "China gold reserves rise most since 2023 even as bullion tumbles",
      "u": "https://www.reuters.com/world/asia-pacific/china-gold-reserves-rise-most-since-2023-even-bullion-tumbles-2026-07-07"
+    }
+   ]
+  },
+  {
+   "cat": "午后动态",
+   "items": [
+    {
+     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot | per Ounce)",
+     "u": "https://tradersunion.com/currencies/price/gold"
+    },
+    {
+     "t": "XAU/USD | Gold Spot US Dollar Price",
+     "u": "https://www.investing.com/currencies/xau-usd"
+    },
+    {
+     "t": "XAUUSD - Gold Forex Price",
+     "u": "https://www.barchart.com/forex/quotes/%5EXAUUSD"
+    },
+    {
+     "t": "XAU=: Gold / US Dollar Spot - Stock Price, Quote and News",
+     "u": "https://www.cnbc.com/quotes/XAU="
     }
    ]
   }
