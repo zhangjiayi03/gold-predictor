@@ -1,10 +1,6 @@
 {
- "fetched_at": "2026-08-25",
+ "fetched_at": "2026-08-26",
  "series": [
-  {
-   "date": "2026-06-02",
-   "close": 4503.85
-  },
   {
    "date": "2026-06-03",
    "close": 4444.6
@@ -240,14 +236,18 @@
   {
    "date": "2026-08-24",
    "close": 4663.7
+  },
+  {
+   "date": "2026-08-25",
+   "close": 4615.45
   }
  ],
  "baseline": {
-  "last_close": 4663.7,
-  "last_date": "2026-08-24",
+  "last_close": 4615.45,
+  "last_date": "2026-08-25",
   "regime_20d": "趋势涨",
-  "chg_20d_pct": 14.45,
-  "daily_vol_20d_pct": 1.226,
+  "chg_20d_pct": 14.75,
+  "daily_vol_20d_pct": 1.213,
   "days_collected": 60,
   "band_dist_60d": {
    "小": "9次 15%",
