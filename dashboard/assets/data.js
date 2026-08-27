@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-27 10:36",
+ "updated": "2026-08-27 10:42",
  "nextTarget": "2026-08-27",
  "prediction": {
   "dir": "跌",
@@ -20,8 +20,8 @@ window.DASH_DATA = {
   "plain": "今天为什么看跌，讲人话就是：｜1. 昨天的坏成绩单还在发酵——昨晚美国公布的通胀成绩单（PCE）比大家预想的要热，翻译过来就是\"物价还没压下去，美联储不敢松手\"。老板一看业绩不达标，年终奖（降息）就得往后拖，市场上赌 9 月加息的人一下子多到了四成。想等便宜钱的资金先撒手，金子昨晚就挨了一记闷棍，一夜跌掉 1.2%。｜2. 同一堵墙撞了两次——过去几天金价两次冲到 4,660 多美元的山头都没站稳，都滑了下来。就像爬山的人在同一个崖壁前连撞两次，短期再往上冲的劲头就泄了，接下来更可能先退到坡下歇脚。｜3. 下坡车开始溜了——前三天还在涨 1% 到 2%，昨天直接掉头跌 1.2%，油门早就松了，惯性暂时朝下。｜4. 但山脚下有人垫着——昨晚金价最低探到 4,594 美元，很快就被买回来了。中国央行连着 20 个月买金子，天下又不太平（委内瑞拉、伊朗的事都没完），想跌深也不容易，所以今天押的是\"小跌\"，不是崩盘。｜要留个心眼：今天杰克逊霍尔全球央行年会开幕，各国央行的老板们这两天要陆续发话。万一讲话透出\"要放水\"的味道，或者中东、委内瑞拉突然出大事，金价可能当场翻脸往上弹——刚挨过闷棍的市场，跌多了也会有人抢着捡便宜货。所以今天方向押\"跌\"的把握只有 55%，幅度押\"小跌\"（0.3% 以内）的把握只有 35%，属于\"谨慎看空、随时准备认错\"的一单，不是十拿九稳的事。"
  },
  "live": {
-  "price": 4611.5,
-  "time": "2026-08-26T22:31:29Z",
+  "price": 4627.200195,
+  "time": "2026-08-27T02:42:14Z",
   "usdcny": 6.737816
  },
  "priceSeries": [
@@ -643,12 +643,12 @@ window.DASH_DATA = {
      "u": "https://www.fxstreet.com/commodities/gold"
     },
     {
-     "t": "XAU/USD | Gold Spot US Dollar Price",
-     "u": "https://www.investing.com/currencies/xau-usd"
+     "t": "XAU/USD Exchange Rate: Live Price, Chart, Forecast & News - Perplexity",
+     "u": "https://www.perplexity.ai/finance/XAUUSD"
     },
     {
-     "t": "Perplexity",
-     "u": "https://www.perplexity.ai/finance/XAUUSD"
+     "t": "Gold (XAU) Price Today, Live Chart & Forecasts",
+     "u": "https://www.fxempire.com/commodities/gold"
     }
    ]
   },
@@ -660,12 +660,12 @@ window.DASH_DATA = {
      "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-000-092317256.html"
     },
     {
-     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit ...",
-     "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
-    },
-    {
      "t": "Gold edges lower as dollar firms; investors eye US data",
      "u": "https://www.cnbc.com/2025/11/14/gold-falls-as-fed-cut-hopes-fade-after-hawkish-fed-comments.html"
+    },
+    {
+     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical ...",
+     "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
     },
     {
      "t": "Federal Reserve Policy Impact On Gold Prices: Complete 2025 Analysis",
@@ -681,16 +681,16 @@ window.DASH_DATA = {
      "u": "https://www.kitco.com/news/article/2026-03-06/gold-struggles-hold-safe-haven-bid-geopolitical-uncertainty-continues"
     },
     {
+     "t": "Safe-Haven Gold Demand: Geopolitical Risk Boosts Metals",
+     "u": "https://www.augustapreciousmetals.com/market-news/safe-haven-gold-demand-geopolitical-risk-boosts-metals"
+    },
+    {
      "t": "Gold inches closer to record peak as geopolitical risks lift safe-haven demand",
      "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
     },
     {
-     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven demand",
+     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven ...",
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
-    },
-    {
-     "t": "Gold touches $5,400 as demand for safe-haven asset jumps amid Iran conflict",
-     "u": "https://finance.yahoo.com/news/gold-touches-5400-as-demand-for-safe-haven-asset-jumps-amid-iran-conflict-102241256.html"
     }
    ]
   },
@@ -702,16 +702,16 @@ window.DASH_DATA = {
      "u": "https://sprott.com/insights/gold-is-on-the-rise-and-reaches-all-time-high"
     },
     {
+     "t": "Gold Price Drivers: Rates, Dollar, Central Banks, Demand",
+     "u": "https://goldenarkreserve.com/insights/gold-price-drivers"
+    },
+    {
      "t": "Sprott Q2 Precious Metals Report: Central Banks Flex Gold Market Muscle | Sprott",
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
     },
     {
-     "t": "How central banks, ETF inflows are driving gold prices",
-     "u": "https://www.youtube.com/watch?v=kEhhKBtK46o"
-    },
-    {
-     "t": "H1 flows remain positive | World Gold Council",
-     "u": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/07"
+     "t": "Why Central Banks Are Still Buying Gold | VanEck",
+     "u": "https://www.vaneck.com.au/blog/gold/gold-biggest-customers-still-buying"
     }
    ]
   },
@@ -719,20 +719,20 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
-     "t": "China adds to gold reserves for 18th straight month - Chinadaily.com.cn",
-     "u": "https://www.chinadaily.com.cn/a/202605/07/WS69fc721ba310d6866eb47571.html"
-    },
-    {
-     "t": "China increases gold reserves by 9.95 tonnes in May for 19th straight month of p",
-     "u": "https://www.kitco.com/news/article/2026-06-08/china-increases-gold-reserves-995-tonnes-may-19th-straight-month-purchases"
-    },
-    {
      "t": "PBoC Gold Reserves June 2026: China Buys Most Since ...",
      "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
     },
     {
-     "t": "China extends gold-buying binge to 20th month amid Beijing’s de-dollarisation pu",
-     "u": "https://www.scmp.com/business/commodities/article/3359742/china-extends-gold-buying-binge-20th-month-amid-beijings-de-dollarisation-push"
+     "t": "China increases gold reserves by 9.95 tonnes in May for ...",
+     "u": "https://www.kitco.com/news/article/2026-06-08/china-increases-gold-reserves-995-tonnes-may-19th-straight-month-purchases"
+    },
+    {
+     "t": "China gold market update: Official buying accelerated in May",
+     "u": "https://www.gold.org/goldhub/gold-focus/2026/06/china-gold-market-update-official-buying-accelerated-may"
+    },
+    {
+     "t": "China gold reserves rise most since 2023 even as bullion tumbles",
+     "u": "https://www.reuters.com/world/asia-pacific/china-gold-reserves-rise-most-since-2023-even-bullion-tumbles-2026-07-07"
     }
    ]
   }
