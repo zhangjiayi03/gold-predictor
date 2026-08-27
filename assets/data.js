@@ -1,34 +1,30 @@
 window.DASH_DATA = {
- "updated": "2026-08-27 15:38",
- "nextTarget": "2026-08-27",
+ "updated": "2026-08-28 06:39",
+ "nextTarget": "2026-08-28",
  "prediction": {
   "dir": "跌",
   "band": "小",
   "conf": "55",
-  "base": 4611.5,
-  "drivers": "PCE偏热鹰派重定价(9月hold概率68%→60%,加息押注40%)+美元走强+双顶4664/4668两度受阻+动能三连衰减(+1.78%→-1.04%→-1.20%)；央行购金(PBOC连买20月,6月+14.9t)+委内瑞拉/伊朗地缘避险+昨夜4594低点快速承接垫底；杰克逊霍尔年会开幕前波动收敛",
-  "regime": "趋势涨(20日+14.75%)",
+  "base": 4608.8,
+  "drivers": "鹰派重定价延续(偏热PCE后9月加息押注升至约四成)+美元偏强(通胀粘性推升DXY)+技术面转弱(跌破5日/50日均线,MACD负值,RSI45)+20日+15.76%超买获利盘；托底:4594-4596支撑两度承接+PBOC连买21月(7月+19.9t加速,2023年10月以来最大)+委内瑞拉/伊朗地缘避险+CFTC净多回升；今晚沃什年会讲话(约22:00)前波动收敛",
+  "regime": "趋势涨(20日+15.76%)",
   "bulls": [],
   "bears": [
-   "**PCE 偏热、鹰派重定价进行中** `[未释放]`：美联储 9 月按兵不动的概率从前一天 68% 降至 60%，加息 25 基点的押注升至约 40%（FXStreet/Prim",
-   "**美元走强** `[部分定价]`：PCE 落地后美元指数偏强（\"Gold edges lower as dollar firms\"），以美元计价的金价承压",
-   "**技术双顶受阻** `[已定价]`：$4,663.70（8/24 LBMA 定盘）与 $4,667.80（8/26 晨间基准）两度冲高回落，短线动能指标走弱",
-   "**动能三连衰减转负** `[已定价]`：+2.21%（8/21）→ +1.78%（8/24）→ -1.04%（8/25）→ -1.20%（8/26 结算口径），昨日夜盘自高点最大",
-   "**避险溢价退潮** `[部分定价]`：Kitco 提示地缘避险买盘\"来得快、难持续\"，市场焦点重回宏观经济（当前宏观偏空）；VIX 15.45 低位运行，无恐慌加持"
+   "**鹰派重定价延续** `[未释放]`：周三偏热 PCE（总体 3.7% 高于预期、核心 3.3% 符合预期）落地后，市场对年内至少加息一次的定价持续上抬（9 月加息押注约四成，一",
+   "**美元偏强** `[部分定价]`：通胀粘性推升美元指数（\"Sticky Inflation Lifts DXY\"），美元走弱势头停滞，以美元计价的金价承压",
+   "**技术面短线转弱** `[已定价]`：现货已跌破 5 日均线（$4,643）与 50 日均线（$4,647），MACD -1.61 负值区下行，RSI 45 中性偏弱；LiteF",
+   "**超买回调压力** `[未释放]`：20 日累计 +15.76% 处超买区域（阈值 8%），获利盘体量大——\"涨得越快、短期获利盘越多\"，一点不及预期就容易引发获利了结",
+   "**事件前观望** `[部分定价]`：今晚沃什年会讲话（北京时间约 22:00）落地前市场倾向观望（\"Gold Waits on Warsh\"），上行动能被压制"
   ],
-  "pm": "- 复核时间：2026-08-27 15:36（北京时间），距今日收盘（明晨 06:00）约 14.4 小时 - 实时价：$4,596.50（¥995.7/克，汇率 6.7378） - 当前涨跌幅：**-0.33%**（基准 $4,611.50） - 追踪结论：方向\"跌\"**在轨**；档位\"小\"处于临界——-0.33% 略越小档上限（-0.3%），贴近场景 A/B 分界，尚未跌破 $4,594 支撑（距 $1.8） - 午后新信号：美元逼近一个月高位，市场定价 9 月加息概率升至 81%（25bp 概率 38%，一周前仅 16%），鹰派重定价强化，压制金",
-  "plain": "今天为什么看跌，讲人话就是：｜1. 昨天的坏成绩单还在发酵——昨晚美国公布的通胀成绩单（PCE）比大家预想的要热，翻译过来就是\"物价还没压下去，美联储不敢松手\"。老板一看业绩不达标，年终奖（降息）就得往后拖，市场上赌 9 月加息的人一下子多到了四成。想等便宜钱的资金先撒手，金子昨晚就挨了一记闷棍，一夜跌掉 1.2%。｜2. 同一堵墙撞了两次——过去几天金价两次冲到 4,660 多美元的山头都没站稳，都滑了下来。就像爬山的人在同一个崖壁前连撞两次，短期再往上冲的劲头就泄了，接下来更可能先退到坡下歇脚。｜3. 下坡车开始溜了——前三天还在涨 1% 到 2%，昨天直接掉头跌 1.2%，油门早就松了，惯性暂时朝下。｜4. 但山脚下有人垫着——昨晚金价最低探到 4,594 美元，很快就被买回来了。中国央行连着 20 个月买金子，天下又不太平（委内瑞拉、伊朗的事都没完），想跌深也不容易，所以今天押的是\"小跌\"，不是崩盘。｜要留个心眼：今天杰克逊霍尔全球央行年会开幕，各国央行的老板们这两天要陆续发话。万一讲话透出\"要放水\"的味道，或者中东、委内瑞拉突然出大事，金价可能当场翻脸往上弹——刚挨过闷棍的市场，跌多了也会有人抢着捡便宜货。所以今天方向押\"跌\"的把握只有 55%，幅度押\"小跌\"（0.3% 以内）的把握只有 35%，属于\"谨慎看空、随时准备认错\"的一单，不是十拿九稳的事。"
+  "pm": "",
+  "plain": "今天为什么看跌，讲人话就是：｜1. 老板的钱袋子还要收紧——前几天美国公布的物价成绩单偏热，市场上赌\"美联储 9 月要加息\"的人从一成多猛增到四成上下，年内至少加一次息的声音越来越多。利息越高，放着不生息的金子就越吃亏，想买的人先把手缩了回来，这股凉气还没散。｜2. 跑完长跑总得喘口气——过去一个月（20 个交易日）金价涨了将近 16%，短期涨多了自然要歇脚。最近几天天天偏软，虽然昨天几乎原地踏步（只跌了 0.05%），跌势明显刹住了车，但往上冲的劲头也还没缓过来，惯性暂时微微朝下。｜3. 今晚有大事，白天大家都不敢动——今晚十点来钟，美联储的沃什要在全球央行年会上发话，全世界做交易的人都在等他开口。大考没出成绩前，谁也不敢提前庆祝或者绝望，白天行情大概率是小幅晃悠。｜4. 但地板下面垫着弹簧——前两天金价两次探到 4,594 附近都被买盘接了回去；中国央行连着 21 个月买金子，7 月一下买了近 20 吨，是快三年里最大手笔；再加上委内瑞拉、伊朗这些没完没了的麻烦事托底，想大跌也难。｜要留个心眼：今晚沃什的讲话是全天最大的变数——他要是话风偏软（暗示不急着加息），金价可能当场翻身往上弹，毕竟刚跌过一轮，等着捡便宜的人排着队。所以今天方向押\"跌\"的把握只有 55%，幅度押\"小跌\"（0.3% 以内）的把握只有 35%，属于\"倾向看空、但留了后手\"的一单，不是十拿九稳的事。"
  },
  "live": {
-  "price": 4596.5,
-  "time": "2026-08-27T07:36:34Z",
+  "price": 4608.799805,
+  "time": "2026-08-27T22:32:39Z",
   "usdcny": 6.737816
  },
  "priceSeries": [
-  {
-   "date": "2026-06-03",
-   "close": 4444.6
-  },
   {
    "date": "2026-06-04",
    "close": 4496.95
@@ -264,13 +260,13 @@ window.DASH_DATA = {
   {
    "date": "2026-08-25",
    "close": 4615.45
+  },
+  {
+   "date": "2026-08-26",
+   "close": 4631.5
   }
  ],
  "dailyChanges": [
-  [
-   "2026-06-04",
-   1.18
-  ],
   [
    "2026-06-05",
    -2.93
@@ -502,48 +498,72 @@ window.DASH_DATA = {
   [
    "2026-08-25",
    -1.03
+  ],
+  [
+   "2026-08-26",
+   0.35
   ]
  ],
  "baseline": {
-  "last_close": 4615.45,
-  "last_date": "2026-08-25",
+  "last_close": 4631.5,
+  "last_date": "2026-08-26",
   "regime_20d": "趋势涨",
-  "chg_20d_pct": 14.75,
-  "daily_vol_20d_pct": 1.213,
+  "chg_20d_pct": 15.76,
+  "daily_vol_20d_pct": 1.203,
   "days_collected": 60,
   "band_dist_60d": {
    "小": "9次 15%",
-   "中": "15次 25%",
-   "大": "35次 59%"
+   "中": "16次 27%",
+   "大": "34次 58%"
   }
  },
  "stats": {
-  "total": 5,
-  "settled": 4,
-  "dirOK": 3,
-  "bandOK": 1
+  "total": 6,
+  "settled": 5,
+  "dirOK": 4,
+  "bandOK": 2
  },
  "accuracy": {
   "dates": [
    "2026-08-21",
    "2026-08-24",
    "2026-08-25",
-   "2026-08-26"
+   "2026-08-26",
+   "2026-08-27"
   ],
   "dir": [
    100.0,
    100.0,
    100.0,
-   75.0
+   75.0,
+   80.0
   ],
   "band": [
    100.0,
    50.0,
    33.3,
-   25.0
+   25.0,
+   40.0
   ]
  },
  "history": [
+  {
+   "date": "2026-08-28",
+   "base": 4608.8,
+   "fdir": "跌",
+   "fband": "小",
+   "mdir": "跌",
+   "mband": "小",
+   "manual": "否",
+   "actual": null,
+   "pct": null,
+   "adir": "=IF(J7=\"\",\"\",IF(J7>0,\"涨\",IF(J7<0,\"跌\",\"平\")))",
+   "aband": "=IF(J7=\"\",\"\",IF(ABS(J7)<=0.003,\"小\",IF(ABS(J7)<=0.01,\"中\",\"大\")))",
+   "dok": "=IF(OR(D7=\"\",K7=\"\"),\"\",IF(D7=K7,\"√\",\"×\"))",
+   "bok": "=IF(OR(E7=\"\",L7=\"\"),\"\",IF(E7=L7,\"√\",\"×\"))",
+   "regime": "趋势涨(20日+15.76%)",
+   "drivers": "鹰派重定价延续(偏热PCE后9月加息押注升至约四成)+美元偏强(通胀粘性推升DXY)+技术面转弱(跌破5日/50日均线,MACD负值,RSI45)+20日+15.76%超买获利盘；托底:4594-4596支撑两度承接+PBOC连买21月(7月+19.9t加速,2023年10月以来最大)+委内瑞拉/伊朗地缘避险+CFTC净多回升；今晚沃什年会讲话(约22:00)前波动收敛"
+  },
   {
    "date": "2026-08-27",
    "base": 4611.5,
@@ -552,12 +572,12 @@ window.DASH_DATA = {
    "mdir": "跌",
    "mband": "小",
    "manual": "否",
-   "actual": null,
-   "pct": null,
-   "adir": "=IF(J6=\"\",\"\",IF(J6>0,\"涨\",IF(J6<0,\"跌\",\"平\")))",
-   "aband": "=IF(J6=\"\",\"\",IF(ABS(J6)<=0.003,\"小\",IF(ABS(J6)<=0.01,\"中\",\"大\")))",
-   "dok": "=IF(OR(D6=\"\",K6=\"\"),\"\",IF(D6=K6,\"√\",\"×\"))",
-   "bok": "=IF(OR(E6=\"\",L6=\"\"),\"\",IF(E6=L6,\"√\",\"×\"))",
+   "actual": 4609.2,
+   "pct": -0.05,
+   "adir": "跌",
+   "aband": "小",
+   "dok": "√",
+   "bok": "√",
    "regime": "趋势涨(20日+14.75%)",
    "drivers": "PCE偏热鹰派重定价(9月hold概率68%→60%,加息押注40%)+美元走强+双顶4664/4668两度受阻+动能三连衰减(+1.78%→-1.04%→-1.20%)；央行购金(PBOC连买20月,6月+14.9t)+委内瑞拉/伊朗地缘避险+昨夜4594低点快速承接垫底；杰克逊霍尔年会开幕前波动收敛"
   },
@@ -643,12 +663,12 @@ window.DASH_DATA = {
      "u": "https://www.fxstreet.com/commodities/gold"
     },
     {
-     "t": "XAU/USD Exchange Rate: Live Price, Chart, Forecast & News - Perplexity",
-     "u": "https://www.perplexity.ai/finance/XAUUSD"
+     "t": "Gold (XAU) Price Today, Live Chart & Forecasts | FXEmpire",
+     "u": "https://www.fxempire.com/commodities/gold"
     },
     {
-     "t": "Gold (XAU) Price Today, Live Chart & Forecasts",
-     "u": "https://www.fxempire.com/commodities/gold"
+     "t": "XAUUSD Technical Analysis Today | XAUUSD Forecast - IFC Markets",
+     "u": "https://www.ifcmarkets.com/en/technicals/precious-metals-technical-analysis/xauusd"
     }
    ]
   },
@@ -660,12 +680,12 @@ window.DASH_DATA = {
      "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-000-092317256.html"
     },
     {
-     "t": "Gold edges lower as dollar firms; investors eye US data",
-     "u": "https://www.cnbc.com/2025/11/14/gold-falls-as-fed-cut-hopes-fade-after-hawkish-fed-comments.html"
+     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical Juncture | Inve",
+     "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
     },
     {
-     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical ...",
-     "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
+     "t": "Gold edges lower as dollar firms; investors eye US data",
+     "u": "https://www.cnbc.com/2025/11/14/gold-falls-as-fed-cut-hopes-fade-after-hawkish-fed-comments.html"
     },
     {
      "t": "Federal Reserve Policy Impact On Gold Prices: Complete 2025 Analysis",
@@ -681,15 +701,15 @@ window.DASH_DATA = {
      "u": "https://www.kitco.com/news/article/2026-03-06/gold-struggles-hold-safe-haven-bid-geopolitical-uncertainty-continues"
     },
     {
-     "t": "Safe-Haven Gold Demand: Geopolitical Risk Boosts Metals",
-     "u": "https://www.augustapreciousmetals.com/market-news/safe-haven-gold-demand-geopolitical-risk-boosts-metals"
-    },
-    {
      "t": "Gold inches closer to record peak as geopolitical risks lift safe-haven demand",
      "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
     },
     {
-     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven ...",
+     "t": "Safe-Haven Gold Demand: Geopolitical Risk Boosts Metals - Augusta Precious Metal",
+     "u": "https://www.augustapreciousmetals.com/market-news/safe-haven-gold-demand-geopolitical-risk-boosts-metals"
+    },
+    {
+     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven demand",
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
     }
    ]
@@ -702,16 +722,16 @@ window.DASH_DATA = {
      "u": "https://sprott.com/insights/gold-is-on-the-rise-and-reaches-all-time-high"
     },
     {
-     "t": "Gold Price Drivers: Rates, Dollar, Central Banks, Demand",
-     "u": "https://goldenarkreserve.com/insights/gold-price-drivers"
-    },
-    {
      "t": "Sprott Q2 Precious Metals Report: Central Banks Flex Gold Market Muscle | Sprott",
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
     },
     {
-     "t": "Why Central Banks Are Still Buying Gold | VanEck",
-     "u": "https://www.vaneck.com.au/blog/gold/gold-biggest-customers-still-buying"
+     "t": "Commodity Catchup: Why Are Central Banks Buying So Much Gold? | Global X ETFs",
+     "u": "https://globalxetfs.co.jp/en/research/commodity-catchup-why-are-central-banks-buying-so-much-gold/index.html"
+    },
+    {
+     "t": "FOREX Victoria - BofA survey says gold is undervalued as...",
+     "u": "https://www.facebook.com/forexvictoria.kh/posts/bofa-survey-says-gold-is-undervalued-as-bullish-speculative-interest-picks-upfor/1119694060580036"
     }
    ]
   },
@@ -719,41 +739,20 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
+     "t": "China's gold reserves rise by most since October 2023 as buying pace quickens",
+     "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
+    },
+    {
+     "t": "China increases gold reserves by 9.95 tonnes in May for 19th straight month of p",
+     "u": "https://www.kitco.com/news/article/2026-06-08/china-increases-gold-reserves-995-tonnes-may-19th-straight-month-purchases"
+    },
+    {
      "t": "PBoC Gold Reserves June 2026: China Buys Most Since ...",
      "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
     },
     {
-     "t": "China increases gold reserves by 9.95 tonnes in May for ...",
-     "u": "https://www.kitco.com/news/article/2026-06-08/china-increases-gold-reserves-995-tonnes-may-19th-straight-month-purchases"
-    },
-    {
-     "t": "China gold market update: Official buying accelerated in May",
+     "t": "China gold market update: Official buying accelerated in May | Post by Ray Jia |",
      "u": "https://www.gold.org/goldhub/gold-focus/2026/06/china-gold-market-update-official-buying-accelerated-may"
-    },
-    {
-     "t": "China gold reserves rise most since 2023 even as bullion tumbles",
-     "u": "https://www.reuters.com/world/asia-pacific/china-gold-reserves-rise-most-since-2023-even-bullion-tumbles-2026-07-07"
-    }
-   ]
-  },
-  {
-   "cat": "午后动态",
-   "items": [
-    {
-     "t": "XAU/USD Exchange Rate: Live Price, Chart, Forecast & News - Perplexity",
-     "u": "https://www.perplexity.ai/finance/XAUUSD"
-    },
-    {
-     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot | per Ounce)",
-     "u": "https://tradersunion.com/currencies/price/gold"
-    },
-    {
-     "t": "XAU/USD | Gold Spot US Dollar Price - Investing.com",
-     "u": "https://www.investing.com/currencies/xau-usd"
-    },
-    {
-     "t": "XAUUSD - Gold Forex Price",
-     "u": "https://www.barchart.com/forex/quotes/%5EXAUUSD"
     }
    ]
   }
