@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-28 06:39",
+ "updated": "2026-08-28 15:19",
  "nextTarget": "2026-08-28",
  "prediction": {
   "dir": "跌",
@@ -20,9 +20,9 @@ window.DASH_DATA = {
   "plain": "今天为什么看跌，讲人话就是：｜1. 老板的钱袋子还要收紧——前几天美国公布的物价成绩单偏热，市场上赌\"美联储 9 月要加息\"的人从一成多猛增到四成上下，年内至少加一次息的声音越来越多。利息越高，放着不生息的金子就越吃亏，想买的人先把手缩了回来，这股凉气还没散。｜2. 跑完长跑总得喘口气——过去一个月（20 个交易日）金价涨了将近 16%，短期涨多了自然要歇脚。最近几天天天偏软，虽然昨天几乎原地踏步（只跌了 0.05%），跌势明显刹住了车，但往上冲的劲头也还没缓过来，惯性暂时微微朝下。｜3. 今晚有大事，白天大家都不敢动——今晚十点来钟，美联储的沃什要在全球央行年会上发话，全世界做交易的人都在等他开口。大考没出成绩前，谁也不敢提前庆祝或者绝望，白天行情大概率是小幅晃悠。｜4. 但地板下面垫着弹簧——前两天金价两次探到 4,594 附近都被买盘接了回去；中国央行连着 21 个月买金子，7 月一下买了近 20 吨，是快三年里最大手笔；再加上委内瑞拉、伊朗这些没完没了的麻烦事托底，想大跌也难。｜要留个心眼：今晚沃什的讲话是全天最大的变数——他要是话风偏软（暗示不急着加息），金价可能当场翻身往上弹，毕竟刚跌过一轮，等着捡便宜的人排着队。所以今天方向押\"跌\"的把握只有 55%，幅度押\"小跌\"（0.3% 以内）的把握只有 35%，属于\"倾向看空、但留了后手\"的一单，不是十拿九稳的事。"
  },
  "live": {
-  "price": 4608.799805,
-  "time": "2026-08-27T22:32:39Z",
-  "usdcny": 6.737816
+  "price": 4605.200195,
+  "time": "2026-08-28T07:19:08Z",
+  "usdcny": 6.737174
  },
  "priceSeries": [
   {
@@ -753,6 +753,27 @@ window.DASH_DATA = {
     {
      "t": "China gold market update: Official buying accelerated in May | Post by Ray Jia |",
      "u": "https://www.gold.org/goldhub/gold-focus/2026/06/china-gold-market-update-official-buying-accelerated-may"
+    }
+   ]
+  },
+  {
+   "cat": "午后动态",
+   "items": [
+    {
+     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot",
+     "u": "https://tradersunion.com/currencies/price/gold"
+    },
+    {
+     "t": "XAU/USD | Gold Spot US Dollar Price",
+     "u": "https://www.investing.com/currencies/xau-usd"
+    },
+    {
+     "t": "Gold Forecast, News and Analysis (XAU/USD) - FXStreet",
+     "u": "https://www.fxstreet.com/commodities/gold"
+    },
+    {
+     "t": "XAU=: Gold / US Dollar Spot - Stock Price, Quote and News",
+     "u": "https://www.cnbc.com/quotes/XAU="
     }
    ]
   }
