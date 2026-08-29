@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-08-29 06:31",
+ "updated": "2026-08-29 09:58",
  "nextTarget": "2026-08-28",
  "prediction": {
   "dir": "跌",
@@ -20,15 +20,11 @@ window.DASH_DATA = {
   "plain": "今天为什么看跌，讲人话就是：｜1. 老板的钱袋子还要收紧——前几天美国公布的物价成绩单偏热，市场上赌\"美联储 9 月要加息\"的人从一成多猛增到四成上下，年内至少加一次息的声音越来越多。利息越高，放着不生息的金子就越吃亏，想买的人先把手缩了回来，这股凉气还没散。｜2. 跑完长跑总得喘口气——过去一个月（20 个交易日）金价涨了将近 16%，短期涨多了自然要歇脚。最近几天天天偏软，虽然昨天几乎原地踏步（只跌了 0.05%），跌势明显刹住了车，但往上冲的劲头也还没缓过来，惯性暂时微微朝下。｜3. 今晚有大事，白天大家都不敢动——今晚十点来钟，美联储的沃什要在全球央行年会上发话，全世界做交易的人都在等他开口。大考没出成绩前，谁也不敢提前庆祝或者绝望，白天行情大概率是小幅晃悠。｜4. 但地板下面垫着弹簧——前两天金价两次探到 4,594 附近都被买盘接了回去；中国央行连着 21 个月买金子，7 月一下买了近 20 吨，是快三年里最大手笔；再加上委内瑞拉、伊朗这些没完没了的麻烦事托底，想大跌也难。｜要留个心眼：今晚沃什的讲话是全天最大的变数——他要是话风偏软（暗示不急着加息），金价可能当场翻身往上弹，毕竟刚跌过一轮，等着捡便宜的人排着队。所以今天方向押\"跌\"的把握只有 55%，幅度押\"小跌\"（0.3% 以内）的把握只有 35%，属于\"倾向看空、但留了后手\"的一单，不是十拿九稳的事。"
  },
  "live": {
-  "price": 4597.200195,
-  "time": "2026-08-28T11:08:27Z",
-  "usdcny": 6.737174
+  "price": 4456.399902,
+  "time": "2026-08-29T01:57:54Z",
+  "usdcny": 6.742068
  },
  "priceSeries": [
-  {
-   "date": "2026-06-05",
-   "close": 4365.15
-  },
   {
    "date": "2026-06-08",
    "close": 4320.6
@@ -264,13 +260,13 @@ window.DASH_DATA = {
   {
    "date": "2026-08-27",
    "close": 4568.95
+  },
+  {
+   "date": "2026-08-28",
+   "close": 4562.75
   }
  ],
  "dailyChanges": [
-  [
-   "2026-06-08",
-   -1.02
-  ],
   [
    "2026-06-09",
    0.16
@@ -502,19 +498,23 @@ window.DASH_DATA = {
   [
    "2026-08-27",
    -1.35
+  ],
+  [
+   "2026-08-28",
+   -0.14
   ]
  ],
  "baseline": {
-  "last_close": 4568.95,
-  "last_date": "2026-08-27",
+  "last_close": 4562.75,
+  "last_date": "2026-08-28",
   "regime_20d": "趋势涨",
-  "chg_20d_pct": 11.14,
-  "daily_vol_20d_pct": 1.133,
+  "chg_20d_pct": 13.32,
+  "daily_vol_20d_pct": 1.037,
   "days_collected": 60,
   "band_dist_60d": {
-   "小": "9次 15%",
+   "小": "10次 17%",
    "中": "16次 27%",
-   "大": "34次 58%"
+   "大": "33次 56%"
   }
  },
  "stats": {
@@ -666,12 +666,12 @@ window.DASH_DATA = {
      "u": "https://www.fxstreet.com/commodities/gold"
     },
     {
-     "t": "XAU/USD | Gold Spot US Dollar Price",
-     "u": "https://www.investing.com/currencies/xau-usd"
-    },
-    {
      "t": "XAU/USD Exchange Rate: Live Price, Chart, Forecast & News - Perplexity",
      "u": "https://www.perplexity.ai/finance/XAUUSD"
+    },
+    {
+     "t": "Gold (XAU) Price Today, Live Chart & Forecasts | FXEmpire",
+     "u": "https://www.fxempire.com/commodities/gold"
     }
    ]
   },
@@ -687,12 +687,12 @@ window.DASH_DATA = {
      "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
     },
     {
-     "t": "Gold edges lower as dollar firms; investors eye US data",
-     "u": "https://www.cnbc.com/2025/11/14/gold-falls-as-fed-cut-hopes-fade-after-hawkish-fed-comments.html"
+     "t": "Federal Reserve Policy Impact On Gold Prices",
+     "u": "https://www.usagold.com/federal-reserve-policy-impact-on-gold-prices-complete-2025-analysis"
     },
     {
-     "t": "Federal Reserve Policy Impact On Gold Prices: Complete 2025 Analysis - USAGOLD",
-     "u": "https://www.usagold.com/federal-reserve-policy-impact-on-gold-prices-complete-2025-analysis"
+     "t": "Fed ‘rate check’ triggered a freefall in the U.S. dollar and investors fled into",
+     "u": "https://fortune.com/2026/01/26/fed-rate-check-us-dollar-gold"
     }
    ]
   },
@@ -708,11 +708,11 @@ window.DASH_DATA = {
      "u": "https://www.augustapreciousmetals.com/market-news/safe-haven-gold-demand-geopolitical-risk-boosts-metals"
     },
     {
-     "t": "Gold inches closer to record peak as geopolitical risks lift safe-haven demand |",
+     "t": "Gold inches closer to record peak as geopolitical risks lift ...",
      "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
     },
     {
-     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven demand",
+     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven ...",
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
     }
    ]
@@ -721,20 +721,20 @@ window.DASH_DATA = {
    "cat": "央行与持仓",
    "items": [
     {
-     "t": "Gold Overtakes Dollar Reserves as Global Trust Shifts | Sprott",
-     "u": "https://sprott.com/insights/gold-overtakes-dollar-reserves-as-global-trust-shifts"
+     "t": "Gold Is on the Rise and Reaches All-Time High | Sprott",
+     "u": "https://sprott.com/insights/gold-is-on-the-rise-and-reaches-all-time-high"
     },
     {
-     "t": "Central Banks Bought 289 Tonnes of Gold While Western ETFs Sold 61 Tonnes, Suppo",
-     "u": "https://www.cruxinvestor.com/posts/central-banks-bought-289-tonnes-of-gold-while-western-etfs-sold-61-tonnes-supporting-long-term-gold-demand"
+     "t": "Sprott Q2 Precious Metals Report: Central Banks Flex Gold Market Muscle | Sprott",
+     "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
     },
     {
-     "t": "Gold: Central Banks and ETF Flows Diverge – G70",
-     "u": "https://g70capital.com/insight-gold-diverging-signals-2026?lang=en"
+     "t": "Europe's golden heatwave",
+     "u": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
     },
     {
-     "t": "CFTC Gold speculative net positions - Investing.com",
-     "u": "https://www.investing.com/economic-calendar/cftc-gold-speculative-positions-1618"
+     "t": "Why Central Banks Are Still Buying Gold | VanEck",
+     "u": "https://www.vaneck.com.au/blog/gold/gold-biggest-customers-still-buying"
     }
    ]
   },
@@ -742,41 +742,20 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
-     "t": "PBoC Gold Reserves June 2026: China Buys Most Since 2023",
-     "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
-    },
-    {
-     "t": "China's gold reserves rise by most since October 2023 as buying pace quickens",
-     "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
-    },
-    {
      "t": "China increases gold reserves by 9.95 tonnes in May for 19th straight month of p",
      "u": "https://www.kitco.com/news/article/2026-06-08/china-increases-gold-reserves-995-tonnes-may-19th-straight-month-purchases"
     },
     {
-     "t": "China gold market update: Official buying accelerated in May | Post by Ray Jia |",
-     "u": "https://www.gold.org/goldhub/gold-focus/2026/06/china-gold-market-update-official-buying-accelerated-may"
-    }
-   ]
-  },
-  {
-   "cat": "午后动态",
-   "items": [
-    {
-     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot",
-     "u": "https://tradersunion.com/currencies/price/gold"
+     "t": "PBoC Gold Reserves June 2026: China Buys Most Since ...",
+     "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
     },
     {
-     "t": "XAU/USD | Gold Spot US Dollar Price",
-     "u": "https://www.investing.com/currencies/xau-usd"
+     "t": "China gold market update: Strong official sector buying in July | Post by Ray Ji",
+     "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
     },
     {
-     "t": "Gold Forecast, News and Analysis (XAU/USD) - FXStreet",
-     "u": "https://www.fxstreet.com/commodities/gold"
-    },
-    {
-     "t": "XAUUSD - Gold Forex Price",
-     "u": "https://www.barchart.com/forex/quotes/%5EXAUUSD"
+     "t": "China's gold reserves rise by most since October 2023 as ...",
+     "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
     }
    ]
   }
