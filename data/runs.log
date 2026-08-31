@@ -65,9 +65,10 @@
 2026-09-01 06:30:49 晨间任务开始
 步骤1a完成(settle)
 步骤1b完成(calibration)
-步骤2完成(collect)
-步骤2完成(collect)
+步骤2完成(collect,首跑缺key已带key重跑)
 步骤3完成(baseline)
 步骤4a完成(报告+日志)
 步骤4b完成(recalc)
 步骤5a完成(build_dashboard)
+步骤5完成(deploy成功)
+步骤6完成(晨间流程全部结束)
