@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-09-08 16:32",
+ "updated": "2026-09-08 18:13",
  "nextTarget": "2026-09-08",
  "prediction": {
   "dir": "涨",
@@ -27,7 +27,7 @@ window.DASH_DATA = {
  },
  "live": {
   "price": 4395.700195,
-  "time": "2026-09-08T08:32:13Z",
+  "time": "2026-09-08T10:13:40Z",
   "usdcny": 6.728426
  },
  "priceSeries": [
@@ -793,8 +793,8 @@ window.DASH_DATA = {
      "u": "https://tradersview.deriv.com/instrument-explorer/gold"
     },
     {
-     "t": "Gold (XAU) Price Today, Live Chart & Forecasts",
-     "u": "https://www.fxempire.com/commodities/gold"
+     "t": "XAUUSD Technical Analysis Today | XAUUSD Forecast - IFC Markets",
+     "u": "https://www.ifcmarkets.com/en/technicals/precious-metals-technical-analysis/xauusd"
     }
    ]
   },
@@ -806,8 +806,8 @@ window.DASH_DATA = {
      "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-000-092317256.html"
     },
     {
-     "t": "Gold Price Forecast: Can Gold Hold $4,020 as Fed Rate Hike Expectations Rise?",
-     "u": "https://www.tradingkey.com/analysis/commodities/metal/262063384-gold-price-forecast-rising-expectations-fed-rate-hike-gold-prices-hold-above-4020-tradingkey"
+     "t": "Gold Forecast, News and Analysis (XAU/USD)",
+     "u": "https://www.fxstreet.com/commodities/gold"
     },
     {
      "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit ...",
@@ -823,6 +823,10 @@ window.DASH_DATA = {
    "cat": "地缘政治",
    "items": [
     {
+     "t": "Gold Breaks 5,000 as Geopolitical Risk Drives Fresh Safe-Haven Flows | Investing",
+     "u": "https://www.investing.com/analysis/gold-breaks-5000-as-geopolitical-risk-drives-fresh-safehaven-flows-200673846"
+    },
+    {
      "t": "Gold struggles to hold safe-haven bid but geopolitical uncertainty continues to ",
      "u": "https://www.kitco.com/news/article/2026-03-06/gold-struggles-hold-safe-haven-bid-geopolitical-uncertainty-continues"
     },
@@ -831,12 +835,8 @@ window.DASH_DATA = {
      "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
     },
     {
-     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven demand",
+     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven ...",
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
-    },
-    {
-     "t": "Gold touches $5400 as demand for safe-haven asset ...",
-     "u": "https://finance.yahoo.com/news/gold-touches-5400-as-demand-for-safe-haven-asset-jumps-amid-iran-conflict-102241256.html"
     }
    ]
   },
@@ -865,16 +865,16 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
-     "t": "PBoC Gold Reserves June 2026: China Buys Most Since 2023",
+     "t": "China's gold reserves rise by most since October 2023 as buying pace quickens | ",
+     "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
+    },
+    {
+     "t": "PBoC Gold Reserves June 2026: China Buys Most Since ...",
      "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
     },
     {
      "t": "China gold market update: Strong official sector buying in July",
      "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
-    },
-    {
-     "t": "China's gold reserves rise by most since October 2023 as ...",
-     "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
     },
     {
      "t": "China's central bank buys the dip, increasing gold reserves ...",
@@ -894,12 +894,12 @@ window.DASH_DATA = {
      "u": "https://www.fxstreet.com/commodities/gold"
     },
     {
-     "t": "Gold Price Today | XAUUSD Price Chart - Mitrade",
-     "u": "https://www.mitrade.com/insights/markets/commodities/XAUUSD"
-    },
-    {
      "t": "XAU/USD | Gold Spot US Dollar Price",
      "u": "https://www.investing.com/currencies/xau-usd"
+    },
+    {
+     "t": "XAU=: Gold / US Dollar Spot - Stock Price, Quote and News",
+     "u": "https://www.cnbc.com/quotes/XAU="
     }
    ]
   }
