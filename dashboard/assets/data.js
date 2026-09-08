@@ -1,33 +1,27 @@
 window.DASH_DATA = {
- "updated": "2026-09-08 18:13",
- "nextTarget": "2026-09-08",
+ "updated": "2026-09-09 06:38",
+ "nextTarget": "2026-09-09",
  "prediction": {
-  "dir": "涨",
+  "dir": "跌",
   "band": "中",
-  "conf": "55",
-  "base": 4410.2,
-  "drivers": "地缘避险(美袭委内瑞拉+美伊紧张)+4410三日不破+央行购金21连月托底[部分定价];但鹰派重定价+美元近一月高位+200日线下技术压制,反弹试阻力",
-  "regime": "趋势涨(20日+3.46%未超买)伴宽幅整理(4410三测不破,V反4467受阻未收复200日线4536)",
-  "bulls": [
-   "**$4,410 支撑三次测试未破** `[已定价]`：9/4 LBMA 定盘 $4,415.4、9/7 结算价 $4,410.2、今晨实时 $4,410-4,413；9/1 低点",
-   "**卖压衰竭序列** `[已定价]`：非农冲击后跌幅逐日收窄（约 -2% → -0.96% → -0.43%），今晨亚盘开盘微涨 +0.15%（06:07 报 $4,412.9）—",
-   "**地缘避险增量** `[部分定价]`：周末美军突袭委内瑞拉 + 美伊紧张持续（Kitco/Wyckoff：贵金属交易员当前看到的风险高于股债交易员，避险买盘延续中）",
-   "**央行购金结构性托底** `[未释放]`：PBOC 连买 21 个月、7 月 +20 吨为 2023/10 以来最大（总持 2,366 吨，占外储 8%，WGC/SAFE）；慢变",
-   "**趋势框架未超买** `[已定价]`：20 日 +3.46%，远低于 8% 超买阈值，无\"获利盘踩踏\"规则压力"
-  ],
+  "conf": "60",
+  "base": 4356.7,
+  "drivers": "4410三测支撑9/8破位(-1.23%失守4400/4380)+FedWatch 9月加息概率约60%美元强势+技术阻力最小路径向下(百日线4346为下一关口,破位看4300)+避险溢价回吐+投机持仓撤离；支撑:PBOC连买21月(7月+20t)逢低接货+百日线首触争夺+10日-5.6%超卖反弹弹性；风险:超跌反弹/地缘再升级",
+  "regime": "震荡(20日+1.55%,60日+1.09%自4663回落后重返区间起点)伴短期下行加速(10日-5.60%三连阴破4400,逼近百日线4346)",
+  "bulls": [],
   "bears": [
-   "**鹰派重定价主线延续** `[部分定价]`：强劲非农后 9 月加息/维持高利率押注升温，美元处近一月高位——昨日收跌 0.43% 的直接推手；该预期已在连续两日下跌中部分兑现，但",
-   "**技术压制密集** `[未释放]`：现价低于布林中轨约 $4,466 与 200 日线约 $4,536，日线短期偏空；8/24 以来高点逐级下移（$4,663 → $4,504 ",
-   "**投机资金离场** `[部分定价]`：Sprott 报告指 CFTC/ETF 投机性持仓已回落至 2019 年中水平，反弹缺乏追涨弹药（与央行买盘形成鲜明背离）",
-   "**避险溢价易回吐** `[未释放]`：Kitco 经验——避险行情难持续，地缘热度一旦降温，相关涨幅回吐较快",
-   "**周五 CPI 偏热预期** `[未释放]`：8 月 CPI 预期环比 +0.4%（前值 +0.07%）、同比约 3.4%，汽油价格推升——若符合预期将强化鹰派叙事（不在本窗口内"
+   "**$4,410 三测支撑昨日破位** `[已定价]`：9/4 PM 定盘 $4,415.4 → 9/7 结算 $4,410.2 → 9/8 结算 $4,356.0（-1.23%）",
+   "**鹰派重定价主线延续** `[部分定价]`：CME FedWatch 9 月加息概率约 60%（9/8 午后复核），美元处近一月高位；黄金连续三日收跌（-1.16%/-0.29%",
+   "**技术面阻力最小路径向下** `[部分定价]`：行情评论指金价正逼近百日线 $4,346，破位后看 $4,300；现价远低于布林中轨约 $4,466 与 200 日线约 $4,5",
+   "**避险溢价回吐** `[未释放]`：Kitco 经验——避险行情难持续，委内瑞拉/美伊事件的热度消退后，相关涨幅回吐较快，这部分溢价仍在挤泡过程中",
+   "**投机资金离场** `[已定价]`：Sprott 报告指 CFTC/ETF 投机性持仓回落至 2019 年中水平——反弹缺追涨弹药，下跌时也缺接盘缓冲（与央行买盘形成鲜明背离）"
   ],
-  "pm": "- 复核时间：2026-09-08 15:38（北京时间），距明晨 06:00 收盘约 14.4 小时 - 实时价：$4,399.30 ≈ ¥950/克（USD/CNY 6.7194） - 当前涨跌幅：**-0.25%**（vs 基准 $4,410.20），处\"小\"档下沿、方向为跌 - 追踪结论：**偏离**——预测\"涨/中\"（目标区 $4,423-4,454），当前方向不符、且贴线跌破 $4,400 整数关口（晨间审核区提示位），场景 B（美元续强回踩）路径在演绎 - 午后新信号：CME FedWatch 9 月加息概率约 60% 鹰派重定价延续压制，",
-  "plain": "今天为什么看涨，讲人话就是：｜1. 地板踩了三次都没踩穿——$4,410 这块地板，上周五收盘踩过一次（$4,415）、昨天结算踩过一次（$4,410）、今早开盘又踩了一次，三次都没破。就像一张凳子被三个人轮流坐过都没塌，说明下面的腿是实的：价格一往下溜就有人接货。｜2. 跌的力气一次比一次小——上周五跌约 1%、昨天只跌 0.4%，今早亚盘还微微翻红。好比往地上泼水，一盆比一盆泼得少，卖压正在泄气；这时候只要来一点像样的买盘，价格就容易被抬起来。｜3. 地球那头不太平，避险订单在增多——上周末美军空袭委内瑞拉、美伊局势也持续紧绷，市场评论说这些事正在源源不断地给黄金送\"避险订单\"。乱世买金是几千年的老习惯，这种订单来得快，但也散得快。｜4. 神秘大买家还在默默扫货——中国央行已经连买 21 个月黄金，光 7 月就买了 20 吨，是近三年最大的单月手笔。就像菜市场里那位天天蹲点的大户，价格一滑就被他接走，脚下的垫子很厚。｜5. 要留个心眼：最大的风险是美元继续逞强——美元现在待在一个多月的高位，如果\"美联储要加息\"的声音再响一点，金价可能跌破 $4,400 整数关、往 $4,370 一带探底；另外本周五晚有美国通胀大考（CPI），数据偏热的话下半周还得挨一记闷棍。押\"涨\"只有 55% 的把握，这一单本质是赌\"卖力气泄了、地板够硬\"，不是十拿九稳的事。"
+  "pm": "",
+  "plain": "今天为什么看跌，讲人话就是：｜1. 昨天的\"地板\"塌了——$4,410 这块地板之前被踩了三次都没破，大家以为挺结实；昨天下午一脚踩穿，收在 $4,356，一天跌了 1.2%。好比一张凳子，前几次坐都没事，突然哪次一坐就散了架——散架之后大家只会躲得更远，短期内不会再有人抢着去扶。｜2. 下坡的车还在踩油门——前天跌 0.3%，昨天跌 1.2%，跌的力气不但在，还越来越猛。下坡路上不踩刹车，惯性也会带着车继续往下滑；今天顺势再跌的可能性，比突然掉头向上的大。｜3. 美联储可能要加息，美元太硬了——市场上大概六成的人觉得美联储月底会加息，美元因此站在近一个月的高位。黄金是\"放在手里不生利息\"的东西，利息要是真涨了，拿黄金就不划算，资金一直在往外挪。这是连跌三天最大的推手，眼下还看不到它松劲的迹象。｜4. 下面一层台阶在 $4,346——行情分析说这是过去一百天大家的平均成本线，现价离它只剩 0.2%；这层台阶要是也守不住，下一站普遍看到 $4,300。今天大概率就在这层台阶附近见分晓：要么踩上去被弹一下，要么直接迈过去继续摔。｜5. 要留个心眼：最大的风险是\"跌多了弹一下\"——从 8/24 高点 $4,663 到现在，两周跌了快 7%，跌得够急够狠，很容易吸引抄底的人进场；何况中国央行已经连买 21 个月、光 7 月就买了 20 吨，逢低扫货的大户一直守在场边。如果今天 $4,346 一线真被大买家接住，价格被拉回 $4,380-4,400 不奇怪，那\"跌\"这一单就押错了。押\"跌\"的把握是 60%，不是稳赢。"
  },
  "live": {
-  "price": 4395.700195,
-  "time": "2026-09-08T10:13:40Z",
+  "price": 4356.700195,
+  "time": "2026-09-08T22:32:21Z",
   "usdcny": 6.728426
  },
  "priceSeries": [
@@ -524,8 +518,8 @@ window.DASH_DATA = {
   }
  },
  "stats": {
-  "total": 12,
-  "settled": 11,
+  "total": 13,
+  "settled": 12,
   "dirOK": 7,
   "bandOK": 4
  },
@@ -541,7 +535,8 @@ window.DASH_DATA = {
    "2026-09-01",
    "2026-09-02",
    "2026-09-04",
-   "2026-09-07"
+   "2026-09-07",
+   "2026-09-08"
   ],
   "dir": [
    100.0,
@@ -554,7 +549,8 @@ window.DASH_DATA = {
    87.5,
    77.8,
    70.0,
-   63.6
+   63.6,
+   58.3
   ],
   "band": [
    100.0,
@@ -567,10 +563,28 @@ window.DASH_DATA = {
    25.0,
    22.2,
    30.0,
-   36.4
+   36.4,
+   33.3
   ]
  },
  "history": [
+  {
+   "date": "2026-09-09",
+   "base": 4356.7,
+   "fdir": "跌",
+   "fband": "中",
+   "mdir": "跌",
+   "mband": "中",
+   "manual": "否",
+   "actual": null,
+   "pct": null,
+   "adir": "=IF(J14=\"\",\"\",IF(J14>0,\"涨\",IF(J14<0,\"跌\",\"平\")))",
+   "aband": "=IF(J14=\"\",\"\",IF(ABS(J14)<=0.003,\"小\",IF(ABS(J14)<=0.01,\"中\",\"大\")))",
+   "dok": "=IF(OR(D14=\"\",K14=\"\"),\"\",IF(D14=K14,\"√\",\"×\"))",
+   "bok": "=IF(OR(E14=\"\",L14=\"\"),\"\",IF(E14=L14,\"√\",\"×\"))",
+   "regime": "震荡(20日+1.55%,60日+1.09%自4663回落后重返区间起点)伴短期下行加速(10日-5.60%三连阴破4400,逼近百日线4346)",
+   "drivers": "4410三测支撑9/8破位(-1.23%失守4400/4380)+FedWatch 9月加息概率约60%美元强势+技术阻力最小路径向下(百日线4346为下一关口,破位看4300)+避险溢价回吐+投机持仓撤离；支撑:PBOC连买21月(7月+20t)逢低接货+百日线首触争夺+10日-5.6%超卖反弹弹性；风险:超跌反弹/地缘再升级"
+  },
   {
    "date": "2026-09-08",
    "base": 4410.2,
@@ -579,12 +593,12 @@ window.DASH_DATA = {
    "mdir": "涨",
    "mband": "中",
    "manual": "否",
-   "actual": null,
-   "pct": null,
-   "adir": "=IF(J13=\"\",\"\",IF(J13>0,\"涨\",IF(J13<0,\"跌\",\"平\")))",
-   "aband": "=IF(J13=\"\",\"\",IF(ABS(J13)<=0.003,\"小\",IF(ABS(J13)<=0.01,\"中\",\"大\")))",
-   "dok": "=IF(OR(D13=\"\",K13=\"\"),\"\",IF(D13=K13,\"√\",\"×\"))",
-   "bok": "=IF(OR(E13=\"\",L13=\"\"),\"\",IF(E13=L13,\"√\",\"×\"))",
+   "actual": 4356,
+   "pct": -1.23,
+   "adir": "跌",
+   "aband": "大",
+   "dok": "×",
+   "bok": "×",
    "regime": "趋势涨(20日+3.46%未超买)伴宽幅整理(4410三测不破,V反4467受阻未收复200日线4536)",
    "drivers": "地缘避险(美袭委内瑞拉+美伊紧张)+4410三日不破+央行购金21连月托底[部分定价];但鹰派重定价+美元近一月高位+200日线下技术压制,反弹试阻力"
   },
@@ -789,11 +803,11 @@ window.DASH_DATA = {
      "u": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly"
     },
     {
-     "t": "Gold (XAU/USD) — Live Chart & AI Analysis",
-     "u": "https://tradersview.deriv.com/instrument-explorer/gold"
+     "t": "Gold (XAU) Price Today, Live Chart & Forecasts | FXEmpire",
+     "u": "https://www.fxempire.com/commodities/gold"
     },
     {
-     "t": "XAUUSD Technical Analysis Today | XAUUSD Forecast - IFC Markets",
+     "t": "XAUUSD Technical Analysis Today | XAUUSD Forecast | IFCM",
      "u": "https://www.ifcmarkets.com/en/technicals/precious-metals-technical-analysis/xauusd"
     }
    ]
@@ -806,15 +820,15 @@ window.DASH_DATA = {
      "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-000-092317256.html"
     },
     {
-     "t": "Gold Forecast, News and Analysis (XAU/USD)",
-     "u": "https://www.fxstreet.com/commodities/gold"
+     "t": "Gold Price Forecast: Can Gold Hold $4,020 as Fed Rate Hike Expectations Rise?",
+     "u": "https://www.tradingkey.com/analysis/commodities/metal/262063384-gold-price-forecast-rising-expectations-fed-rate-hike-gold-prices-hold-above-4020-tradingkey"
     },
     {
-     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit ...",
+     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical Juncture | Inve",
      "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
     },
     {
-     "t": "Federal Reserve Policy Impact On Gold Prices: Complete 2025 Analysis",
+     "t": "Federal Reserve Policy Impact On Gold Prices: Complete 2025 Analysis - USAGOLD",
      "u": "https://www.usagold.com/federal-reserve-policy-impact-on-gold-prices-complete-2025-analysis"
     }
    ]
@@ -822,10 +836,6 @@ window.DASH_DATA = {
   {
    "cat": "地缘政治",
    "items": [
-    {
-     "t": "Gold Breaks 5,000 as Geopolitical Risk Drives Fresh Safe-Haven Flows | Investing",
-     "u": "https://www.investing.com/analysis/gold-breaks-5000-as-geopolitical-risk-drives-fresh-safehaven-flows-200673846"
-    },
     {
      "t": "Gold struggles to hold safe-haven bid but geopolitical uncertainty continues to ",
      "u": "https://www.kitco.com/news/article/2026-03-06/gold-struggles-hold-safe-haven-bid-geopolitical-uncertainty-continues"
@@ -835,8 +845,12 @@ window.DASH_DATA = {
      "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
     },
     {
-     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven ...",
+     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven demand",
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
+    },
+    {
+     "t": "Gold touches $5400 as demand for safe-haven asset ...",
+     "u": "https://finance.yahoo.com/news/gold-touches-5400-as-demand-for-safe-haven-asset-jumps-amid-iran-conflict-102241256.html"
     }
    ]
   },
@@ -852,12 +866,12 @@ window.DASH_DATA = {
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
     },
     {
-     "t": "How central banks, ETF inflows are driving gold prices",
-     "u": "https://www.youtube.com/watch?v=kEhhKBtK46o"
+     "t": "Dollars for Gold: Why Central Banks Are Trading In",
+     "u": "https://etfdb.com/gold-silver-investing-content-hub/dollars-for-gold-why-central-banks-are-trading-in"
     },
     {
-     "t": "Gold ETF Flows: July 2026",
-     "u": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/08"
+     "t": "How important are central bank holdings of gold?",
+     "u": "https://www.brookings.edu/articles/how-important-are-central-bank-holdings-of-gold"
     }
    ]
   },
@@ -865,41 +879,20 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
+     "t": "PBoC Gold Reserves June 2026: China Buys Most Since 2023",
+     "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
+    },
+    {
      "t": "China's gold reserves rise by most since October 2023 as buying pace quickens | ",
      "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
     },
     {
-     "t": "PBoC Gold Reserves June 2026: China Buys Most Since ...",
-     "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
-    },
-    {
-     "t": "China gold market update: Strong official sector buying in July",
-     "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
-    },
-    {
-     "t": "China's central bank buys the dip, increasing gold reserves ...",
+     "t": "China’s central bank buys the dip, increasing gold reserves by 15 tonnes in June",
      "u": "https://www.kitco.com/news/article/2026-07-07/chinas-central-bank-buys-dip-increasing-gold-reserves-15-tonnes-june"
-    }
-   ]
-  },
-  {
-   "cat": "午后动态",
-   "items": [
-    {
-     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot | per Ounce)",
-     "u": "https://tradersunion.com/currencies/price/gold"
     },
     {
-     "t": "Gold Forecast, News and Analysis (XAU/USD)",
-     "u": "https://www.fxstreet.com/commodities/gold"
-    },
-    {
-     "t": "XAU/USD | Gold Spot US Dollar Price",
-     "u": "https://www.investing.com/currencies/xau-usd"
-    },
-    {
-     "t": "XAU=: Gold / US Dollar Spot - Stock Price, Quote and News",
-     "u": "https://www.cnbc.com/quotes/XAU="
+     "t": "China gold market update: Strong official sector buying in ...",
+     "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
     }
    ]
   }
