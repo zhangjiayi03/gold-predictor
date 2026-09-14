@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-09-14 06:42",
+ "updated": "2026-09-14 15:38",
  "nextTarget": "2026-09-14",
  "prediction": {
   "dir": "跌",
@@ -22,13 +22,13 @@ window.DASH_DATA = {
    "**避险溢价难持续** `[部分定价]`：地缘避险买盘历来难以持续，热度消退后焦点重回鹰派宏观主线",
    "**会前观望+今日无催化** `[未释放]`：今日无重磅数据，FOMC 前 1-2 日仓位压缩、波动收敛倾向，上涨缺乏新催化剂"
   ],
-  "pm": "",
+  "pm": "- **复核时间**：2026-09-14 15:37（北京时间） - **实时价**：$4,317.70 ≈ ¥934.4/克（USD/CNY 6.7309） - **当前涨跌幅**：较基准 $4,337.20 **-0.45%** - **追踪结论**：**在轨**——方向\"跌\"一致，幅度落于\"中\"档区间（0.3%–1.0%），距明晨 06:00 收盘约 14.4 小时 - **午后新信号**：日内温和回落至 200 日均线（$4,313）上方窄幅整理，$4,300 关口未失守、$4,350 确认位未收复；无 FOMC/数据/地缘突发落地，VIX 无",
   "plain": "今天为什么看跌，讲人话就是：｜1. 周四凌晨美联储要\"宣判\"，宣判前没人敢追涨——市场上的钱现在几乎全部押定这次要加息。金价上周五刚从坑里爬出来一点，但头顶悬着\"加息\"这把剑，每涨一步就有人先落袋为安。好比成绩公布前一天，谁也不敢把零花钱全押上去赌。｜2. 周五那根反弹像蹦极，弹上去又缩回来了——上周五先是跌破 $4,300 吓坏一片人，随后被买盘猛拉到 $4,373，可收盘又软回 $4,349，今早亚市一开盘再滑到 $4,337。皮筋弹起来又被摁回去，说明上方抛压是真实存在的，反弹的劲儿没接上。｜3. 头顶压着\"过去一百天大家的平均成本线\"——这条线（$4,335-4,346 一带）八月底之前是地板，跌破之后变成天花板，每次反弹碰线就被摁回。今晨开盘价刚好卡在线下面，短线抬头费劲。｜4. 下面有\"国家队\"兜底，但兜底不等于拉升——中国央行已经连买 21 个月黄金，7 月还一口气买了 20 吨（三年多来最大手笔）。所以就算今天跌，$4,300 这道整数关口大概率有人接、深跌有限；但央行是慢慢接货，不是一口气拉盘。｜5. 要留个心眼：最大的风险是\"假摔之后的真反转\"——上周五跌破 $4,300 又被强力买回，这种\"假破位\"形态有时是行情见底的信号。如果今天美元走软、或者会前乐观情绪升温，价格重新站上 $4,350 并去摸 $4,373 前高，那\"跌\"就押错了。所以这单押的是\"开会前的谨慎回落\"，幅度押中档（0.3%-1%），把握只有 55%，别重注。"
  },
  "live": {
-  "price": 4337.200195,
-  "time": "2026-09-13T22:33:25Z",
-  "usdcny": 6.730863
+  "price": 4317.700195,
+  "time": "2026-09-14T07:36:39Z",
+  "usdcny": 6.715584
  },
  "priceSeries": [
   {
@@ -959,6 +959,27 @@ window.DASH_DATA = {
     {
      "t": "China’s central bank buys the dip, increasing gold reserves by 15 tonnes in June",
      "u": "https://www.kitco.com/news/article/2026-07-07/chinas-central-bank-buys-dip-increasing-gold-reserves-15-tonnes-june"
+    }
+   ]
+  },
+  {
+   "cat": "午后动态",
+   "items": [
+    {
+     "t": "Gold (Derivatives) Price USD, XAU Price Live Charts, Market Cap & News",
+     "u": "https://www.bitget.com/price/gold-derivatives"
+    },
+    {
+     "t": "Gold Price Forecast: XAU/USD retreats from records, now what?",
+     "u": "https://www.fxstreet.com/analysis/gold-price-forecast-xau-usd-retreats-from-records-now-what-202601291710"
+    },
+    {
+     "t": "Gold Price Forecast: XAU/USD Bull Market Correction Underway",
+     "u": "https://www.forex.com/en-us/news-and-analysis/gold-price-forecast-xau-usd-bull-market-correction-underway-6-1-2024"
+    },
+    {
+     "t": "Gold Price: XAU/USD at $3,337 Ahead of Powell’s Speech",
+     "u": "https://www.tradingnews.com/news/gold-price-xau-usd-at-3337-usd"
     }
    ]
   }
