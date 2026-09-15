@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-09-15 06:40",
+ "updated": "2026-09-15 11:34",
  "nextTarget": "2026-09-15",
  "prediction": {
   "dir": "涨",
@@ -26,9 +26,9 @@ window.DASH_DATA = {
   "plain": "今天为什么看涨，讲人话就是：｜1. 最近五个交易日\"跌一天、涨一天\"地打摆子，今天轮到涨——从上周二开始，金价像钟摆一样严格交替：跌一天必弹一天，已经摆了五个来回（-1.2%、+1.1%、-1.9%、+0.7%、-0.9%）。今天偏偏是个\"没有新消息\"的日子：美联储官员被禁止公开讲话（要等周四凌晨开会宣布利率），也没有重磅数据出炉，没人能往钟摆上再踩一脚。钟摆大概率照旧往回摆。好比蹦床，被摁下去一次，总要弹回来一次。｜2. $4,300 下方的便宜货，两个交易日都有人排队接——上周五盘中跌破 $4,300 被强力买回，本周一最低探到 $4,285.9 也有买盘托住收回来一些。下方还有\"国家队\"兜底：中国央行连买 21 个月黄金，7 月一口气买了 20 吨（三年多来最大手笔），专挑便宜的时候进货。就像楼下便利店每次搞到这个价就有人排队囤货，跌深了自然有人接。｜3. 周四凌晨才\"开奖\"，今天提前押跌赚钱的人会先把利润装进口袋——这波从 $4,400 上方跌下来，提前押跌的人已经赚了一票。但周四凌晨美联储到底加不加息，市场自己都还在吵架（有的口径算出七成概率按兵不动，有的算出七成多概率要加）。开奖时间在北京时间周四凌晨 2 点，不进今天这张\"成绩单\"。开奖前夜，理性的玩法是先落袋为安——把赚钱的空单买回来平掉，这个动作本身就会把价格往上托一把。｜4. 该卖的人周一差不多卖完了——周一把上周五的反弹全部吐掉还倒贴，跌破 $4,300 时，设定了\"跌到价位自动卖出\"的买家已经被强行赶下车，想卖的卖得七七八八。卖压像挤牙膏，挤到尾部就挤不动了，价格反而容易喘口气。｜5. 要留个心眼：最大的风险是\"破位之后的连锁下坠\"——周一收盘毕竟实实在在跌破了 $4,300 和\"过去两百天大家的平均持货成本线\"（$4,313），形态是坏的。如果今天 $4,285 再守不住，可能触发新一轮自动卖单连锁反应，直奔 $4,250-4,270（8 月起涨前的平台）。所以方向只有 55% 把握，涨幅押中档（0.3%-1%），别重注。"
  },
  "live": {
-  "price": 4296.700195,
-  "time": "2026-09-14T22:31:39Z",
-  "usdcny": 6.715584
+  "price": 4312.5,
+  "time": "2026-09-15T03:34:07Z",
+  "usdcny": 6.725199
  },
  "priceSeries": [
   {
@@ -881,12 +881,12 @@ window.DASH_DATA = {
    "cat": "市场行情",
    "items": [
     {
-     "t": "Gold Forecast, News and Analysis (XAU/USD)",
-     "u": "https://www.fxstreet.com/commodities/gold"
+     "t": "XAU/USD (Gold) Live Chart - XAUUSD_Pro Price Analysis & Trading Signals",
+     "u": "https://naga.com/en/instruments/XAUUSD"
     },
     {
-     "t": "XAUUSD (Gold vs US Dollar): Precious Metal Prices & Live Charts",
-     "u": "https://www.mql5.com/en/quotes/metals/xauusd"
+     "t": "Gold Forecast, News and Analysis (XAU/USD)",
+     "u": "https://www.fxstreet.com/commodities/gold"
     },
     {
      "t": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Da",
@@ -902,20 +902,20 @@ window.DASH_DATA = {
    "cat": "美联储与美元",
    "items": [
     {
-     "t": "Gold holds near $4,000 as Fed rate expectations offset safe-haven demand",
-     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-holds-near-4-000-092317256.html"
+     "t": "Gold Edges Lower as Weaker Dollar Offsets Fed Rate-Hike Expectations",
+     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-edges-lower-weaker-dollar-090852876.html"
     },
     {
-     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical Juncture",
+     "t": "The Fed is taking some of the shine off gold - Quartz",
+     "u": "https://qz.com/gold-price-falls-fed-rate-hike-bets-kevin-warsh-062526"
+    },
+    {
+     "t": "Gold Price Forecast: Can Gold Hold $4,020 as Fed Rate Hike Expectations Rise?",
+     "u": "https://www.tradingkey.com/analysis/commodities/metal/262063384-gold-price-forecast-rising-expectations-fed-rate-hike-gold-prices-hold-above-4020-tradingkey"
+    },
+    {
+     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical Juncture | Inve",
      "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
-    },
-    {
-     "t": "Gold holds steady ahead of Fed's rate decision",
-     "u": "https://www.cnbc.com/2026/07/29/gold-holds-steady-ahead-of-feds-rate-decision.html"
-    },
-    {
-     "t": "Federal Reserve Policy Impact On Gold Prices: Complete 2025 Analysis - USAGOLD",
-     "u": "https://www.usagold.com/federal-reserve-policy-impact-on-gold-prices-complete-2025-analysis"
     }
    ]
   },
@@ -931,12 +931,12 @@ window.DASH_DATA = {
      "u": "https://www.kitco.com/news/article/2026-03-06/gold-struggles-hold-safe-haven-bid-geopolitical-uncertainty-continues"
     },
     {
-     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven ...",
-     "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
+     "t": "Gold inches closer to record peak as geopolitical risks lift safe-haven demand |",
+     "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
     },
     {
-     "t": "Gold Flat, Silver Falls Despite War Fears | The Surprising Truth About Safe-Have",
-     "u": "https://www.youtube.com/watch?v=g_B0CjKWfT8"
+     "t": "Gold climbs as tariff and geopolitical risks spur safe‑haven ...",
+     "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
     }
    ]
   },
@@ -948,7 +948,7 @@ window.DASH_DATA = {
      "u": "https://sprott.com/insights/gold-is-on-the-rise-and-reaches-all-time-high"
     },
     {
-     "t": "Central Banks Flex Gold Market Muscle - Sprott",
+     "t": "Sprott Q2 Precious Metals Report: Central Banks Flex Gold Market Muscle | Sprott",
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
     },
     {
@@ -965,20 +965,20 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
-     "t": "PBoC Gold Reserves June 2026: China Buys Most Since 2023",
-     "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
-    },
-    {
      "t": "China's gold reserves rise by most since October 2023 as buying pace quickens | ",
      "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
     },
     {
-     "t": "China gold market update: Strong official sector buying in July | Post by Ray Ji",
-     "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
+     "t": "China's PBOC Adds Gold Again as Bullion Remains Under ...",
+     "u": "https://www.bloomberg.com/news/articles/2026-06-07/china-s-pboc-adds-gold-again-as-bullion-remains-under-pressure"
     },
     {
-     "t": "China’s central bank buys the dip, increasing gold reserves by 15 tonnes in June",
+     "t": "China's central bank buys the dip, increasing gold reserves ...",
      "u": "https://www.kitco.com/news/article/2026-07-07/chinas-central-bank-buys-dip-increasing-gold-reserves-15-tonnes-june"
+    },
+    {
+     "t": "China gold market update: Strong official sector buying in ...",
+     "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
     }
    ]
   }
