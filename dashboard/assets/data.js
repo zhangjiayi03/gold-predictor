@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-09-19 06:33",
+ "updated": "2026-09-19 15:38",
  "nextTarget": "2026-09-18",
  "prediction": {
   "dir": "涨",
@@ -26,7 +26,7 @@ window.DASH_DATA = {
  "live": {
   "price": 4396.899902,
   "time": "2026-09-18T07:37:00Z",
-  "usdcny": 6.721845
+  "usdcny": 6.714087
  },
  "priceSeries": [
   {
