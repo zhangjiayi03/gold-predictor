@@ -1,39 +1,36 @@
 window.DASH_DATA = {
- "updated": "2026-09-22 15:43",
- "nextTarget": "2026-09-22",
+ "updated": "2026-09-23 06:40",
+ "nextTarget": "2026-09-23",
  "prediction": {
-  "dir": "跌",
-  "band": "中",
+  "dir": "涨",
+  "band": "小",
   "conf": "55",
-  "base": 4353.9,
-  "drivers": "昨收$4,353.9贴$4,348定盘支撑边缘惯性[部分定价]+通胀热数据强化年内再加息预期·美元一个月高位·10Y~4.96%[已定价]+CFTC/ETF投机持仓双降[未释放]+VIX三连降14.81避险退潮[部分定价] vs 央行连购22个月(中国8月+20.2t、波兰Q2+51t)与$4,348技术承接[未释放]",
-  "regime": "趋势跌(20日-3.01%)·60日+6.78%长期涨vs短期反弹回吐1/3背离·FOMC鹰派落地后第4交易日",
+  "base": 4364.7,
+  "drivers": "隔夜V型吸收(下探$4,314.8创两周新低却以$4,364.7更高收盘+0.25%,连续两窗美盘强势回补)[未释放]+央行连购22个月(7月+20t,波兰Q2+51t)与$4,310-4,334双底承接[未释放]+鹰派钝化(加息落地+点阵图已定价,美元/收益率企稳)[已定价] vs $4,380-4,400阻力带两度实测有效[部分定价]+CFTC/ETF投机持仓续降+VIX14.87避险退潮[部分定价]+今窗Fedspeak/PMI偏鹰风险[未释放]→押区间承托的小幅续涨,上沿$4,378为分水岭",
+  "regime": "趋势跌(20日-5.63%·窗口滚动纳入8/21高基数)·60日+7.40%长期涨vs10日-1.78%短期整理背离·FOMC鹰派落地后第5交易日·隔夜深V回补次日",
   "bulls": [
-   "**央行购金结构性垫底** `[未释放]`：PBOC 连续 22 个月增持（8 月 +20.2 吨，2023/10 以来最大单月）；波兰央行 Q2 单季 +51t、WGC 年度调查",
-   "**$4,348 定盘支撑实测有效** `[部分定价]`：9/18 PM 定盘价即本轮回吐行情中两次承接位（9/14 破位后 V 反起点 $4,265 亦在下方）；现价距支撑仅 -",
-   "**地缘避险尾部风险** `[部分定价]`：俄乌美中介谈判未达协议（双方愿继续谈）、伊朗-美国紧张延续、关税推升通胀担忧未消——尾部风险随时可能触发脉冲式避险买盘，VIX 9/16",
-   "**昨日跌幅已部分释放卖压** `[部分定价]`：-0.54% 回吐后，短线超卖为今日提供一定整固基础，深跌需要新催化"
+   "**隔夜 V 型吸收·卖压衰竭** `[未释放]`：昨日窗口下探 $4,314.81（低于 9/20 低点 $4,334.31，创两周新低）却以更高价 $4,364.70 收盘（+",
+   "**央行购金结构性垫底** `[未释放]`：PBOC 连续 22 个月增持（7 月 +20 吨，2023/10 以来最大单月，总持仓 2,366 吨）；波兰 Q2 单季 +51t（",
+   "**鹰派利空边际钝化** `[已定价]`：FOMC +25bp 已落地、点阵图 16/18 年内再加息一次已是市场共识；美元处一个月高位但已企稳（Investing.com：收益率",
+   "**技术双底结构成型** `[部分定价]`：$4,310-4,334 两周内两度承接（9/20 V 反 + 昨日深 V），与 61.8% 回撤位、8 月平台重叠；现价距上方阻力带尚",
+   "**地缘尾部风险** `[未释放]`：伊朗-美国紧张延续、关税推升通胀的担忧未消——低 VIX 环境下尾部脉冲不可预测但方向利多，相当于一张\"免费期权\""
   ],
   "bears": [
-   "**卖压惯性 + 叙事共振** `[已定价·延续中]`：昨夜收 $4,353.90 贴支撑边缘；晨间采集多篇主流分析指向\"滑向 $4,300\"\"更多卖压\"，$4,380-4,400",
-   "**通胀热数据强化加息预期** `[已定价·余波未平]`：美国通胀数据偏热 → 16/18 官员预计年内再加息 25bp、美元处一个月高位、10Y 美债 4.96% 附近——无息资",
-   "**投机资金离场** `[未释放]`：CFTC 期货持仓与 ETF 持仓同步下降（Sprott Q2 报告确认背离结构）——反弹缺乏投机增量，涨不动就只能回落，为今日下跌提供燃料",
-   "**VIX 三连降、避险退潮** `[部分定价]`：17.71 → 15.44 → 14.81，恐慌溢价持续回落；前期反弹部分由避险驱动，风险偏好回暖削弱增量买盘",
-   "**市况标签趋势跌** `[已定价]`：20 日窗口 -3.01% 翻空后未修复，趋势跟随资金偏空"
+   "**\"higher for longer\" 叙事主导** `[已定价·延续中]`：鹰派点阵图 + 官员连续鹰派表态（联储主席 8/28 杰克逊霍尔放鹰曾致金价单日 -3%，余波仍在",
+   "**$4,380-4,400 密集阻力两度实测有效** `[部分定价]`：9/17 高点 $4,391 遭抛售、9/18 冲 $4,396.9 被打回——第三次上攻若无新催化（美元",
+   "**投机资金离场** `[未释放]`：CFTC 期货持仓与 ETF 持仓同步下降（Sprott 确认背离结构，投机持仓回到 2019 年中水平）——反弹缺乏投机增量，追涨燃料不足",
+   "**VIX 14.87 低位·避险溢价退潮** `[部分定价]`：15.44 → 14.81 → 14.87，三连降后低位企稳；风险偏好回暖削弱增量避险买盘，上行动力只能靠实需与空",
+   "**今窗 Fedspeak 密集 + PMI 初值** `[未释放]`：多位联储官员讲话（含 Barr）+ S&P Global PMI 初值 + 5 年期国债拍卖——若口径一致偏"
   ],
-  "pm": "- **复核时间**：2026-09-22 15:42（北京时间），距明晨 06:00 收盘约 14.3 小时 - **实时价**：$4,314.50 ≈ ¥930.8/克（USD/CNY 6.7102） - **当前涨跌幅**：-0.91%（基准 $4,353.90） - **追踪结论**：**在轨**——方向\"跌\"√、幅度 0.91% 处\"中\"档区间（0.3%-1.0%）√；已放量跌破 $4,348 全天分水岭并下穿 $4,328（人工审核区预设\"跌破 $4,328 回吐加速仍属中档原判\"路径），场景 A 主路径兑现且行程偏深，现距\"大\"档线 $4,",
-  "plain": "今天为什么看跌，讲人话就是：｜1. 昨天跌到支撑门口，今天顺势再探一把——金价昨夜收在 $4,353.9，脚下就是上周五的定盘价 $4,348 这道坎，就差 6 块钱。就像一个皮球从台阶上滚下来，滚到台阶边缘还没停稳，惯性上多半还要再往下掉一截才找得着底。今早开盘就贴着坎站，说明买方暂时不想用力抬。｜2. 利息又要涨，金子拿在手里更亏了——昨晚最新的美国通胀数据偏热，市场越来越信美联储年内还要再加息一次（18 个官员里 16 个都这么想），美元站在高位、十年期国债利率快 4.96%。黄金不生利息，利息越高它就像口袋里一块会自己缩水的金砖，越拿越肉疼，上面压着的沙袋今天没减轻。｜3. 短线炒作的钱在撤退——最新的持仓报告显示，做期货的投机客和 ETF 基金的仓位都在往下掉。这波从 $4,265 的反弹，本就是\"怕出事\"的钱推的，现在恐慌劲儿过了、炒家也走了，就像菜市场上抢货的散客散场，摊主想再涨价没人接，价格自然往下松。｜4. 新闻里一片\"再跌一点\"的声音——今早采集的市场报道，主流标题都是\"金价滑向 $4,300\"\"卖压还没完\"，分析师们普遍觉得这波反弹到 $4,380-4,400 那片\"套牢区\"就被挡回来了，下面还有空间。情绪这东西会自我实现：大家都觉得要跌，卖单就先挂出来了。｜5. 要留个心眼：最大的风险是\"下面有人接着\"——各国央行还在闷头扫货（中国央行连买 22 个月、7 月份还是两年来最大手笔，波兰一次买了 51 吨），$4,348 这道坎下面全是慢钱托底，真跌下去可能被接住变成\"跌不动\"；加上美元今天若突然回软，跌势随时变成横盘甚至反抽。所以方向只有 55% 把握、幅度押 0.3%-1% 的中档，千万别下重注；亚欧盘若放量收复 $4,367（+0.3%）上方，今天的\"跌\"就得重新掂量。"
+  "pm": "",
+  "plain": "今天为什么看涨，讲人话就是：｜1. 昨天那个\"惊险深V\"，说明下面真有人接货——金价昨天下午一度砸到 $4,314.8（比上周低点还深），眼看要破位，结果欧美盘一口气全买了回来，收盘不但没跌反而涨了 0.25%。就像跳水运动员头朝下扎进水里又被弹起来——水花越大，说明池子（买盘）越深。而且这已经是连着第二个\"白天挨打、晚上收回\"的日子，短线真正说了算的钱在往下接，不在往下砸。｜2. 各国央行还在闷头扫货，垫子越铺越厚——中国央行连买 22 个月，7 月一口气买了 20 吨（两年来最大手笔）；波兰一个季度就买了 51 吨。这些\"慢钱\"不追涨杀跌，专门等着捡便宜货，等于在金价下面铺了张厚垫子。前两次砸到 $4,310-4,330 都是它们和跟风盘接住的，这次多半也不例外。｜3. 坏消息喊了三周，嗓门越来越哑——美联储加息、美元强、国债利率高，这些利空市场早听腻了、也基本算进价格里了（加息上周四已经落了地，\"年内再加一次\"也早成共识）。昨天下午跌那么深都能被买回来，说明老消息的杀伤力在衰减——就像天天喊\"狼来了\"的孩子，喊到第三周，村里人已经不跑出门了。｜4. 今天没有大戏，多半就是小幅磨蹭——今晚美国只有些二线数据（PMI 初值）和几位官员讲话，没有利率决议那种能把行情打穿的大动静。金价刚从坑里爬出来，头顶 $4,380-4,400 是前两次反弹都被打回来的\"天花板\"；脚下又有央行垫着。上不去也下不来，就在 $4,350-4,380 一亩三分地里磨——所以幅度只押最小档（±0.3% 以内的小涨）。｜5. 要留个心眼：最大的风险是\"天花板发威 + 官员放鹰\"——今晚好几位美联储官员要讲话，还有 PMI 数据，万一哪位放狠话\"加息要加到底\"，美元一挺、国债利率一翘，刚爬出坑的金价可能被重新摔回 $4,348 以下，那就变成\"跌、中档\"了；反过来若数据不及预期、美元一软，也可能直接顶穿 $4,380 变成中涨。所以方向只有 55% 把握——比抛硬币强不了太多，小注怡情，别上头。"
  },
  "live": {
-  "price": 4314.5,
-  "time": "2026-09-22T07:38:39Z",
+  "price": 4364.700195,
+  "time": "2026-09-22T22:32:03Z",
   "usdcny": 6.710202
  },
  "priceSeries": [
-  {
-   "date": "2026-06-26",
-   "close": 4072.05
-  },
   {
    "date": "2026-06-29",
    "close": 4026.45
@@ -269,13 +266,13 @@ window.DASH_DATA = {
   {
    "date": "2026-09-18",
    "close": 4348.15
+  },
+  {
+   "date": "2026-09-21",
+   "close": 4324.25
   }
  ],
  "dailyChanges": [
-  [
-   "2026-06-29",
-   -1.12
-  ],
   [
    "2026-06-30",
    -0.01
@@ -507,24 +504,28 @@ window.DASH_DATA = {
   [
    "2026-09-18",
    -0.46
+  ],
+  [
+   "2026-09-21",
+   -0.55
   ]
  ],
  "baseline": {
-  "last_close": 4348.15,
-  "last_date": "2026-09-18",
+  "last_close": 4324.25,
+  "last_date": "2026-09-21",
   "regime_20d": "趋势跌",
-  "chg_20d_pct": -3.01,
-  "daily_vol_20d_pct": 1.153,
+  "chg_20d_pct": -5.63,
+  "daily_vol_20d_pct": 1.07,
   "days_collected": 60,
   "band_dist_60d": {
    "小": "10次 17%",
-   "中": "21次 36%",
-   "大": "28次 47%"
+   "中": "22次 37%",
+   "大": "27次 46%"
   }
  },
  "stats": {
-  "total": 22,
-  "settled": 21,
+  "total": 23,
+  "settled": 22,
   "dirOK": 13,
   "bandOK": 9
  },
@@ -550,7 +551,8 @@ window.DASH_DATA = {
    "2026-09-16",
    "2026-09-17",
    "2026-09-18",
-   "2026-09-21"
+   "2026-09-21",
+   "2026-09-22"
   ],
   "dir": [
    100.0,
@@ -573,7 +575,8 @@ window.DASH_DATA = {
    61.1,
    57.9,
    60.0,
-   61.9
+   61.9,
+   59.1
   ],
   "band": [
    100.0,
@@ -596,10 +599,28 @@ window.DASH_DATA = {
    38.9,
    36.8,
    40.0,
-   42.9
+   42.9,
+   40.9
   ]
  },
  "history": [
+  {
+   "date": "2026-09-23",
+   "base": 4364.7,
+   "fdir": "涨",
+   "fband": "小",
+   "mdir": "涨",
+   "mband": "小",
+   "manual": "否",
+   "actual": null,
+   "pct": null,
+   "adir": "=IF(J24=\"\",\"\",IF(J24>0,\"涨\",IF(J24<0,\"跌\",\"平\")))",
+   "aband": "=IF(J24=\"\",\"\",IF(ABS(J24)<=0.003,\"小\",IF(ABS(J24)<=0.01,\"中\",\"大\")))",
+   "dok": "=IF(OR(D24=\"\",K24=\"\"),\"\",IF(D24=K24,\"√\",\"×\"))",
+   "bok": "=IF(OR(E24=\"\",L24=\"\"),\"\",IF(E24=L24,\"√\",\"×\"))",
+   "regime": "趋势跌(20日-5.63%·窗口滚动纳入8/21高基数)·60日+7.40%长期涨vs10日-1.78%短期整理背离·FOMC鹰派落地后第5交易日·隔夜深V回补次日",
+   "drivers": "隔夜V型吸收(下探$4,314.8创两周新低却以$4,364.7更高收盘+0.25%,连续两窗美盘强势回补)[未释放]+央行连购22个月(7月+20t,波兰Q2+51t)与$4,310-4,334双底承接[未释放]+鹰派钝化(加息落地+点阵图已定价,美元/收益率企稳)[已定价] vs $4,380-4,400阻力带两度实测有效[部分定价]+CFTC/ETF投机持仓续降+VIX14.87避险退潮[部分定价]+今窗Fedspeak/PMI偏鹰风险[未释放]→押区间承托的小幅续涨,上沿$4,378为分水岭"
+  },
   {
    "date": "2026-09-22",
    "base": 4353.9,
@@ -608,12 +629,12 @@ window.DASH_DATA = {
    "mdir": "跌",
    "mband": "中",
    "manual": "否",
-   "actual": null,
-   "pct": null,
-   "adir": "=IF(J23=\"\",\"\",IF(J23>0,\"涨\",IF(J23<0,\"跌\",\"平\")))",
-   "aband": "=IF(J23=\"\",\"\",IF(ABS(J23)<=0.003,\"小\",IF(ABS(J23)<=0.01,\"中\",\"大\")))",
-   "dok": "=IF(OR(D23=\"\",K23=\"\"),\"\",IF(D23=K23,\"√\",\"×\"))",
-   "bok": "=IF(OR(E23=\"\",L23=\"\"),\"\",IF(E23=L23,\"√\",\"×\"))",
+   "actual": 4364.7,
+   "pct": 0.25,
+   "adir": "涨",
+   "aband": "小",
+   "dok": "×",
+   "bok": "×",
    "regime": "趋势跌(20日-3.01%)·60日+6.78%长期涨vs短期反弹回吐1/3背离·FOMC鹰派落地后第4交易日",
    "drivers": "昨收$4,353.9贴$4,348定盘支撑边缘惯性[部分定价]+通胀热数据强化年内再加息预期·美元一个月高位·10Y~4.96%[已定价]+CFTC/ETF投机持仓双降[未释放]+VIX三连降14.81避险退潮[部分定价] vs 央行连购22个月(中国8月+20.2t、波兰Q2+51t)与$4,348技术承接[未释放]"
   },
@@ -992,8 +1013,8 @@ window.DASH_DATA = {
      "u": "https://www.fxstreet.com/commodities/gold"
     },
     {
-     "t": "Gold (XAU) Price Today, Live Chart & Forecasts",
-     "u": "https://www.fxempire.com/commodities/gold"
+     "t": "XAUUSD Technical Analysis Today | XAUUSD Forecast | IFCM",
+     "u": "https://www.ifcmarkets.com/en/technicals/precious-metals-technical-analysis/xauusd"
     }
    ]
   },
@@ -1001,8 +1022,8 @@ window.DASH_DATA = {
    "cat": "美联储与美元",
    "items": [
     {
-     "t": "Gold Falls Toward $4,300 as US Inflation Raises Fed Rate Hike Expectations",
-     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-toward-4-300-093148193.html"
+     "t": "Gold Falls as Stronger Dollar and Fed Rate Hike Expectations ...",
+     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-stronger-dollar-fed-130704820.html"
     },
     {
      "t": "Gold Price Forecast: Fed’s rate decision to drive XAU/USD’s next move",
@@ -1022,10 +1043,6 @@ window.DASH_DATA = {
    "cat": "地缘政治",
    "items": [
     {
-     "t": "Gold Breaks 5,000 as Geopolitical Risk Drives Fresh Safe-Haven Flows | Investing",
-     "u": "https://www.investing.com/analysis/gold-breaks-5000-as-geopolitical-risk-drives-fresh-safehaven-flows-200673846"
-    },
-    {
      "t": "Gold struggles to hold safe-haven bid but geopolitical uncertainty continues to ",
      "u": "https://www.kitco.com/news/article/2026-03-06/gold-struggles-hold-safe-haven-bid-geopolitical-uncertainty-continues"
     },
@@ -1036,6 +1053,10 @@ window.DASH_DATA = {
     {
      "t": "Gold inches closer to record peak as geopolitical risks lift safe-haven demand |",
      "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
+    },
+    {
+     "t": "Gold Flat, Silver Falls Despite War Fears | The Surprising Truth About Safe-Have",
+     "u": "https://www.youtube.com/watch?v=g_B0CjKWfT8"
     }
    ]
   },
@@ -1068,37 +1089,16 @@ window.DASH_DATA = {
      "u": "https://www.reuters.com/world/asia-pacific/chinas-gold-reserves-rise-by-most-since-october-2023-buying-pace-quickens-2026-08-07"
     },
     {
-     "t": "China Gold Reserves: Holdings, Strategy and Trends",
-     "u": "https://www.bullionstar.com/gold-university/central-bank-gold-policies-peoples-bank-china"
-    },
-    {
-     "t": "PBoC Gold Reserves June 2026: China Buys Most Since 2023",
+     "t": "PBoC Gold Reserves June 2026: China Buys Most Since ...",
      "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
     },
     {
-     "t": "China gold market update: Strong official sector buying in July | Post by Ray Ji",
+     "t": "China’s central bank buys the dip, increasing gold reserves by 15 tonnes in June",
+     "u": "https://www.kitco.com/news/article/2026-07-07/chinas-central-bank-buys-dip-increasing-gold-reserves-15-tonnes-june"
+    },
+    {
+     "t": "China gold market update: Strong official sector buying in ...",
      "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
-    }
-   ]
-  },
-  {
-   "cat": "午后动态",
-   "items": [
-    {
-     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot",
-     "u": "https://tradersunion.com/currencies/price/gold"
-    },
-    {
-     "t": "Gold Forecast, News and Analysis (XAU/USD) - FXStreet",
-     "u": "https://www.fxstreet.com/commodities/gold"
-    },
-    {
-     "t": "XAU=: Gold / US Dollar Spot - Stock Price, Quote and News",
-     "u": "https://www.cnbc.com/quotes/XAU="
-    },
-    {
-     "t": "XAUUSD - Gold Forex Price",
-     "u": "https://www.barchart.com/forex/quotes/%5EXAUUSD"
     }
    ]
   }
