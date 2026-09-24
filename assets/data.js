@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-09-24 06:35",
+ "updated": "2026-09-24 11:41",
  "nextTarget": "2026-09-24",
  "prediction": {
   "dir": "跌",
@@ -20,15 +20,11 @@ window.DASH_DATA = {
   "plain": "今天为什么看跌，讲人话就是：｜1. 昨天那根大阴线，把地板砸穿了——金价昨天一天跌了 1.7%，把 $4,300 这个整数关口、还有前几周反复撑住价格的\"地板区\"（$4,310-4,334，之前三次砸到这里都被接住）一次性全踩碎了。就像冬天湖面的冰，前几次踩上去\"咔咔\"响但没破，让人越走越大胆——昨天终于裂穿了。今早价格趴在 $4,289 低位一夜没弹回去，说明抄底的人暂时在观望：\"再等等，说不定更便宜。\"｜2. 压金价的三座大山，一座都没搬走——美联储还要加息（点阵图 16/18 的人说年内再加一次）、美元站在一个月高位、存美元吃利息比拿黄金划算——这套组合拳一件没变。天气预报没变，就别指望风自己停；而且这两天通胀数据偏热，等于给\"继续加息\"又添了柴。｜3. 避险的人早就散场了——恐慌指数（VIX）连着四天滑到 14.21 的低水位，市场情绪稳得很，没人觉得要出事，买黄金\"保命\"的钱自然就少了。金价眼下像退潮后的海滩：避险这层水撤走了，露出来的礁石（投机资金）还在往外撤——昨天的大跌本身就是这批人清仓砸出来的。｜4. 但下面不是悬崖，是张旧床垫——$4,265-4,267 这个位置，9 月中旬以来已经三次试都没跌穿（9/14、9/18、昨天亚市都在这里被买盘托住），而且各国央行专挑便宜时扫货（中国央行连买 21 个月，7 月买了 20 吨；波兰一个季度买 51 吨）。今天就算继续跌，多半是磨磨蹭蹭阴跌到床垫附近停下来，一步摔穿楼板的概率不大——所以幅度押\"中\"（跌 0.3%-1%），不押\"大\"。｜5. 要留个心眼：最大的风险是\"摔狠了的弹簧\"——昨天一天跌掉 1.7%，短线已经超卖，万一今晚美元一软或者哪个官员放鸽，之前做空的人会抢着买回来平仓，金价\"咻\"地弹回 $4,315 上方也不稀奇。而且最近八个交易日是\"涨一天、跌一天\"严格交替的节奏（昨天跌，按这个规律今天该涨）——这种玄学规律虽然不能当饭吃，但提醒我们：跌不是板上钉钉，所以只有 55% 把握，别下重注。"
  },
  "live": {
-  "price": 4289.100098,
-  "time": "2026-09-23T22:32:19Z",
-  "usdcny": 6.71347
+  "price": 4285.700195,
+  "time": "2026-09-24T03:41:48Z",
+  "usdcny": 6.722655
  },
  "priceSeries": [
-  {
-   "date": "2026-06-30",
-   "close": 4026.05
-  },
   {
    "date": "2026-07-01",
    "close": 4089.45
@@ -264,13 +260,13 @@ window.DASH_DATA = {
   {
    "date": "2026-09-22",
    "close": 4329.55
+  },
+  {
+   "date": "2026-09-23",
+   "close": 4284.45
   }
  ],
  "dailyChanges": [
-  [
-   "2026-07-01",
-   1.57
-  ],
   [
    "2026-07-02",
    0.97
@@ -502,14 +498,18 @@ window.DASH_DATA = {
   [
    "2026-09-22",
    0.12
+  ],
+  [
+   "2026-09-23",
+   -1.04
   ]
  ],
  "baseline": {
-  "last_close": 4329.55,
-  "last_date": "2026-09-22",
+  "last_close": 4284.45,
+  "last_date": "2026-09-23",
   "regime_20d": "趋势跌",
-  "chg_20d_pct": -7.16,
-  "daily_vol_20d_pct": 0.987,
+  "chg_20d_pct": -7.17,
+  "daily_vol_20d_pct": 0.988,
   "days_collected": 60,
   "band_dist_60d": {
    "小": "10次 17%",
@@ -1015,7 +1015,7 @@ window.DASH_DATA = {
    "cat": "市场行情",
    "items": [
     {
-     "t": "XAU/USD (GOLD) (XAUUSD) Trading Live Chart & Price Analysis",
+     "t": "XAU/USD (Gold) Live Chart - XAUUSD_Pro Price Analysis & Trading Signals",
      "u": "https://naga.com/en/instruments/XAUUSD"
     },
     {
@@ -1023,12 +1023,12 @@ window.DASH_DATA = {
      "u": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly"
     },
     {
-     "t": "Gold Forecast, News and Analysis (XAU/USD)",
-     "u": "https://www.fxstreet.com/commodities/gold"
+     "t": "Gold Price Today | XAUUSD Price Chart",
+     "u": "https://www.mitrade.com/insights/markets/commodities/XAUUSD"
     },
     {
-     "t": "Gold (XAU/USD) — Live Chart & AI Analysis",
-     "u": "https://tradersview.deriv.com/instrument-explorer/gold"
+     "t": "Gold Forecast, News and Analysis (XAU/USD)",
+     "u": "https://www.fxstreet.com/commodities/gold"
     }
    ]
   },
@@ -1040,7 +1040,7 @@ window.DASH_DATA = {
      "u": "https://www.youtube.com/watch?v=3Keh384GysE"
     },
     {
-     "t": "Gold Falls as Stronger Dollar and Fed Rate Hike Expectations Weigh on Prices",
+     "t": "Gold Falls as Stronger Dollar and Fed Rate Hike Expectations ...",
      "u": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-stronger-dollar-fed-130704820.html"
     },
     {
@@ -1048,8 +1048,8 @@ window.DASH_DATA = {
      "u": "https://www.fxstreet.com/analysis/gold-price-forecast-feds-rate-decision-to-drive-xau-usds-next-move-202609140349"
     },
     {
-     "t": "Understanding the relationship between gold prices and the U.S. dollar: What to ",
-     "u": "https://www.cbsnews.com/news/relationship-between-gold-prices-and-us-dollar-what-to-know-for-2026"
+     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical Juncture | Inve",
+     "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
     }
    ]
   },
@@ -1069,7 +1069,7 @@ window.DASH_DATA = {
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
     },
     {
-     "t": "Gold inches closer to record peak as geopolitical risks lift safe-haven demand |",
+     "t": "Gold inches closer to record peak as geopolitical risks lift safe-haven ...",
      "u": "https://www.reuters.com/world/india/gold-hits-one-week-high-fed-rate-cut-bets-venezuela-turmoil-2026-01-06"
     }
    ]
@@ -1090,8 +1090,8 @@ window.DASH_DATA = {
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
     },
     {
-     "t": "Gold ETF Flows: January 2026 - World Gold Council",
-     "u": "https://www.gold.org/goldhub/research/gold-etfs-holdings-and-flows/2026/02"
+     "t": "Monthly Gold Monitor",
+     "u": "https://www.ssga.com/library-content/products/fund-docs/etfs/us/insights-investment-ideas/monthly-gold-monitor.pdf"
     }
    ]
   },
@@ -1107,12 +1107,12 @@ window.DASH_DATA = {
      "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
     },
     {
-     "t": "China’s central bank buys the dip, increasing gold reserves by 15 tonnes in June",
-     "u": "https://www.kitco.com/news/article/2026-07-07/chinas-central-bank-buys-dip-increasing-gold-reserves-15-tonnes-june"
-    },
-    {
      "t": "China gold market update: Strong official sector buying in ...",
      "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
+    },
+    {
+     "t": "China’s Gold Holdings Rise Again as Central Bank Extends Buying Streak | The Jer",
+     "u": "https://www.jpost.com/business-and-innovation/precious-metals/article-897555"
     }
    ]
   }
