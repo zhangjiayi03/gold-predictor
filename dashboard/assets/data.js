@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-10-07 06:36",
+ "updated": "2026-10-07 15:37",
  "nextTarget": "2026-10-07",
  "prediction": {
   "dir": "涨",
@@ -22,13 +22,13 @@ window.DASH_DATA = {
    "**避险溢价消退风险** `[部分定价]`：Kitco 晨间采集明确提示\"safe-haven rallies are often difficult to sustain\"——地",
    "**VIX 低位** `[部分定价]`：VIX 15.52（10/5 收，CBOE 滞后）——无恐慌也无流动性冲击，双向都难有大行情"
   ],
-  "pm": "",
+  "pm": "- 复核时间：2026-10-07 15:36（北京时间，采集自 gold-api） - 实时价：**$4,138.30 ≈ ¥893.4/克**（USD/CNY 6.7145，今晨缓存） - 当前涨跌幅：**-0.66%**（基准 $4,165.90） - 追踪结论：**偏离**——方向押\"涨\"实为跌；幅度档\"中\"暂在轨（|-0.66%| 落中档）；已失守 $4,153.4 警戒位，正处晨报**场景 C 区间**（$4,136-4,153） - 午后新信号：油价反弹 + Fed 加息预期压制、美元走强，SGE 复市首日实物买盘未兑现（Kitco/Min",
   "plain": "今天为什么看涨，讲人话就是：｜1. 最爱买金的人今天正式上班了——中国黄金交易所国庆放假一周，今天开门营业。全球最实在的一批买盘（金饰厂补货、投资金条）回归，就像集市歇业一周后重新开张，摊位前总要热闹一阵。昨天金价在美盘突然拉升，其实就是有人提前\"抢跑\"，赌的就是今天中国买家回归。｜2. 悬在头顶的加息大刀好像收回去了一点——之前市场七成押注美联储 10 月要再加息，这本来就是压着金价的大石头。昨天开始有消息说这个月加息的指望在降温。石头哪怕只挪开一条缝，金价喘口气也容易些。｜3. 地板被砸了五次都没砸穿——金价下方 $4,114-4,125 这条\"地板\"，前面五次砸下去都被接住了。昨天涨上来之后，离地板更远了，想再砸下去更费劲。而且各国央行还在闷头囤货（中国央行已经连买 22 个月），跌深了总有人捡便宜。｜4. 连着两天收涨，劲儿还在——前天涨 0.03%（几乎没动），昨天涨 0.55%，像火苗从小到大慢慢旺起来。而且昨天的涨是美盘\"主力时段\"干的，不是亚洲盘毛毛雨——买盘是真的。｜5. 要留个心眼：最大的风险是\"天花板也不远\"——头顶 $4,186 就是 10 月 1 日反弹的最高点，再往上 $4,227 是上周冲高失败的坑口。这轮反弹已经连涨两天，万一今天美元再走强一点，或者中国买家\"复市第一天先观望不急着出手\"，金价很可能冲到天花板就掉头，涨个零点几个百分点意思一下。所以方向只有 55% 把握，押得保守，涨也别指望一步登天。"
  },
  "live": {
-  "price": 4165.899902,
-  "time": "2026-10-06T22:32:12Z",
-  "usdcny": 6.714466
+  "price": 4138.299805,
+  "time": "2026-10-07T07:36:15Z",
+  "usdcny": 6.711932
  },
  "priceSeries": [
   {
@@ -1279,6 +1279,27 @@ window.DASH_DATA = {
     {
      "t": "China Gold Reserves, 1977 – 2026 | CEIC Data",
      "u": "https://www.ceicdata.com/en/indicator/china/gold-reserves"
+    }
+   ]
+  },
+  {
+   "cat": "午后动态",
+   "items": [
+    {
+     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot | per Ounce)",
+     "u": "https://tradersunion.com/currencies/price/gold"
+    },
+    {
+     "t": "Gold Forecast, News and Analysis (XAU/USD)",
+     "u": "https://www.fxstreet.com/commodities/gold"
+    },
+    {
+     "t": "XAU/USD | Gold Spot US Dollar Price - Investing.com",
+     "u": "https://www.investing.com/currencies/xau-usd"
+    },
+    {
+     "t": "XAU=: Gold / US Dollar Spot - Stock Price, Quote and News - CNBC",
+     "u": "https://www.cnbc.com/quotes/XAU="
     }
    ]
   }
