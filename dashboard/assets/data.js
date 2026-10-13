@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-10-13 15:38",
+ "updated": "2026-10-14 07:42",
  "nextTarget": "2026-10-08",
  "prediction": {
   "dir": "跌",
@@ -25,8 +25,8 @@ window.DASH_DATA = {
   "plain": "今天为什么看跌，讲人话就是：｜1. 地板昨天被砸穿了——金价下方 $4,144 这条线，前面几天砸下去五次都被接住（像地板上拍皮球），昨天一屁股坐穿，收在 $4,106.8。地板塌了变障碍：今天想重新站上去，得先费劲爬，爬的过程中上方随时有人往下砸——昨天横盘的那段 $4,135-4,146，今天全变成了头顶的天花板。｜2. 下跌一次比一次狠，反弹一次比一次弱——看最近六天的规律：跌的三次 -0.57% → -0.99% → -1.45%，越跌越深；涨的三次 +0.88% → +0.68% → +0.55%，越弹越没劲。就像下楼梯：台阶一级比一级低，中间歇脚的平台一次比一次矮。这种走法里，赌\"接着下楼梯\"比赌\"突然掉头往上爬\"靠谱。｜3. 刚松开的加息大刀又举起来了——前两天市场刚觉得\"这个月可能不加息\"，昨晚报出来油价上涨、美国工业数据强劲，通胀的担心重新冒头，\"利率要更高更久\"的说法又占了上风，美元也还站在近一个月的高位上。金子这种不生利息的资产，最怕这种环境：存钱有利息，拿金子没回报，大资金自然往债券跑。｜4. 昨天\"中国买家回归\"的剧本演砸了——昨天赌中国黄金交易所节后复市、金饰厂会大举补货，结果复市第一天买盘根本没露面，金价反而大跌。剧本被证伪，今天不能再指望这批\"抬轿人\"；更要小心昨天提前抢跑买进去的资金止损割肉，反而给下跌添柴。｜5. 要留个心眼：最大的风险是\"跌狠了总要弹一下\"——最近六天是跌一天涨一天严格交替的，按这个规律今天其实该轮到涨；而且金价已经跌到超卖边缘，各国央行还在闷头囤金，美债收益率也从高位回落了一点。万一今天美元歇口气，超跌反弹随时可能冒出来。所以只有 55% 把握押跌，而且跌也多半是阴跌磨人，不是一步到位的崩盘——涨跌都在一念之间，仓位别赌太满。"
  },
  "live": {
-  "price": 4107.100098,
-  "time": "2026-10-07T22:31:31Z",
+  "price": 4157.5,
+  "time": "2026-10-13T23:42:45Z",
   "usdcny": 6.70582
  },
  "priceSeries": [
@@ -1203,20 +1203,20 @@ window.DASH_DATA = {
    "cat": "市场行情",
    "items": [
     {
-     "t": "XAU/USD (Gold) Live Chart - XAUUSD_Pro Price Analysis & Trading Signals",
-     "u": "https://naga.com/en/instruments/XAUUSD"
-    },
-    {
      "t": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Da",
      "u": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly"
     },
     {
-     "t": "Gold Forecast, News and Analysis (XAU/USD)",
-     "u": "https://www.fxstreet.com/commodities/gold"
+     "t": "Gold Price Today | XAUUSD Price Chart - Mitrade",
+     "u": "https://www.mitrade.com/insights/markets/commodities/XAUUSD"
     },
     {
-     "t": "XAUUSD Technical Analysis Today | XAUUSD Forecast | IFCM",
-     "u": "https://www.ifcmarkets.com/en/technicals/precious-metals-technical-analysis/xauusd"
+     "t": "Gold (XAU/USD) — Live Chart, AI Analysis & News",
+     "u": "https://tradersview.deriv.com/instrument-explorer/gold"
+    },
+    {
+     "t": "XAU/USD | Gold Spot US Dollar Price - Investing.com",
+     "u": "https://www.investing.com/currencies/xau-usd"
     }
    ]
   },
@@ -1224,20 +1224,20 @@ window.DASH_DATA = {
    "cat": "美联储与美元",
    "items": [
     {
-     "t": "Gold Price Forecast: Fed’s rate decision to drive XAU/USD’s next move",
-     "u": "https://www.fxstreet.com/analysis/gold-price-forecast-feds-rate-decision-to-drive-xau-usds-next-move-202609140349"
+     "t": "Gold Falls as Stronger Dollar and Fed Rate Hike Expectations Weigh on Prices",
+     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-stronger-dollar-fed-130704820.html"
     },
     {
-     "t": "Gold Falls on Expectations of Higher for Longer Fed Rates - WSJ",
-     "u": "https://www.wsj.com/finance/commodities-futures/gold-falls-on-expectations-of-higher-for-longer-fed-rates-238bf7a5?eafs_enabled=false"
+     "t": "Gold falls as expectations of a more restrictive Fed policy rise",
+     "u": "https://www.equiti.com/sc-en/news/trade-reviews/gold-falls-as-expectations-of-a-more-restrictive-fed-policy-rise"
     },
     {
-     "t": "Gold Awaits Fed as US Dollar and Yield Expectations Hit Critical Juncture | Inve",
-     "u": "https://www.investing.com/analysis/gold-awaits-fed-as-us-dollar-and-yield-expectations-hit-critical-juncture-200682206"
+     "t": "Gold prices steady as pressure from dollar is offset by reduced projections of F",
+     "u": "https://www.youtube.com/watch?v=trVf0fOMW1I"
     },
     {
-     "t": "Federal Reserve Policy Impact On Gold Prices: Complete 2025 Analysis - USAGOLD",
-     "u": "https://www.usagold.com/federal-reserve-policy-impact-on-gold-prices-complete-2025-analysis"
+     "t": "Gold Forecast, News and Analysis (XAU/USD)",
+     "u": "https://www.fxstreet.com/commodities/gold"
     }
    ]
   },
@@ -1253,12 +1253,12 @@ window.DASH_DATA = {
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
     },
     {
-     "t": "Gold Pullback Deepens As Markets Defy Geopolitical Risk",
-     "u": "https://www.youtube.com/watch?v=FaKolS3F6ho"
+     "t": "How gold's safe-haven appeal has evolved during Iran war and geopolitical uncert",
+     "u": "https://www.thenationalnews.com/business/markets/2026/07/04/how-golds-safe-haven-appeal-has-evolved-during-iran-war-and-geopolitical-uncertainty"
     },
     {
-     "t": "Gold touches $5,400 as demand for safe-haven asset jumps amid Iran conflict",
-     "u": "https://finance.yahoo.com/news/gold-touches-5400-as-demand-for-safe-haven-asset-jumps-amid-iran-conflict-102241256.html"
+     "t": "Appetite for Safe Haven Assets Eases, Pressuring Precious Metals - WSJ",
+     "u": "https://www.wsj.com/finance/commodities-futures/gold-falls-on-possible-position-adjustments-before-u-s-iran-talks-656472ea"
     }
    ]
   },
@@ -1270,16 +1270,16 @@ window.DASH_DATA = {
      "u": "https://sprott.com/insights/gold-is-on-the-rise-and-reaches-all-time-high"
     },
     {
-     "t": "Gold ETF Commentary and Statistics | Gold ETF Holdings | Gold ETF AUM | Goldhub",
-     "u": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
-    },
-    {
-     "t": "Gold Price Drivers: Rates, Dollar, Central Banks, Demand",
-     "u": "https://goldenarkreserve.com/insights/gold-price-drivers"
-    },
-    {
      "t": "Sprott Q2 Precious Metals Report: Central Banks Flex Gold Market Muscle | Sprott",
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
+    },
+    {
+     "t": "Central Banks Are Buying, ETFs Are Buying. Why Is Gold Falling?",
+     "u": "https://www.youtube.com/watch?v=zvysFuDJGcU"
+    },
+    {
+     "t": "Why the world’s central banks still choose physical gold over ETFs  - U.S. Money",
+     "u": "https://www.usmoneyreserve.com/news/executive-insights/why-the-worlds-central-banks-still-choose-physical-gold-over-etfs"
     }
    ]
   },
@@ -1287,20 +1287,20 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
-     "t": "China gold market update: Strong official sector buying in July | Post by Ray Ji",
-     "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
+     "t": "PBoC Gold Reserves June 2026: China Buys Most Since 2023",
+     "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
     },
     {
-     "t": "China’s central bank buys the dip, increasing gold reserves by 15 tonnes in June",
-     "u": "https://www.kitco.com/news/article/2026-07-07/chinas-central-bank-buys-dip-increasing-gold-reserves-15-tonnes-june"
+     "t": "China’s Gold Holdings Rise Again as Central Bank Extends Buying Streak | The Jer",
+     "u": "https://www.jpost.com/business-and-innovation/precious-metals/article-897555"
     },
     {
      "t": "China Gold Reserves",
      "u": "https://tradingeconomics.com/china/gold-reserves"
     },
     {
-     "t": "China gold market update: June concludes a divided H1 | Post by Ray Jia | Insigh",
-     "u": "https://www.gold.org/goldhub/gold-focus/2026/07/china-gold-market-update-june-concludes-divided-h1"
+     "t": "China gold market update: A notable rise in gold reserves | Post by Ray Jia | In",
+     "u": "https://www.gold.org/goldhub/gold-focus/2026/05/china-gold-market-update-notable-rise-gold-reserves"
     }
    ]
   }
