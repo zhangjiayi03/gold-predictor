@@ -1,55 +1,35 @@
 window.DASH_DATA = {
- "updated": "2026-10-21 15:36",
- "nextTarget": "2026-10-08",
+ "updated": "2026-10-22 06:38",
+ "nextTarget": "2026-10-22",
  "prediction": {
   "dir": "跌",
-  "band": "中",
+  "band": "小",
   "conf": "55",
-  "base": 4107.1,
-  "drivers": "破位续跌:4144双底带失守[部分定价]+higher-for-longer回摆(油价反弹+强工业数据推升通胀预期)[未释放]+美元近月高位[已定价]+锯齿结构走弱(回调递增-0.57→-0.99→-1.45·反弹递减+0.88→+0.68→+0.55)[已定价]+SGE复市买盘证伪[已定价]；对冲:RSI41超卖修复+收益率自数十年高位回落[未释放]+央行购金(WGC+PBoC连买22月)[未释放]+关税/伊朗避险[未释放]",
-  "regime": "趋势跌(20日-6.64%·结算价续接口径)·60日+0.77%长期钝化vs10日-3.74%短期走低·昨-1.42%破4144双底带·锯齿交替跌腿增强·数据真空周·10月加息预期回摆",
+  "base": 4136.7,
+  "drivers": "FOMC前10月加息预期70%(FedWatch)+美元/收益率>5%高位压制[已定价]+4,150两攻不破高点递减[部分定价]+避险溢价退潮[未释放];下方4,100-4,130支撑带+央行22月连购托底;近3窗振幅收敛至≈0押小档",
+  "regime": "趋势跌(20日-3.68%·续接含新闻近似价)·60日+2.11% vs 10日-1.03%短期收敛·近2周横盘4,130-4,182·4,150两攻不破·FOMC(10/28)前加息预期70%",
   "bulls": [
-   "**超卖修复需求** `[未释放]`：RSI(14) 41.45 贴近超卖区（Investing.com 采集），昨 -1.42% 大阴线后短线抛压已部分释放；今晨亚盘平开（$4,",
-   "**长端收益率自数十年高位回落** `[未释放]`：隔夜美债长端收益率自周一的数十年高点回落（Kitco：\"yields eased from Monday's multi-dec",
-   "**央行结构性买盘** `[已定价]`：WGC 央行购金研究给出创纪录买盘信号；PBoC 连续 22 个月增持（7 月 +20t，2023/10 以来最大单月）——逢低托盘力量独立",
-   "**关税与地缘避险** `[部分定价]`：关税推升通胀的担忧 + 美-伊朗紧张局势持续（Kitco/Tavily 晨间采集），避险买盘构成下方缓冲垫"
+   "**央行结构性买盘** `[已定价]`：PBoC 连续 22 个月增持、8 月 +65 万盎司（≈20.2t，近三年最大级别）至 2,386.57t 纪录高位（SAFE 9/7 公",
+   "**位置偏低+超卖修复需求** `[未释放]`：现价处 60 日区间 20.7% 分位、20 日 -3.68%；10 月初以来两度探 $4,107-4,135 均获承接——若美元歇",
+   "**地缘不确定性仍在场内** `[部分定价]`：美-伊朗紧张、俄乌谈判无果而终、委内瑞拉局势——避险溢价构成下方缓冲垫（JPMorgan：地缘风险溢价 5-10%，但\"急涨难持续\"",
+   "**VIX 冲击平息** `[已定价]`：10/16 VIX 盘中一度冲 22.31、收盘 +4.8 点至 19.99（触发过流动性冲击信号），此后连续两日回落至 17.31（10"
   ],
   "bears": [
-   "**10 月加息预期回摆（higher-for-longer 强化）** `[未释放]`：油价反弹 + 美国工业数据偏强 → 通胀担忧重燃（WSJ 今晨：\"Gold falls..",
-   "**美元近月高位** `[已定价]`：美元指数踱步近一个月峰值（\"dollar hovers near one-month peak\"），对美元计价的金价构成直接压制",
-   "**$4,144 双底带破位** `[部分定价]`：9/28（$4,144.55）、10/5（$4,144.20）两度承接的防线昨日告破，收 $4,106.8 位于带下方 0.9%",
-   "**锯齿结构走弱** `[已定价]`：近 6 窗涨跌严格交替但跌腿递增（-0.57 → -0.99 → -1.45）、涨腿递减（+0.88 → +0.68 → +0.55），高点降",
-   "**SGE 复市买盘证伪** `[已定价]`：复市首日中国实物买盘未兑现（Kitco/Mining.com 当日报道），昨日抢跑买入资金面临割肉离场压力"
+   "**10 月加息预期主导（FOMC 10/28 临近）** `[已定价]`：CME FedWatch 10 月加息 25bp 概率 70%（Equiti 晨间采集）；\"更限制性政策",
+   "**美元与收益率强势** `[已定价]`：DXY 近月 +1.45%、站上 102（2025 年 4 月以来最高，Sprott 引述）；美债收益率 >5% 高位持稳（FXStree",
+   "**$4,150 技术阻力 + 高点递减** `[部分定价]`：10/15 反弹高点 ≈$4,181.8 后逐级回落（$4,165 → $4,137.9 → $4,136.7），近",
+   "**避险溢价退潮** `[未释放]`：Kitco 晨间\"避险 rally 难持续，焦点回归宏观\"——地缘溢价若继续蒸发，金价向利率/美元锚回归仍有下行空间",
+   "**收敛末端的方向风险** `[未释放]`：近 3 窗净变化 ≈0%（-0.66% / ≈0% / ≈-0.03%），波动收敛到极致；FOMC 前若出鹰派官员讲话/热数据，收敛末端"
   ],
   "pm": "",
-  "plain": "今天为什么看跌，讲人话就是：｜1. 地板昨天被砸穿了——金价下方 $4,144 这条线，前面几天砸下去五次都被接住（像地板上拍皮球），昨天一屁股坐穿，收在 $4,106.8。地板塌了变障碍：今天想重新站上去，得先费劲爬，爬的过程中上方随时有人往下砸——昨天横盘的那段 $4,135-4,146，今天全变成了头顶的天花板。｜2. 下跌一次比一次狠，反弹一次比一次弱——看最近六天的规律：跌的三次 -0.57% → -0.99% → -1.45%，越跌越深；涨的三次 +0.88% → +0.68% → +0.55%，越弹越没劲。就像下楼梯：台阶一级比一级低，中间歇脚的平台一次比一次矮。这种走法里，赌\"接着下楼梯\"比赌\"突然掉头往上爬\"靠谱。｜3. 刚松开的加息大刀又举起来了——前两天市场刚觉得\"这个月可能不加息\"，昨晚报出来油价上涨、美国工业数据强劲，通胀的担心重新冒头，\"利率要更高更久\"的说法又占了上风，美元也还站在近一个月的高位上。金子这种不生利息的资产，最怕这种环境：存钱有利息，拿金子没回报，大资金自然往债券跑。｜4. 昨天\"中国买家回归\"的剧本演砸了——昨天赌中国黄金交易所节后复市、金饰厂会大举补货，结果复市第一天买盘根本没露面，金价反而大跌。剧本被证伪，今天不能再指望这批\"抬轿人\"；更要小心昨天提前抢跑买进去的资金止损割肉，反而给下跌添柴。｜5. 要留个心眼：最大的风险是\"跌狠了总要弹一下\"——最近六天是跌一天涨一天严格交替的，按这个规律今天其实该轮到涨；而且金价已经跌到超卖边缘，各国央行还在闷头囤金，美债收益率也从高位回落了一点。万一今天美元歇口气，超跌反弹随时可能冒出来。所以只有 55% 把握押跌，而且跌也多半是阴跌磨人，不是一步到位的崩盘——涨跌都在一念之间，仓位别赌太满。"
+  "plain": "今天为什么看跌，讲人话就是：｜1. 头顶的玻璃天花板撞不开——金价这阵子每次往上冲，一到 $4,150 附近就被砸回来（10 月中旬冲到 $4,180 没站住掉下来了，这两天又冲了一次还是没过）。就像天花板上装了块玻璃：看得见上面，就是过不去。撞的次数多了，买的人泄气，卖的人胆子就大了，价格就容易往下出溜。｜2. 月底美联储多半要加息，利息把钱从金子身边吸走——现在市场上七成的人赌美联储 10 月 28 号开会要加息，美元硬、美国国债利息超过 5%。金子放着不会生利息，大资金一算账：拿着金子一年白放，买国债稳收利息——钱就往债券那边流，金子这边慢慢\"失血\"。｜3. 前阵子怕出事的热钱在撤退——之前因为国际上这紧张那紧张（中东、俄乌、关税），一批钱跑进金子避险；最近紧张劲儿没升级，这批\"怕出事\"的钱待着没劲，正在慢慢撤。这种钱来得快去得也快，撤的时候金价自然往下沉。｜4. 不过下面有块挺结实的地板——$4,100-4,130 这一带，10 月初两次砸下去都被接住了；而且各国央行还在下面默默捡便宜（光中国央行就连买了 22 个月，8 月又买了约 20 吨，创纪录）。地板结实、有人托底，所以真要跌也多半是\"小碎步\"阴跌，很难一步砸穿。｜5. 要留个心眼：金价已经在这儿横了小一个礼拜，该卖的人差不多卖累了；就怕今天美元突然歇口气，或者半夜冒出个避险消息（中东一有风吹草动），憋了一礼拜的反弹一下子冒出来，方向就反了。所以只有 55 分把握押跌，而且押的是\"小跌\"——意思是跌也跌不了多深，别下重注。"
  },
  "live": {
-  "price": 4157.5,
-  "time": "2026-10-13T23:42:45Z",
+  "price": 4136.700195,
+  "time": "2026-10-21T22:31:15Z",
   "usdcny": 6.691314
  },
  "priceSeries": [
-  {
-   "date": "2026-07-14",
-   "close": 4075.5
-  },
-  {
-   "date": "2026-07-15",
-   "close": 4062.2
-  },
-  {
-   "date": "2026-07-16",
-   "close": 3993.55
-  },
-  {
-   "date": "2026-07-17",
-   "close": 3995.35
-  },
-  {
-   "date": "2026-07-20",
-   "close": 4003.55
-  },
   {
    "date": "2026-07-21",
    "close": 4052.3
@@ -269,29 +249,34 @@ window.DASH_DATA = {
   {
    "date": "2026-10-07",
    "close": 4106.8
+  },
+  {
+   "date": "2026-10-08",
+   "close": 4132.6,
+   "source": "log.xlsx 10-08行次日实际价(结算价续接,既定口径)"
+  },
+  {
+   "date": "2026-10-13",
+   "close": 4157.5,
+   "source": "10-14晨Actions刷新快照价(近似10-13窗收盘,data/2026-10-14_collect.json)"
+  },
+  {
+   "date": "2026-10-15",
+   "close": 4181.8,
+   "source": "Naga页面引伸'10/16较上节收盘-0.40%'反推(新闻近似价)"
+  },
+  {
+   "date": "2026-10-16",
+   "close": 4165.1,
+   "source": "Naga页面'as of Oct 16 was $4165.07'(新闻近似价)"
+  },
+  {
+   "date": "2026-10-19",
+   "close": 4137.9,
+   "source": "新闻'周一现货金微跌0.1%至$4,137.9'(新闻近似价)"
   }
  ],
  "dailyChanges": [
-  [
-   "2026-07-15",
-   -0.33
-  ],
-  [
-   "2026-07-16",
-   -1.69
-  ],
-  [
-   "2026-07-17",
-   0.05
-  ],
-  [
-   "2026-07-20",
-   0.21
-  ],
-  [
-   "2026-07-21",
-   1.22
-  ],
   [
    "2026-07-22",
    2.54
@@ -507,23 +492,50 @@ window.DASH_DATA = {
   [
    "2026-10-07",
    -1.45
+  ],
+  [
+   "2026-10-08",
+   0.63
+  ],
+  [
+   "2026-10-13",
+   0.6
+  ],
+  [
+   "2026-10-15",
+   0.58
+  ],
+  [
+   "2026-10-16",
+   -0.4
+  ],
+  [
+   "2026-10-19",
+   -0.65
   ]
  ],
  "baseline": {
-  "last_close": 4106.8,
-  "last_date": "2026-10-07",
+  "last_close": 4137.9,
+  "last_date": "2026-10-19",
   "regime_20d": "趋势跌",
-  "chg_20d_pct": -6.64,
-  "daily_vol_20d_pct": 0.88,
+  "chg_20d_pct": -3.68,
+  "chg_10d_pct": -1.03,
+  "chg_60d_pct": 2.11,
+  "daily_vol_20d_pct": 0.756,
   "days_collected": 60,
   "band_dist_60d": {
-   "小": "11次 19%",
-   "中": "22次 37%",
-   "大": "26次 44%"
+   "小": "9次 15%",
+   "中": "26次 44%",
+   "大": "24次 41%"
+  },
+  "range_60d": {
+   "low": 4000.85,
+   "high": 4663.7,
+   "last_pctile": 20.7
   }
  },
  "stats": {
-  "total": 33,
+  "total": 34,
   "settled": 33,
   "dirOK": 18,
   "bandOK": 14
@@ -636,6 +648,23 @@ window.DASH_DATA = {
   ]
  },
  "history": [
+  {
+   "date": "2026-10-22",
+   "base": 4136.7,
+   "fdir": "跌",
+   "fband": "小",
+   "mdir": "跌",
+   "mband": "小",
+   "manual": "否",
+   "actual": null,
+   "pct": null,
+   "adir": "=IF(J35=\"\",\"\",IF(J35>0,\"涨\",IF(J35<0,\"跌\",\"平\")))",
+   "aband": "=IF(J35=\"\",\"\",IF(ABS(J35)<=0.003,\"小\",IF(ABS(J35)<=0.01,\"中\",\"大\")))",
+   "dok": "=IF(OR(D35=\"\",K35=\"\"),\"\",IF(D35=K35,\"√\",\"×\"))",
+   "bok": "=IF(OR(E35=\"\",L35=\"\"),\"\",IF(E35=L35,\"√\",\"×\"))",
+   "regime": "趋势跌(20日-3.68%·续接含新闻近似价)·60日+2.11% vs 10日-1.03%短期收敛·近2周横盘4,130-4,182·4,150两攻不破·FOMC(10/28)前加息预期70%",
+   "drivers": "FOMC前10月加息预期70%(FedWatch)+美元/收益率>5%高位压制[已定价]+4,150两攻不破高点递减[部分定价]+避险溢价退潮[未释放];下方4,100-4,130支撑带+央行22月连购托底;近3窗振幅收敛至≈0押小档"
+  },
   {
    "date": "2026-10-08",
    "base": 4107.1,
@@ -1203,37 +1232,16 @@ window.DASH_DATA = {
    "cat": "市场行情",
    "items": [
     {
+     "t": "XAU/USD (Gold) Live Chart - XAUUSD_Pro Price Analysis & Trading Signals",
+     "u": "https://naga.com/en/instruments/XAUUSD"
+    },
+    {
      "t": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Da",
      "u": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly"
     },
     {
-     "t": "Gold Price Today | XAUUSD Price Chart - Mitrade",
-     "u": "https://www.mitrade.com/insights/markets/commodities/XAUUSD"
-    },
-    {
      "t": "Gold (XAU/USD) — Live Chart, AI Analysis & News",
      "u": "https://tradersview.deriv.com/instrument-explorer/gold"
-    },
-    {
-     "t": "XAU/USD | Gold Spot US Dollar Price - Investing.com",
-     "u": "https://www.investing.com/currencies/xau-usd"
-    }
-   ]
-  },
-  {
-   "cat": "美联储与美元",
-   "items": [
-    {
-     "t": "Gold Falls as Stronger Dollar and Fed Rate Hike Expectations Weigh on Prices",
-     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-stronger-dollar-fed-130704820.html"
-    },
-    {
-     "t": "Gold falls as expectations of a more restrictive Fed policy rise",
-     "u": "https://www.equiti.com/sc-en/news/trade-reviews/gold-falls-as-expectations-of-a-more-restrictive-fed-policy-rise"
-    },
-    {
-     "t": "Gold prices steady as pressure from dollar is offset by reduced projections of F",
-     "u": "https://www.youtube.com/watch?v=trVf0fOMW1I"
     },
     {
      "t": "Gold Forecast, News and Analysis (XAU/USD)",
@@ -1242,8 +1250,33 @@ window.DASH_DATA = {
    ]
   },
   {
+   "cat": "美联储与美元",
+   "items": [
+    {
+     "t": "Gold falls as expectations of a more restrictive Fed policy rise",
+     "u": "https://www.equiti.com/sc-en/news/trade-reviews/gold-falls-as-expectations-of-a-more-restrictive-fed-policy-rise"
+    },
+    {
+     "t": "Gold Prices Fall as Stronger Dollar and Fed Rate Expectations Weigh on Bullion",
+     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-prices-fall-stronger-dollar-094401799.html"
+    },
+    {
+     "t": "Gold prices steady as pressure from dollar is offset by reduced projections of F",
+     "u": "https://www.youtube.com/watch?v=trVf0fOMW1I"
+    },
+    {
+     "t": "Gold edges lower as dollar firms; investors eye US data",
+     "u": "https://www.cnbc.com/2025/11/14/gold-falls-as-fed-cut-hopes-fade-after-hawkish-fed-comments.html"
+    }
+   ]
+  },
+  {
    "cat": "地缘政治",
    "items": [
+    {
+     "t": "Gold Breaks 5,000 as Geopolitical Risk Drives Fresh Safe-Haven Flows | Investing",
+     "u": "https://www.investing.com/analysis/gold-breaks-5000-as-geopolitical-risk-drives-fresh-safehaven-flows-200673846"
+    },
     {
      "t": "Gold struggles to hold safe-haven bid but geopolitical uncertainty continues to ",
      "u": "https://www.kitco.com/news/article/2026-03-06/gold-struggles-hold-safe-haven-bid-geopolitical-uncertainty-continues"
@@ -1253,12 +1286,8 @@ window.DASH_DATA = {
      "u": "https://www.cnbc.com/2026/02/25/gold-gains-on-softer-dollar-safehaven-bid-amid-us-tariff-uncertainty.html"
     },
     {
-     "t": "How gold's safe-haven appeal has evolved during Iran war and geopolitical uncert",
-     "u": "https://www.thenationalnews.com/business/markets/2026/07/04/how-golds-safe-haven-appeal-has-evolved-during-iran-war-and-geopolitical-uncertainty"
-    },
-    {
-     "t": "Appetite for Safe Haven Assets Eases, Pressuring Precious Metals - WSJ",
-     "u": "https://www.wsj.com/finance/commodities-futures/gold-falls-on-possible-position-adjustments-before-u-s-iran-talks-656472ea"
+     "t": "Gold inches closer to record peak as geopolitical risks lift safe-haven demand -",
+     "u": "https://me.smenet.org/gold-inches-closer-to-record-peak-as-geopolitical-risks-lift-safe-haven-demand"
     }
    ]
   },
@@ -1266,20 +1295,20 @@ window.DASH_DATA = {
    "cat": "央行与持仓",
    "items": [
     {
+     "t": "Gold COT Report: How to Read Speculative Positioning in Gold | COT Data Blog",
+     "u": "https://www.cotdata.net/blog/cot-data-gold"
+    },
+    {
      "t": "Gold Is on the Rise and Reaches All-Time High | Sprott",
      "u": "https://sprott.com/insights/gold-is-on-the-rise-and-reaches-all-time-high"
     },
     {
+     "t": "Gold ETF Commentary and Statistics | Gold ETF Holdings | Gold ETF AUM | Goldhub",
+     "u": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+    },
+    {
      "t": "Sprott Q2 Precious Metals Report: Central Banks Flex Gold Market Muscle | Sprott",
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
-    },
-    {
-     "t": "Central Banks Are Buying, ETFs Are Buying. Why Is Gold Falling?",
-     "u": "https://www.youtube.com/watch?v=zvysFuDJGcU"
-    },
-    {
-     "t": "Why the world’s central banks still choose physical gold over ETFs  - U.S. Money",
-     "u": "https://www.usmoneyreserve.com/news/executive-insights/why-the-worlds-central-banks-still-choose-physical-gold-over-etfs"
     }
    ]
   },
@@ -1287,20 +1316,20 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
-     "t": "PBoC Gold Reserves June 2026: China Buys Most Since 2023",
-     "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-june-2026"
+     "t": "China gold market update: Strong official sector buying in July | Post by Ray Ji",
+     "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
     },
     {
-     "t": "China’s Gold Holdings Rise Again as Central Bank Extends Buying Streak | The Jer",
-     "u": "https://www.jpost.com/business-and-innovation/precious-metals/article-897555"
+     "t": "China’s central bank buys the dip, increasing gold reserves by 15 tonnes in June",
+     "u": "https://www.kitco.com/news/article/2026-07-07/chinas-central-bank-buys-dip-increasing-gold-reserves-15-tonnes-june"
+    },
+    {
+     "t": "China's Gold Reserves Hit a New Record in August 2026",
+     "u": "https://goldsilver.com/industry-news/goldsilver-news/pboc-gold-reserves-august-2026-22-months"
     },
     {
      "t": "China Gold Reserves",
      "u": "https://tradingeconomics.com/china/gold-reserves"
-    },
-    {
-     "t": "China gold market update: A notable rise in gold reserves | Post by Ray Jia | In",
-     "u": "https://www.gold.org/goldhub/gold-focus/2026/05/china-gold-market-update-notable-rise-gold-reserves"
     }
    ]
   }
