@@ -1,5 +1,5 @@
 window.DASH_DATA = {
- "updated": "2026-10-25 00:43",
+ "updated": "2026-10-27 04:45",
  "nextTarget": "2026-10-22",
  "prediction": {
   "dir": "跌",
@@ -25,9 +25,9 @@ window.DASH_DATA = {
   "plain": "今天为什么看跌，讲人话就是：｜1. 头顶的玻璃天花板撞不开——金价这阵子每次往上冲，一到 $4,150 附近就被砸回来（10 月中旬冲到 $4,180 没站住掉下来了，这两天又冲了一次还是没过）。就像天花板上装了块玻璃：看得见上面，就是过不去。撞的次数多了，买的人泄气，卖的人胆子就大了，价格就容易往下出溜。｜2. 月底美联储多半要加息，利息把钱从金子身边吸走——现在市场上七成的人赌美联储 10 月 28 号开会要加息，美元硬、美国国债利息超过 5%。金子放着不会生利息，大资金一算账：拿着金子一年白放，买国债稳收利息——钱就往债券那边流，金子这边慢慢\"失血\"。｜3. 前阵子怕出事的热钱在撤退——之前因为国际上这紧张那紧张（中东、俄乌、关税），一批钱跑进金子避险；最近紧张劲儿没升级，这批\"怕出事\"的钱待着没劲，正在慢慢撤。这种钱来得快去得也快，撤的时候金价自然往下沉。｜4. 不过下面有块挺结实的地板——$4,100-4,130 这一带，10 月初两次砸下去都被接住了；而且各国央行还在下面默默捡便宜（光中国央行就连买了 22 个月，8 月又买了约 20 吨，创纪录）。地板结实、有人托底，所以真要跌也多半是\"小碎步\"阴跌，很难一步砸穿。｜5. 要留个心眼：金价已经在这儿横了小一个礼拜，该卖的人差不多卖累了；就怕今天美元突然歇口气，或者半夜冒出个避险消息（中东一有风吹草动），憋了一礼拜的反弹一下子冒出来，方向就反了。所以只有 55 分把握押跌，而且押的是\"小跌\"——意思是跌也跌不了多深，别下重注。"
  },
  "live": {
-  "price": 3996.899902,
-  "time": "2026-10-24T16:43:19Z",
-  "usdcny": 6.684864
+  "price": 4015.199951,
+  "time": "2026-10-26T20:45:26Z",
+  "usdcny": 6.677446
  },
  "priceSeries": [
   {
@@ -1236,16 +1236,16 @@ window.DASH_DATA = {
      "u": "https://naga.com/en/instruments/XAUUSD"
     },
     {
-     "t": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Da",
+     "t": "Gold (XAU/USD) Price Forecast and Analysis for Today, Tomorrow, Next Week, and 3",
      "u": "https://www.litefinance.org/blog/analysts-opinions/gold-price-prediction-forecast/daily-and-weekly"
     },
     {
-     "t": "Gold Forecast, News and Analysis (XAU/USD)",
-     "u": "https://www.fxstreet.com/commodities/gold"
+     "t": "Gold Price Today | XAUUSD Price Chart - Mitrade",
+     "u": "https://www.mitrade.com/insights/markets/commodities/XAUUSD"
     },
     {
-     "t": "Gold (XAU/USD) — Live Chart, AI Analysis & News",
-     "u": "https://tradersview.deriv.com/instrument-explorer/gold"
+     "t": "Gold Price Today: XAU/USD Live Price Chart (Spot | per Ounce)",
+     "u": "https://tradersunion.com/currencies/price/gold"
     }
    ]
   },
@@ -1253,12 +1253,12 @@ window.DASH_DATA = {
    "cat": "美联储与美元",
    "items": [
     {
-     "t": "Gold Falls as Stronger Dollar and Fed Rate Hike Expectations Weigh on Prices",
-     "u": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-stronger-dollar-fed-130704820.html"
-    },
-    {
      "t": "Gold falls as expectations of a more restrictive Fed policy rise",
      "u": "https://www.equiti.com/sc-en/news/trade-reviews/gold-falls-as-expectations-of-a-more-restrictive-fed-policy-rise"
+    },
+    {
+     "t": "Gold Recovers Ahead of Fed Announcement as Rate Increase Expectations Persist",
+     "u": "https://uk.finance.yahoo.com/news/gold-recovers-ahead-fed-announcement-094942744.html"
     },
     {
      "t": "US Inflation Data Impact: Fed Rate Hike Odds Weigh on DXY and Gold",
@@ -1295,20 +1295,20 @@ window.DASH_DATA = {
    "cat": "央行与持仓",
    "items": [
     {
+     "t": "Gold COT Report: How to Read Speculative Positioning in Gold | COT Data Blog",
+     "u": "https://www.cotdata.net/blog/cot-data-gold"
+    },
+    {
      "t": "Gold Is on the Rise and Reaches All-Time High | Sprott",
      "u": "https://sprott.com/insights/gold-is-on-the-rise-and-reaches-all-time-high"
     },
     {
+     "t": "Gold ETF Commentary and Statistics | Gold ETF Holdings | Gold ETF AUM | Goldhub",
+     "u": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+    },
+    {
      "t": "Sprott Q2 Precious Metals Report: Central Banks Flex Gold Market Muscle | Sprott",
      "u": "https://sprott.com/insights/central-banks-flex-gold-market-muscle"
-    },
-    {
-     "t": "Central Banks Are Buying, ETFs Are Buying. Why Is Gold Falling?",
-     "u": "https://www.youtube.com/watch?v=zvysFuDJGcU"
-    },
-    {
-     "t": "Central Banks Drive Gold’s Next Move",
-     "u": "https://www.americanhartfordgold.com/central-banks-drive-golds-next-move"
     }
    ]
   },
@@ -1316,20 +1316,20 @@ window.DASH_DATA = {
    "cat": "中国经济",
    "items": [
     {
-     "t": "China gold market update: Strong official sector buying in July | Post by Ray Ji",
-     "u": "https://www.gold.org/goldhub/gold-focus/2026/08/china-gold-market-update-strong-official-sector-buying-july"
+     "t": "China’s central bank buys the dip, increasing gold reserves by 15 tonnes in June",
+     "u": "https://www.kitco.com/news/article/2026-07-07/chinas-central-bank-buys-dip-increasing-gold-reserves-15-tonnes-june"
     },
     {
-     "t": "China Gold Reserves",
-     "u": "https://tradingeconomics.com/china/gold-reserves"
+     "t": "China gold market update: A notable rise in gold reserves | Post by Ray Jia | In",
+     "u": "https://www.gold.org/goldhub/gold-focus/2026/05/china-gold-market-update-notable-rise-gold-reserves"
     },
     {
      "t": "China Gold Reserves, 1977 – 2026 | CEIC Data",
      "u": "https://www.ceicdata.com/en/indicator/china/gold-reserves"
     },
     {
-     "t": "China Central Bank Adds Most Gold Since 2023 Even as Prices Jump",
-     "u": "https://www.bloomberg.com/news/articles/2026-09-07/china-central-bank-adds-most-gold-since-2023-even-as-prices-jump"
+     "t": "China Gold Reserves",
+     "u": "https://tradingeconomics.com/china/gold-reserves"
     }
    ]
   }
